@@ -1,0 +1,11 @@
+# Old French URLs -> new English URLs (Cloudflare Pages)
+# https://developers.cloudflare.com/pages/configuration/redirects/
+/categorie/* /category/:splat 301
+/produit/* /product/:splat 301
+/comparatifs /comparisons 301
+/comparatifs/* /comparisons/:splat 301
+/recherche /search 301
+/a-propos /about 301
+/confidentialite /privacy 301
+/mentions-legales /legal 301
+/divulgation-affiliation /affiliate-disclosure 301
