@@ -13,7 +13,7 @@ export default function Page() {
       <h2>What we never do</h2>
       <p>No data sales, no ad profiling, no first-party tracking cookies. Partner retailers apply their own policies after the click.</p>
       <h2>Your rights</h2>
-      <p>Access, correction, deletion: write to hello@eclatia-guide.com. To erase local stats: the “Reset” button on the /admin page (this browser).</p>
+      <p>Access, correction, deletion: write to limitlessmind19@gmail.com.</p>
       <h2>US privacy notes (California / CCPA)</h2>
       <p>We do not sell or share personal information. The anonymous click counters above contain no personal data and cannot be linked back to you.</p>
     </div>

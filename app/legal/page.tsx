@@ -5,7 +5,7 @@ export default function Page() {
     <div className="prose" style={{ padding: "26px 0" }}>
       <h1>Legal notice</h1>
       <h2>Publisher</h2>
-      <p>Éclatia — independent beauty media. Email: hello@eclatia-guide.com. [Complete before launch: legal entity, address, publication director.]</p>
+      <p>Éclatia — independent beauty media. Email: limitlessmind19@gmail.com.</p>
       <h2>Hosting</h2>
       <p>[Complete: hosting provider, address.] Site built with Next.js, deployable on Vercel / Netlify / VPS.</p>
       <h2>Intellectual property</h2>

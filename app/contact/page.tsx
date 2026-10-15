@@ -24,7 +24,7 @@ export default function ContactPage() {
           <p style={{ fontSize: "0.82rem", color: "var(--muted)" }}>Spam protection active in production (honeypot + rate limiting + invisible CAPTCHA).</p>
         </form>
       )}
-      <p>Direct email: hello@eclatia-guide.com</p>
+      <p>Direct email: limitlessmind19@gmail.com</p>
     </div>
   );
 }

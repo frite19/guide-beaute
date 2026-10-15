@@ -15,7 +15,7 @@ export default function Page() {
       <h2>Our business model</h2>
       <p>Some links are affiliate links: if you buy through them, we may earn a commission at no extra cost to you. As an Amazon Associate we earn from qualifying purchases. See our <a href="/affiliate-disclosure">affiliate disclosure</a>.</p>
       <h2>Contact</h2>
-      <p>Write to us: <a href="/contact">contact page</a> — hello@eclatia-guide.com</p>
+      <p>Write to us: <a href="/contact">contact page</a> — limitlessmind19@gmail.com</p>
     </div>
   );
 }

@@ -39,7 +39,7 @@ export const SITE = {
   domaine: "eclatia-guide.com",
   description:
     "Éclatia helps you discover, compare and choose your beauty essentials: hot-air brushes, facial skincare, hair dryers. Honest comparisons, clear guides, transparent partner links.",
-  contactEmail: "hello@eclatia-guide.com",
+  contactEmail: "limitlessmind19@gmail.com",
   affiliateParamNote:
     "Replace the example URLs (tag=your-id-20) with your real affiliate links, ideally via Amazon OneLink for US/UK/AU geo-redirect. See docs/ajouter-produit.md",
 };
