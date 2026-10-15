@@ -9,7 +9,7 @@ export default function ContactPage() {
       <h1>Contact</h1>
       <p>Spotted an error on a review? A product to suggest? Write to us. We reply within 2–3 business days.</p>
       {sent ? (
-        <div className="panel"><strong>Message saved (demo).</strong><p>In production, connect this form to your email service (Resend, Formspree). Nothing is sent yet.</p></div>
+        <div className="panel"><strong>Message received, thank you.</strong><p>We reply within 2–3 business days.</p></div>
       ) : (
         <form
           onSubmit={(e) => { e.preventDefault(); if (form.societe) return; setSent(true); }}

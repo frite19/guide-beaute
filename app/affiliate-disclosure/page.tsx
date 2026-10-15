@@ -19,7 +19,7 @@ export default function Page() {
         <li>We never rank by commission, only by fit for your needs.</li>
       </ul>
       <h2>Partner programs</h2>
-      <p>Examples to configure: Amazon Associates (one account per country: US, UK, CA, AU), Awin, CJ Affiliate. Use Amazon OneLink so each visitor lands on their local Amazon with the right tag. Replace the example URLs (<code>tag=your-id-20</code>) with your IDs. See <code>docs/ajouter-produit.md</code>.</p>
+      <p>We may earn commissions through programs such as Amazon Associates (US), Awin or CJ Affiliate. When you shop in another country, you are redirected to your local store when possible.</p>
       <h2>US visitors (FTC)</h2>
       <p>This disclosure follows the FTC&apos;s Endorsement Guides: our financial relationship with retailers is stated clearly, right where affiliate links appear — not hidden in a separate page. Compensation never affects our ratings or rankings.</p>
     </div>
