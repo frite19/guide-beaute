@@ -202,8 +202,8 @@ export const PRODUCTS: Product[] = [
   },
   {
     slug: "shea-nourishing-body-oil",
-    nom: "Shea Nourishing Body Oil",
-    marque: "Karéa",
+    nom: "Pure Natural Shea Body Oil",
+    marque: "Pure Natural",
     categorie: "body-bath",
     description:
       "Nourishing dry body oil with shea butter and jojoba oil. Non-sticky finish for legs, arms and neckline.",
@@ -216,8 +216,8 @@ export const PRODUCTS: Product[] = [
     casUsage: ["After shower", "Legs before a dress", "Light massage"],
     prixIndicatif: null,
     prixVerifieLe: null,
-    marchand: "Beauty partner (e.g. Amazon)",
-    urlAffiliation: "https://www.amazon.com/s?k=shea+body+oil&tag=eclatia20-20",
+    marchand: "Amazon",
+    urlAffiliation: "https://www.amazon.com/dp/B07RRDMMZM?tag=eclatia20-20",
     statut: "active",
     majLe: "2026-10-02",
     noteRedaction: 4.3,
