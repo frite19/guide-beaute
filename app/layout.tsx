@@ -19,6 +19,11 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
   icons: { icon: "/favicon.svg" },
   manifest: "/manifest.webmanifest",
+  verification: {
+    other: {
+      "p:domain_verify": "74d5b677acf848fe3c5deae9c1106557",
+    },
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
