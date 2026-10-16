@@ -156,8 +156,8 @@ export const PRODUCTS: Product[] = [
   },
   {
     slug: "ceramide-moisturizing-cream",
-    nom: "Ceramide Moisturizing Cream 1.7 fl oz",
-    marque: "Dermadoux",
+    nom: "CeraVe Moisturizing Cream",
+    marque: "CeraVe",
     categorie: "face-care",
     description:
       "Moisturizing cream with ceramides, niacinamide and squalane. Fragrance-free, suited to sensitive skin and minimalist routines.",
@@ -170,8 +170,8 @@ export const PRODUCTS: Product[] = [
     casUsage: ["Morning and night hydration", "After serum", "Reactive skin"],
     prixIndicatif: null,
     prixVerifieLe: null,
-    marchand: "Beauty partner (e.g. Amazon)",
-    urlAffiliation: "https://www.amazon.com/s?k=ceramide+cream+fragrance+free&tag=eclatia20-20",
+    marchand: "Amazon",
+    urlAffiliation: "https://www.amazon.com/dp/B00TTD9BRC?tag=eclatia20-20",
     statut: "active",
     majLe: "2026-10-05",
     noteRedaction: 4.6,
