@@ -110,8 +110,8 @@ export const PRODUCTS: Product[] = [
   },
   {
     slug: "ionic-pro-hair-dryer-1875w",
-    nom: "Pro Ionic Hair Dryer 1875 W",
-    marque: "ProHair",
+    nom: "Revlon Compact Hair Dryer 1875W",
+    marque: "Revlon",
     categorie: "hair-styling",
     description:
       "Powerful AC-motor hair dryer with ionic function and included diffuser. Built for fast drying while keeping frizz down.",
@@ -124,8 +124,8 @@ export const PRODUCTS: Product[] = [
     casUsage: ["Express drying", "Curl definition with diffuser", "Blowout with concentrator"],
     prixIndicatif: null,
     prixVerifieLe: null,
-    marchand: "Beauty partner (e.g. Amazon)",
-    urlAffiliation: "https://www.amazon.com/s?k=ionic+hair+dryer+1875w&tag=eclatia20-20",
+    marchand: "Amazon",
+    urlAffiliation: "https://www.amazon.com/dp/B003TQPRGY?tag=eclatia20-20",
     statut: "active",
     majLe: "2026-10-01",
     noteRedaction: 4.4,
