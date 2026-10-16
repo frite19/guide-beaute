@@ -179,8 +179,8 @@ export const PRODUCTS: Product[] = [
   },
   {
     slug: "gentle-ph-55-cleanser",
-    nom: "Gentle pH 5.5 Cleanser 5 fl oz",
-    marque: "Dermadoux",
+    nom: "Cetaphil Gentle Facial Cleanser",
+    marque: "Cetaphil",
     categorie: "face-care",
     description:
       "Gentle gel cleanser at physiological pH, no harsh sulfates. Cleanses without tightness, morning and night.",
@@ -193,8 +193,8 @@ export const PRODUCTS: Product[] = [
     casUsage: ["Morning cleanse", "Second cleanse step", "Reactive skin"],
     prixIndicatif: null,
     prixVerifieLe: null,
-    marchand: "Beauty partner (e.g. Amazon)",
-    urlAffiliation: "https://www.amazon.com/s?k=gentle+cleanser+ph+5.5&tag=eclatia20-20",
+    marchand: "Amazon",
+    urlAffiliation: "https://www.amazon.com/dp/B0DXS4CR2B?tag=eclatia20-20",
     statut: "active",
     majLe: "2026-10-05",
     noteRedaction: 4.5,
