@@ -248,8 +248,8 @@ export const PRODUCTS: Product[] = [
   },
   {
     slug: "volume-length-mascara",
-    nom: "Volume & Length Mascara",
-    marque: "NudeGlow",
+    nom: "Maybelline Lash Sensational Mascara",
+    marque: "Maybelline",
     categorie: "makeup",
     description:
       "Lengthening volumizing mascara with tapered brush, washable with warm water. Intense black, clump-free with a zigzag application.",
@@ -262,8 +262,8 @@ export const PRODUCTS: Product[] = [
     casUsage: ["Daily wear", "Eyes sensitive to waterproof formulas"],
     prixIndicatif: null,
     prixVerifieLe: null,
-    marchand: "Beauty partner (e.g. Amazon)",
-    urlAffiliation: "https://www.amazon.com/s?k=volumizing+lengthening+mascara&tag=eclatia20-20",
+    marchand: "Amazon",
+    urlAffiliation: "https://www.amazon.com/dp/B08H3JPH74?tag=eclatia20-20",
     statut: "active",
     majLe: "2026-10-02",
     noteRedaction: 4.1,
