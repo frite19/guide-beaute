@@ -225,8 +225,8 @@ export const PRODUCTS: Product[] = [
   },
   {
     slug: "serum-foundation-spf15",
-    nom: "Serum Foundation SPF 15 — 1 fl oz",
-    marque: "NudeGlow",
+    nom: "Maybelline Fit Me Foundation",
+    marque: "Maybelline",
     categorie: "makeup",
     description:
       "Serum foundation with light-to-medium coverage and a natural finish. Enriched with niacinamide, available in several shades.",
@@ -239,8 +239,8 @@ export const PRODUCTS: Product[] = [
     casUsage: ["Daytime makeup", "3-minute base", "Normal to dry skin"],
     prixIndicatif: null,
     prixVerifieLe: null,
-    marchand: "Beauty partner (e.g. Amazon)",
-    urlAffiliation: "https://www.amazon.com/s?k=serum+foundation&tag=eclatia20-20",
+    marchand: "Amazon",
+    urlAffiliation: "https://www.amazon.com/dp/B00DQLN3Y0?tag=eclatia20-20",
     statut: "active",
     majLe: "2026-10-02",
     noteRedaction: 4.0,
