@@ -78,8 +78,8 @@ export const CATEGORIES: Category[] = [
 export const PRODUCTS: Product[] = [
   {
     slug: "5-in-1-hot-air-brush-aerostyle",
-    nom: "AeroStyle 5-in-1 Hot-Air Brush",
-    marque: "AeroStyle",
+    nom: "Revlon One-Step Volumizer Plus",
+    marque: "Revlon",
     categorie: "hair-styling",
     description:
       "Multifunctional hot-air brush with 5 attachments (drying, smoothing, loose curls, volume, precision nozzle). Made for quick morning routines, with controlled heat for gentle styling.",
@@ -98,8 +98,8 @@ export const PRODUCTS: Product[] = [
     casUsage: ["Soft morning blowout", "Root volume", "Loose curls without a hot iron"],
     prixIndicatif: null,
     prixVerifieLe: null,
-    marchand: "Beauty partner (e.g. Amazon)",
-    urlAffiliation: "https://www.amazon.com/s?k=5+in+1+hot+air+brush&tag=eclatia20-20",
+    marchand: "Amazon",
+    urlAffiliation: "https://www.amazon.com/dp/B01HZ5K8UE?tag=eclatia20-20",
     statut: "active",
     majLe: "2026-10-01",
     noteRedaction: 4.2,
