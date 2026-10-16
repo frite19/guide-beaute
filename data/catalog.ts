@@ -133,8 +133,8 @@ export const PRODUCTS: Product[] = [
   },
   {
     slug: "vitamin-c-12-glow-serum",
-    nom: "12% Vitamin C Glow Serum",
-    marque: "Éclatia Lab",
+    nom: "TruSkin Vitamin C Super Serum",
+    marque: "TruSkin",
     categorie: "face-care",
     description:
       "Glow serum with stabilized vitamin C, vitamin E and ferulic acid. Lightweight texture, to wear in the morning under sunscreen.",
@@ -147,8 +147,8 @@ export const PRODUCTS: Product[] = [
     casUsage: ["Morning glow routine", "Under SPF", "4–6 week course"],
     prixIndicatif: null,
     prixVerifieLe: null,
-    marchand: "Beauty partner (e.g. Amazon)",
-    urlAffiliation: "https://www.amazon.com/s?k=vitamin+c+serum&tag=eclatia20-20",
+    marchand: "Amazon",
+    urlAffiliation: "https://www.amazon.com/dp/B08QSLJ8CC?tag=eclatia20-20",
     statut: "active",
     majLe: "2026-10-05",
     noteRedaction: 4.1,
