@@ -138,8 +138,8 @@ export const PRODUCTS: Product[] = [
     categorie: "face-care",
     description:
       "Glow serum with stabilized vitamin C, vitamin E and ferulic acid. Lightweight texture, to wear in the morning under sunscreen.",
-    image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=900&q=80&auto=format&fit=crop",
-    imageAlt: "Vitamin C serum dropper bottle",
+    image: "https://images.pexels.com/photos/13964620/pexels-photo-13964620.jpeg?auto=compress&cs=tinysrgb&w=900",
+    imageAlt: "Hand holding a dropper over a vitamin C serum bottle",
     caracteristiques: ["Stabilized 12% vitamin C", "Vitamin E + ferulic acid", "Opaque pump bottle 1 fl oz", "No added fragrance", "pH ~3.5–4 (manufacturer data)"],
     avantages: ["Simple glow routine", "Layers well under makeup", "Light-protective bottle"],
     inconvenients: ["Tingling possible on sensitive skin — patch-test first", "Keep away from heat"],
