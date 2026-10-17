@@ -269,6 +269,39 @@ export const PRODUCTS: Product[] = [
     noteRedaction: 4.1,
     faq: [{ q: "Does it suit contact-lens wearers?", a: "Washable formulas are usually better tolerated, but patch-test and remove gently. Stop use if irritation occurs." }],
   },
+  {
+    slug: "micellar-makeup-remover-wipes",
+    nom: "Neutrogena Makeup Remover Micellar Wipes",
+    marque: "Neutrogena",
+    categorie: "face-care",
+    description:
+      "Ultra-soft micellar cleansing wipes in a twin pack (2 x 25 ct). Lift away makeup, including waterproof mascara, plus dirt, oil, sweat and sunscreen in one step - no rinsing needed.",
+    image: "https://images.unsplash.com/photo-1584305574647-0cc949a2bb9f?w=900&q=80&auto=format&fit=crop",
+    imageAlt: "Micellar cleansing wipes pack next to cotton pads",
+    caracteristiques: [
+      "Twin pack: 2 x 25 wipes",
+      "Micellar-infused triple emollient formula (manufacturer data)",
+      "Removes up to 99% of makeup, even waterproof mascara",
+      "Alcohol-free, no parabens, sulfates, phthalates, soaps or dyes",
+      "100% plant-based cloth, home compostable (manufacturer data)",
+      "Ophthalmologist-, dermatologist- and allergy-tested",
+    ],
+    avantages: ["Fastest way to remove stubborn mascara", "Gentle on the eye area", "No rinse needed - great for travel or gym bags"],
+    inconvenients: ["Single-use: pricier per use than a liquid cleanser", "Reseal the pack well or wipes dry out", "Not a replacement for a full evening cleanse with makeup-heavy looks"],
+    publicIdeal: "Busy routines, travelers, late nights when the sink feels too far.",
+    casUsage: ["After-makeup clean-up", "Removing waterproof mascara before/alongside a cleanser", "Freshen up after commute or workout"],
+    prixIndicatif: null,
+    prixVerifieLe: null,
+    marchand: "Amazon",
+    urlAffiliation: "https://www.amazon.com/dp/B00U2VQZDS?tag=eclatia20-20",
+    statut: "active",
+    majLe: "2026-10-17",
+    noteRedaction: 4.4,
+    faq: [
+      { q: "Do I still need a cleanser if I use wipes?", a: "For light makeup, no. For foundation plus SPF, follow with a gentle cleanser: the wipe lifts the bulk, the cleanser cleans the residue." },
+      { q: "Are they safe around the eyes?", a: "They are formulated to be gentle on the delicate eye area and ophthalmologist-tested. Wipe closed eyelids gently and avoid rubbing. If irritation occurs, stop use." },
+    ],
+  },
 ];
 
 export function getProduct(slug: string) {
