@@ -276,8 +276,8 @@ export const PRODUCTS: Product[] = [
     categorie: "face-care",
     description:
       "Ultra-soft micellar cleansing wipes in a twin pack (2 x 25 ct). Lift away makeup, including waterproof mascara, plus dirt, oil, sweat and sunscreen in one step - no rinsing needed.",
-    image: "https://images.unsplash.com/photo-1584305574647-0cc949a2bb9f?w=900&q=80&auto=format&fit=crop",
-    imageAlt: "Micellar cleansing wipes pack next to cotton pads",
+    image: "https://images.pexels.com/photos/5468609/pexels-photo-5468609.jpeg?auto=compress&cs=tinysrgb&w=900",
+    imageAlt: "Woman using a makeup remover pad for a micellar cleansing routine",
     caracteristiques: [
       "Twin pack: 2 x 25 wipes",
       "Micellar-infused triple emollient formula (manufacturer data)",
