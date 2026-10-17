@@ -49,8 +49,8 @@ export const CATEGORIES: Category[] = [
     slug: "hair-styling",
     nom: "Hair Styling",
     description: "Hot-air brushes, hair dryers, straighteners: style without damage.",
-    image: "https://images.unsplash.com/photo-1522337660859-02fbefca4702?w=800&q=80&auto=format&fit=crop",
-    imageAlt: "Hot-air brush and hair dryer on a bright vanity",
+    image: "https://images.pexels.com/photos/3993467/pexels-photo-3993467.jpeg?auto=compress&cs=tinysrgb&w=800",
+    imageAlt: "Hairstylist styling hair with a brush and dryer in a salon",
   },
   {
     slug: "face-care",
@@ -83,8 +83,8 @@ export const PRODUCTS: Product[] = [
     categorie: "hair-styling",
     description:
       "Multifunctional hot-air brush with 5 attachments (drying, smoothing, loose curls, volume, precision nozzle). Made for quick morning routines, with controlled heat for gentle styling.",
-    image: "https://images.unsplash.com/photo-1522337660859-02fbefca4702?w=900&q=80&auto=format&fit=crop",
-    imageAlt: "Multifunctional hot-air brush with attachments",
+    image: "https://images.pexels.com/photos/8468136/pexels-photo-8468136.jpeg?auto=compress&cs=tinysrgb&w=900",
+    imageAlt: "Woman styling her long hair with a hot-air brush at home",
     caracteristiques: [
       "5 interchangeable attachments",
       "3 heat settings + cool shot",
