@@ -56,7 +56,7 @@ export const GUIDES: Guide[] = [
     imageAlt: "Hands applying moisturizer",
     majLe: "2026-10-05",
     lectureMin: 6,
-    produitsLies: ["gentle-ph-55-cleanser", "truskin-vitamin-c-duo", "ceramide-moisturizing-cream"],
+    produitsLies: ["cetaphil-daily-cleanser-lotion", "truskin-vitamin-c-duo", "ceramide-moisturizing-cream"],
   },
   {
     slug: "how-to-choose-vitamin-c-serum",
@@ -78,7 +78,7 @@ export const GUIDES: Guide[] = [
     imageAlt: "Assorted cosmetics flat lay",
     majLe: "2026-10-03",
     lectureMin: 6,
-    produitsLies: ["gentle-ph-55-cleanser", "ceramide-moisturizing-cream", "truskin-vitamin-c-duo"],
+    produitsLies: ["cetaphil-daily-cleanser-lotion", "ceramide-moisturizing-cream", "truskin-vitamin-c-duo"],
   },
   {
     slug: "alternatives-to-viral-heated-brush",
