@@ -32,7 +32,7 @@ export default function Home() {
             No fake reviews, no invented prices: clear fact sheets, then a direct link to the retailer.
           </p>
           <form className="hero-search" role="search" action="/search" method="get">
-            <input name="q" placeholder="E.g. 5-in-1 brush, vitamin C serum…" aria-label="Search a product or category" />
+            <input name="q" placeholder="E.g. vitamin C serum, hair dryer…" aria-label="Search a product or category" />
             <button className="btn btn-primary" type="submit">Search</button>
           </form>
           <div className="chips">

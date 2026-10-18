@@ -22,31 +22,33 @@ const CONTENUS: Record<
 > = {
   "best-hot-air-brush-2026": {
     intro: [
-      "Looking for the best hot-air brush without falling for fake reviews? Here is the short version: for gentle daily use on fine to normal hair, the 5-in-1 multifunction brush is the simplest. For thick hair or express drying, a powerful dryer still wins.",
-      "Our method: we compare declared power, included attachments, weight, stated noise and gentleness (heat settings, cool shot). No invented tests, no fictional discounts.",
+      "Looking for the best hot-air brush without falling for fake reviews? Here is the short version: the one-step heated brush is the simplest option for fine to normal hair, because it dries and adds volume in a single pass. For thick hair or pure express drying, a powerful dryer still wins.",
+      "Our method: we compare the rated power, the heat and speed settings, what each tool physically includes, and the type of hair each one suits. We only publish figures we can confirm on the product page, and everything else is marked as to be checked at the retailer.",
     ],
-    verdict: "Verdict: gentle, versatile routine → AeroStyle 5-in-1 brush. Speed and heavy volume → Pro 1875 W dryer + round brush. Both links below go to the retailer to check current price and stock.",
-    libelleA: "5-in-1 hot-air brush",
+    verdict: "Verdict: volume in one motion on fine to normal hair → one-step heated brush. Speed and heavy volume on thick hair → 1875 W dryer. Both links below go to the retailer to check the current price, stock and exact specification.",
+    libelleA: "One-step heated brush",
     libelleB: "1875 W hair dryer",
     tableau: [
-      { critere: "Best for", a: "Fine to normal hair, daily use", b: "Thick, long, curly hair" },
-      { critere: "Power", a: "1000 W, moderate heat", b: "1875 W, fast drying" },
-      { critere: "Versatility", a: "5 attachments, curls + smoothing", b: "Diffuser + concentrator" },
-      { critere: "Bulk", a: "Bulky, not travel-friendly", b: "Heavy but classic" },
+      { critere: "Best for", a: "Fine to normal hair, daily volume", b: "Thick or soaking-wet hair, express drying" },
+      { critere: "Rated power", a: "1100 W", b: "1875 W" },
+      { critere: "Controls", a: "3 heat, 2 speed", b: "Check at the retailer" },
+      { critere: "Head", a: "Integrated oval brush, no attachments", b: "Check included accessories" },
+      { critere: "Handle", a: "One tool, one motion", b: "Dryer only, pair it with a round brush" },
     ],
   },
-  "5-in-1-brush-vs-powerful-dryer": {
+  "one-step-brush-vs-powerful-dryer": {
     intro: [
-      "An honest duel: the 5-in-1 brush bets on gentleness and simplicity (one tool, one motion), the powerful dryer bets on speed.",
-      "Choose by hair type: fine and rushed in the morning → 5-in-1. Thick, curly or precise blowouts → dryer + attachments.",
+      "An honest duel: the one-step heated brush bets on simplicity (one tool, one motion, volume as it dries), the 1875 W dryer bets on raw power and portability.",
+      "Choose by hair type: fine to normal and rushed in the morning → heated brush. Thick, curly or simply in a hurry after the gym → powerful dryer.",
     ],
-    verdict: "If you keep only one: 5-in-1 for simplicity, Pro dryer for power. Check attachments and warranty at the retailer.",
-    libelleA: "5-in-1 hot-air brush",
+    verdict: "If you keep only one: heated brush for simplicity, 1875 W dryer for power and travel. Heat settings, accessories and warranty vary, so confirm them at the retailer before you buy.",
+    libelleA: "One-step heated brush",
     libelleB: "1875 W hair dryer",
     tableau: [
-      { critere: "Styling time", a: "5–10 min, one tool", b: "3–6 min drying + styling" },
-      { critere: "Learning curve", a: "Low", b: "Medium (round brush)" },
-      { critere: "Frizz", a: "Gentle ionic", b: "Ionic + cool shot" },
+      { critere: "Styling time", a: "One pass, volume as you dry", b: "3–6 min drying, then style" },
+      { critere: "Learning curve", a: "Low", b: "Low" },
+      { critere: "Weak point", a: "Underpowered on very thick hair", b: "No volume or style on its own" },
+      { critere: "Travel", a: "Bulky relative to a dryer", b: "Lightweight, built for travel" },
     ],
   },
   "best-foundation-for-dry-skin": {

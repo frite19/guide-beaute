@@ -13,7 +13,7 @@ export function generateStaticParams() {
 const ARTICLES: Record<string, string[][]> = {
   "beginner-glow-routine": [
     ["h2", "The 4-step routine (5 minutes)"],
-    ["p", "Morning: 1) gentle cleanser, 2) vitamin C serum (3–4 drops), 3) ceramide cream, 4) SPF 30+ sunscreen. Night: cleanser + cream, with retinol only if your skin tolerates it (one night in three to start)."],
+    ["p", "Morning: 1) gentle cleanser, 2) vitamin C serum, 3) moisturizer (a serum-and-moisturizer duo covers steps 2 and 3 in one), 4) SPF 30+ sunscreen. Night: cleanser + cream, with retinol only if your skin tolerates it (one night in three to start)."],
     ["h2", "Common mistakes"],
     ["p", "Layering every active in week one, scrubbing daily, skipping SPF after vitamin C. Start simple for 3 weeks, then adjust one product at a time."],
     ["h2", "Smart budgeting"],
@@ -21,7 +21,7 @@ const ARTICLES: Record<string, string[][]> = {
   ],
   "how-to-choose-vitamin-c-serum": [
     ["h2", "The 5 verifiable criteria"],
-    ["p", "1) Stabilized form and readable concentration (e.g. 10–15%). 2) Supporting antioxidants (E + ferulic). 3) Opaque airtight bottle. 4) Fragrance-free if sensitive skin. 5) Opening date and storage away from heat."],
+    ["p", "1) Stabilized form and a concentration printed on the label. 2) Supporting ingredients you can actually read on the label. 3) Opaque airtight bottle. 4) Fragrance-free if you have sensitive skin. 5) Opening date and storage away from heat. Read the bottle before you buy: these are criteria, not promises about any one product."],
     ["h2", "How to use it"],
     ["p", "Morning on dry skin, 3–4 drops, then cream and SPF. Patch-test 48h on the jawline. Persistent tingling or redness: space out, stop, and seek advice."],
   ],
@@ -35,9 +35,9 @@ const ARTICLES: Record<string, string[][]> = {
   ],
   "alternatives-to-viral-heated-brush": [
     ["h2", "Why look for an alternative?"],
-    ["p", "The viral brush doesn't fit everyone: very thick hair, need for express drying, or budget. Two sensible paths: gentle multifunction (simplicity) or powerful dryer + round brush (control)."],
+    ["p", "The viral brush doesn't fit everyone: very thick hair, need for express drying, or budget. Two sensible paths: a one-step heated brush (simplicity) or a powerful dryer plus a round brush (control)."],
     ["h2", "Which to pick?"],
-    ["p", "Quick daily routine and gentleness → 5-in-1. Heavy volume, defined curls, speed → Pro 1875 W dryer. Either way, use heat protection and finish with cool air."],
+    ["p", "Quick daily routine and fine to normal hair → one-step heated brush. Heavy volume, thick hair, speed → 1875 W dryer. Either way, use heat protection and finish with cool air."],
   ],
 };
 
