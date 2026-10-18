@@ -36,13 +36,13 @@ export const COMPARATIFS: Guide[] = [
   {
     slug: "best-foundation-for-dry-skin",
     type: "comparison",
-    titre: "Best Foundation for Dry Skin: Serum vs Cream",
-    description: "A natural finish without cakiness: why serum foundation usually wins on well-hydrated dry skin.",
+    titre: "Foundation Stick vs Cream Base: What Dry Skin Actually Needs",
+    description: "A matte stick sits on top of the skin. What dry skin needs is a hydrated base first, then thin layers.",
     image: "https://images.pexels.com/photos/12585853/pexels-photo-12585853.jpeg?auto=compress&cs=tinysrgb&w=900",
     imageAlt: "Woman applying foundation close-up",
-    majLe: "2026-10-04",
+    majLe: "2026-10-18",
     lectureMin: 5,
-    produitsLies: ["serum-foundation-spf15", "ceramide-moisturizing-cream"],
+    produitsLies: ["fit-me-shine-free-balance-stick", "ceramide-moisturizing-cream"],
   },
 ];
 

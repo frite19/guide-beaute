@@ -9,3 +9,7 @@
 /confidentialite /privacy 301
 /mentions-legales /legal 301
 /divulgation-affiliation /affiliate-disclosure 301
+# Product re-slug (2026-10-18): the Maybelline Fit Me entry was a cream stick, not a serum
+# foundation. The old slug is still linked from a live Pinterest pin, so keep it alive.
+/product/serum-foundation-spf15 /product/fit-me-shine-free-balance-stick 301
+/product/serum-foundation-spf15/ /product/fit-me-shine-free-balance-stick/ 301

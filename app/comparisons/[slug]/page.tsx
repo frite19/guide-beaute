@@ -16,13 +16,18 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   return { title: g.titre, description: g.description };
 }
 
-const CONTENUS: Record<string, { intro: string[]; verdict: string; tableau: { critere: string; a: string; b: string }[] }> = {
+const CONTENUS: Record<
+  string,
+  { intro: string[]; verdict: string; libelleA?: string; libelleB?: string; tableau: { critere: string; a: string; b: string }[] }
+> = {
   "best-hot-air-brush-2026": {
     intro: [
       "Looking for the best hot-air brush without falling for fake reviews? Here is the short version: for gentle daily use on fine to normal hair, the 5-in-1 multifunction brush is the simplest. For thick hair or express drying, a powerful dryer still wins.",
       "Our method: we compare declared power, included attachments, weight, stated noise and gentleness (heat settings, cool shot). No invented tests, no fictional discounts.",
     ],
     verdict: "Verdict: gentle, versatile routine → AeroStyle 5-in-1 brush. Speed and heavy volume → Pro 1875 W dryer + round brush. Both links below go to the retailer to check current price and stock.",
+    libelleA: "5-in-1 hot-air brush",
+    libelleB: "1875 W hair dryer",
     tableau: [
       { critere: "Best for", a: "Fine to normal hair, daily use", b: "Thick, long, curly hair" },
       { critere: "Power", a: "1000 W, moderate heat", b: "1875 W, fast drying" },
@@ -36,6 +41,8 @@ const CONTENUS: Record<string, { intro: string[]; verdict: string; tableau: { cr
       "Choose by hair type: fine and rushed in the morning → 5-in-1. Thick, curly or precise blowouts → dryer + attachments.",
     ],
     verdict: "If you keep only one: 5-in-1 for simplicity, Pro dryer for power. Check attachments and warranty at the retailer.",
+    libelleA: "5-in-1 hot-air brush",
+    libelleB: "1875 W hair dryer",
     tableau: [
       { critere: "Styling time", a: "5–10 min, one tool", b: "3–6 min drying + styling" },
       { critere: "Learning curve", a: "Low", b: "Medium (round brush)" },
@@ -44,14 +51,21 @@ const CONTENUS: Record<string, { intro: string[]; verdict: string; tableau: { cr
   },
   "best-foundation-for-dry-skin": {
     intro: [
-      "On dry skin, serum foundation often wins: thin texture, no cakiness, finger application. The key stays in pre-hydration (ceramide cream).",
-      "Avoid thick matte foundations with no hydrating base: they cling to dry patches within 2 hours.",
+      "Most dry-skin foundation advice assumes a liquid or serum formula. A foundation stick behaves differently: the compact cream is denser, goes on in thin layers, and its matte finish sits on top of the skin instead of melting into it. On dehydrated skin that reads flat rather than luminous.",
+      "That does not make the stick a bad choice — it changes the order of the routine. On dry or normal-to-dry skin the cream base has to go on first, in enough quantity to do its job. The stick then only has to even out the tone, not carry the hydration.",
+      "The realistic expectation: a matte stick will never give you a dewy finish. What it does give you is speed, a controlled shine level, and a format that survives a bag.",
     ],
-    verdict: "Winning dry-skin routine: ceramide cream → thin layer of serum foundation → powder on the T-zone only if needed.",
+    verdict:
+      "Dry-skin routine: apply the ceramide cream generously and let it set, then pass the stick over in two thin layers with a damp sponge. Keep the stick out of flaky areas. If you want glow on top, mist or mix a drop of hydration rather than expecting it from the stick itself.",
+    libelleA: "Matte stick",
+    libelleB: "Hydrating cream base",
     tableau: [
-      { critere: "Finish", a: "Natural glow (serum)", b: "Comfort (cream first)" },
-      { critere: "Application", a: "Fingers, 2 min", b: "Morning and night" },
-      { critere: "Skip if", a: "Very oily skin without powder", b: "Very dry skin with too thin a layer" },
+      { critere: "Format", a: "Cream stick, applied from the tube", b: "Lotion cream, worked into the skin" },
+      { critere: "Finish", a: "Natural matte, shine-free", b: "Skin-like, soft glow" },
+      { critere: "Role", a: "Evens out tone on top of a base", b: "Does the hydrating work itself" },
+      { critere: "Coverage", a: "Buildable, light to medium", b: "Light, used as a base layer" },
+      { critere: "Best for", a: "Normal to combination skin, or on the go", b: "Dry to normal skin, morning and night" },
+      { critere: "Skip if", a: "Very dry or flaky skin with no rich base first", b: "Oily skin that needs matte control" },
     ],
   },
 };
@@ -75,7 +89,7 @@ export default function ComparisonDetail({ params }: { params: { slug: string } 
           <>
             <h2>Comparison table</h2>
             <table className="compare-table">
-              <thead><tr><th>Criterion</th><th>Option A</th><th>Option B</th></tr></thead>
+              <thead><tr><th>Criterion</th><th>{c.libelleA ?? "Option A"}</th><th>{c.libelleB ?? "Option B"}</th></tr></thead>
               <tbody>{c.tableau.map((r) => <tr key={r.critere}><td><strong>{r.critere}</strong></td><td>{r.a}</td><td>{r.b}</td></tr>)}</tbody>
             </table>
           </>
