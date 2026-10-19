@@ -42,7 +42,7 @@ export const COMPARATIFS: Guide[] = [
     imageAlt: "Woman applying foundation close-up",
     majLe: "2026-10-18",
     lectureMin: 5,
-    produitsLies: ["fit-me-shine-free-balance-stick", "ceramide-moisturizing-cream"],
+    produitsLies: ["age-rewind-eraser-concealer", "fit-me-shine-free-balance-stick", "ceramide-moisturizing-cream"],
   },
 ];
 
