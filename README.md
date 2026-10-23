@@ -25,7 +25,7 @@ npm run build && npm start
 ## Still to configure (important)
 
 1. **Partner IDs**: replace `tag=your-id-20` in `data/catalog.ts` with your real links. US/UK/AU: one Amazon Associates account **per country** + **Amazon OneLink** for geo-redirect.
-2. **Domain**: `eclatia-guide.com` in `app/layout.tsx`, `sitemap.xml`, `robots.txt`.
+2. **Domain**: the site currently runs on `guide-beaute.pages.dev` (set in `data/catalog.ts`, `app/layout.tsx`, `app/sitemap.ts`, `app/robots.ts`, `app/page.tsx`). When a custom `.com` is bought, replace it everywhere + add it in Cloudflare Pages.
 3. **Legal notice**: legal entity, address, hosting provider.
 4. **Contact**: connect the form (Resend / Formspree).
 5. **Admin**: protect `/admin` in production (real auth, not the demo code).
@@ -39,4 +39,4 @@ Short URLs, H1/H2/H3 hierarchy, per-page metadata, JSON-LD (WebSite + Product + 
 
 ## Docs (in French, for the site owner)
 
-See `docs/ajouter-produit.md` to add a product in 5 minutes, `docs/maintenance.md` for upkeep.
+See `docs/ajouter-produit.md` to add a product in 5 minutes, `docs/maintenance.md` for upkeep, `docs/statistiques.md` for traffic/click stats (Cloudflare Web Analytics, Pinterest, Amazon).

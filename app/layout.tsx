@@ -6,7 +6,7 @@ import Link from "next/link";
 import { SITE } from "@/data/catalog";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://eclatia-guide.com"),
+  metadataBase: new URL("https://guide-beaute.pages.dev"),
   title: { default: "Éclatia — Beauty Guide: Honest Comparisons & Reviews", template: "%s — Éclatia" },
   description: SITE.description,
   openGraph: {
@@ -27,6 +27,10 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  // Cloudflare Web Analytics (gratuit, sans cookie, sans Stripe).
+  // La valeur est injectée au build par Cloudflare Pages (variable NEXT_PUBLIC_CF_ANALYTICS_TOKEN).
+  const cfToken = process.env.NEXT_PUBLIC_CF_ANALYTICS_TOKEN;
+
   return (
     <html lang="en">
       <body>
@@ -37,6 +41,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <main className="container" id="contenu">{children}</main>
         <Footer />
+        {cfToken ? (
+          <script
+            defer
+            src="https://static.cloudflareinsights.com/beacon.min.js"
+            data-cf-beacon={JSON.stringify({ token: cfToken })}
+          />
+        ) : null}
       </body>
     </html>
   );

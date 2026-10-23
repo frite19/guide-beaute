@@ -3,7 +3,7 @@ import { CATEGORIES, PRODUCTS } from "@/data/catalog";
 import { COMPARATIFS, GUIDES } from "@/data/guides";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = "https://eclatia-guide.com";
+  const base = "https://guide-beaute.pages.dev";
   const pages = [
     "",
     "/comparisons",

@@ -36,7 +36,7 @@ export interface Category {
 export const SITE = {
   nom: "Éclatia",
   tagline: "The independent beauty guide",
-  domaine: "eclatia-guide.com",
+  domaine: "guide-beaute.pages.dev",
   description:
     "Éclatia helps you discover, compare and choose your beauty essentials: hot-air brushes, facial skincare, hair dryers. Honest comparisons, clear guides, transparent partner links.",
   contactEmail: "limitlessmind19@gmail.com",

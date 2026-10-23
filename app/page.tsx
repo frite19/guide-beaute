@@ -11,11 +11,11 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: SITE.nom,
-    url: "https://eclatia-guide.com",
+    url: "https://guide-beaute.pages.dev",
     description: SITE.description,
     potentialAction: {
       "@type": "SearchAction",
-      target: "https://eclatia-guide.com/search?q={query}",
+      target: "https://guide-beaute.pages.dev/search?q={query}",
       "query-input": "required name=query",
     },
   };
