@@ -20,6 +20,7 @@ export const metadata: Metadata = {
   icons: { icon: "/favicon.svg" },
   manifest: "/manifest.webmanifest",
   verification: {
+    google: "WaUCkPiACNIy95Wnc3HpDliang66BwR1UEjqvrkFVqU",
     other: {
       "p:domain_verify": "74d5b677acf848fe3c5deae9c1106557",
     },
