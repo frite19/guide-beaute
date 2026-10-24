@@ -1,4 +1,4 @@
-export const metadata = { title: "Affiliate Disclosure", description: "How Éclatia earns money with transparent affiliate links. FTC & Amazon Associates compliant." };
+export const metadata = { title: "Affiliate Disclosure", description: "How Éclatia earns money with transparent affiliate links. FTC & Amazon Associates compliant.", alternates: { canonical: "/affiliate-disclosure/" } };
 
 export default function Page() {
   return (

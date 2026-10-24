@@ -1,4 +1,4 @@
-export const metadata = { title: "About Éclatia", description: "Who we are: an independent beauty media that compares without selling." };
+export const metadata = { title: "About Éclatia", description: "Who we are: an independent beauty media that compares without selling.", alternates: { canonical: "/about/" } };
 
 export default function Page() {
   return (

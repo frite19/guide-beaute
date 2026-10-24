@@ -1,4 +1,4 @@
-export const metadata = { title: "Privacy Policy", description: "Minimal data, no data sales, anonymous statistics." };
+export const metadata = { title: "Privacy Policy", description: "Minimal data, no data sales, anonymous statistics.", alternates: { canonical: "/privacy/" } };
 
 export default function Page() {
   return (

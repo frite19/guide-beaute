@@ -5,6 +5,7 @@ import { COMPARATIFS } from "@/data/guides";
 export const metadata: Metadata = {
   title: "2026 Beauty Comparisons: Brushes, Skincare, Makeup",
   description: "Our honest beauty comparisons: hot-air brushes, facial skincare, makeup. Verifiable criteria, alternatives and transparent retailer links.",
+  alternates: { canonical: "/comparisons/" },
 };
 
 export default function ComparisonsPage() {

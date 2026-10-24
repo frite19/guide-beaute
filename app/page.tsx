@@ -1,9 +1,14 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { CATEGORIES, PRODUCTS, SITE } from "@/data/catalog";
 import { COMPARATIFS, GUIDES } from "@/data/guides";
 import { ProductCard } from "@/components/ProductCard";
 import { Disclosure } from "@/components/Disclosure";
 import { AffiliateButton } from "@/components/AffiliateButton";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 export default function Home() {
   const selection = PRODUCTS.filter((p) => p.statut === "active").slice(0, 6);

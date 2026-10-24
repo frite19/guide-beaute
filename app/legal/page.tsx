@@ -1,4 +1,4 @@
-export const metadata = { title: "Legal Notice", description: "Publisher, hosting, intellectual property." };
+export const metadata = { title: "Legal Notice", description: "Publisher, hosting, intellectual property.", alternates: { canonical: "/legal/" } };
 
 export default function Page() {
   return (

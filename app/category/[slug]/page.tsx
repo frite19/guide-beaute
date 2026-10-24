@@ -15,6 +15,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   return {
     title: `${cat.nom}: 2026 Comparison & Top Picks`,
     description: `${cat.nom} — ${cat.description} Honest comparison, detailed reviews and transparent retailer links.`,
+    alternates: { canonical: `/category/${cat.slug}/` },
   };
 }
 

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { COMPARATIFS } from "@/data/guides";
 import { getProduct } from "@/data/catalog";
@@ -13,7 +14,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: { slug: string } }) {
   const g = COMPARATIFS.find((x) => x.slug === params.slug);
   if (!g) return {};
-  return { title: g.titre, description: g.description };
+  return { title: g.titre, description: g.description, alternates: { canonical: `/comparisons/${g.slug}/` } };
 }
 
 const CONTENUS: Record<

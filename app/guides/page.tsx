@@ -5,6 +5,7 @@ import { GUIDES } from "@/data/guides";
 export const metadata: Metadata = {
   title: "Beauty Buying Guides for Beginners",
   description: "Simple routines, vitamin C, beauty budgets: clear guides with argued recommendations and transparent retailer links.",
+  alternates: { canonical: "/guides/" },
 };
 
 export default function GuidesPage() {

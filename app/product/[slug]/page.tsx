@@ -16,6 +16,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   return {
     title: `${p.nom}: Honest Review, Pros & Cons`,
     description: `${p.nom} (${p.marque}) — ${p.description.slice(0, 150)}. Detailed review, alternatives and transparent retailer link.`,
+    alternates: { canonical: `/product/${p.slug}/` },
   };
 }
 

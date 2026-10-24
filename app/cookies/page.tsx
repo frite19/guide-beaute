@@ -1,4 +1,4 @@
-export const metadata = { title: "Cookie Policy", description: "Strictly necessary storage only." };
+export const metadata = { title: "Cookie Policy", description: "Strictly necessary storage only.", alternates: { canonical: "/cookies/" } };
 
 export default function Page() {
   return (

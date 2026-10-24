@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { GUIDES } from "@/data/guides";
 import { getProduct } from "@/data/catalog";
@@ -8,6 +9,12 @@ import { ProductCard } from "@/components/ProductCard";
 
 export function generateStaticParams() {
   return GUIDES.map((g) => ({ slug: g.slug }));
+}
+
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+  const g = GUIDES.find((x) => x.slug === params.slug);
+  if (!g) return {};
+  return { title: g.titre, description: g.description, alternates: { canonical: `/guides/${g.slug}/` } };
 }
 
 const ARTICLES: Record<string, string[][]> = {
