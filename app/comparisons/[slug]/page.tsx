@@ -66,7 +66,7 @@ const CONTENUS: Record<
       { critere: "Format", a: "Cream stick, applied from the tube", b: "Lotion cream, worked into the skin" },
       { critere: "Finish", a: "Natural matte, shine-free", b: "Skin-like, soft glow" },
       { critere: "Role", a: "Evens out tone on top of a base", b: "Does the hydrating work itself" },
-      { critere: "Coverage", a: "Buildable, light to medium", b: "Light, used as a base layer" },
+      { critere: "Coverage", a: "Natural matte, as described on the listing", b: "Light, used as a base layer" },
       { critere: "Best for", a: "Normal to combination skin, or on the go", b: "Dry to normal skin, morning and night" },
       { critere: "Skip if", a: "Very dry or flaky skin with no rich base first", b: "Oily skin that needs matte control" },
     ],
