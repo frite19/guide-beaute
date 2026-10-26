@@ -11,12 +11,13 @@
 |---|---|---|---|
 | `comparatifs/C1-shea-butter-vs-body-oil.md` | comparatif | **texte complet** | ✅ karité |
 | `comparatifs/C2-body-oil-vs-body-lotion.md` | comparatif | **texte complet** | ✅ CeraVe + karité |
-| `comparatifs/C3-oil-body-wash-vs-body-wash.md` | comparatif | **texte complet** | ❌ aucun produit |
+| `comparatifs/C3-oil-body-wash-vs-body-wash.md` | comparatif | **texte complet** | ✅ Naturium |
 | `guides/G1-body-oil-before-or-after-lotion.md` | guide | **texte complet** | ✅ CeraVe + karité |
 | `guides/G2-dry-body-oil-vs-body-lotion.md` | guide | **texte complet** | ✅ karité (partiel) |
 | `guides/G3-body-glow-oil.md` | guide | **texte complet** | ⚠️ karité seulement |
 | `guides/G4-fragrance-free-body-oil-sensitive-skin.md` | guide | **plan détaillé** | ✅ karité + CeraVe |
 | `guides/G5-hair-oil-vs-body-oil.md` | guide | **plan détaillé** | ✅ karité |
+| `produits/P0-naturium-glow-getter.md` | fiche produit | **vérifiée, non intégrée** | ✅ ASIN `B0B1PDDLGZ` |
 | `pins/pins-body-oil-12.md` | 12 pins | textes prêts | — |
 | `../strategie-body-oil-2026-10-26.md` | stratégie | analyse + plan | — |
 
@@ -42,7 +43,7 @@ Dès que tu dis oui, j'implémente **C1 puis G1** dans `data/guides.ts` + `app/`
 | # | Élément | Pourquoi | Bloquant ? |
 |---|---|---|---|
 | 1 | **ASIN huile corporelle** | monétiser G2, G3 et une partie de C2 | non (page éducative possible) |
-| 2 | **ASIN huile de douche** | monétiser C3 (requête n°1 du corpus : intérêt 100) | non, mais c'est **la** page qui rapporterait le plus |
+| 2 | ~~ASIN huile de douche~~ | ✅ **fait : Naturium B0B1PDDLGZ** | — |
 | 3 | **ASIN beurre corporel** | couvrir `body butter` (57) | non |
 | 4 | **Ton prénom + 1 phrase de bio** | page auteur / E-E-A-T pour Google | non |
 | 5 | **Validation des visuels** | 12 images à produire | oui, avant publication |
