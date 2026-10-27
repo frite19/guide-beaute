@@ -401,6 +401,55 @@ slug: "revlon-compact-hair-dryer-1875w",
       { q: "Does it really last 12 hours?", a: "That figure is a claim from the listing itself, not an independent test." },
     ],
   },
+  {
+    // NOTE: image is hotlinked from the Amazon CDN on purpose.
+    // Amazon Associates allows displaying product images from their servers,
+    // but forbids downloading/caching them (no copy in /public, no next/image).
+    slug: "naturium-glow-getter-multi-oil-body-wash",
+    nom: "Naturium The Glow Getter Multi-Oil Body Wash",
+    marque: "Naturium",
+    categorie: "body-bath",
+    description:
+      "A multi-oil body wash that turns from oil into a light lather, with glycerin listed first and a blend of sea buckthorn, rose hip, jojoba and squalane. Marketed for all skin types as a gentle cleanser that does not strip moisture. 16.9 fl oz.",
+    image: "https://m.media-amazon.com/images/I/51UQAhpL9ML._SL1500_.jpg",
+    imageAlt: "Clear pump bottle of pale yellow multi-oil body wash",
+    caracteristiques: [
+      "16.9 fl oz (500 ml)",
+      "Glycerin listed first, before water",
+      "Multi-oil blend: sea buckthorn, rose hip, jojoba, squalane",
+      "Oil-to-lather texture",
+      "Marketed as a gentle cleanser for all skin types",
+      "No SLS or SLES in the ingredient list",
+      "No added fragrance in the ingredient list; scent comes from botanical extracts",
+      "Sold as vegan, cruelty free and paraben free on the listing",
+    ],
+    avantages: [
+      "Cleanses without the tight feeling a strong gel wash leaves behind",
+      "One bottle for shower and shaving",
+      "Large 500 ml format",
+      "Full ingredient list is published, so you can check it before buying",
+    ],
+    inconvenients: [
+      "Still contains surfactants: it is a wash, not pure oil",
+      "Scented by botanical extracts, so not a truly fragrance-free product",
+      "Pump bottle is less practical for travel than a small format",
+    ],
+    publicIdeal: "Dry to normal body skin that feels tight after a classic body wash, and anyone who wants a gentle oil-to-lather cleanser.",
+    casUsage: ["Daily shower", "Shaving base", "Winter body cleansing"],
+    prixIndicatif: null,
+    prixVerifieLe: null,
+    marchand: "Amazon",
+    urlAffiliation: "https://www.amazon.com/dp/B0B1PDDLGZ?tag=eclatia20-20",
+    statut: "active",
+    majLe: "2026-10-26",
+    noteRedaction: 4.4,
+    faq: [
+      { q: "Is it pure oil?", a: "No. It is a body wash built on glycerin with a multi-oil blend, and it lathers. It cleanses gently rather than coating the skin like a body oil does." },
+      { q: "Is it fragrance-free?", a: "The ingredient list shows no added fragrance. The scent comes from botanical extracts such as vanilla, gardenia and clove, so it is not unscented." },
+      { q: "Does it contain sulfates?", a: "Neither SLS nor SLES appears in the ingredient list published on the listing. Formulas can change, so check the bottle on arrival." },
+      { q: "How much should I use?", a: "One pump is enough for the body. Like any wash, using more does not clean better." },
+    ],
+  },
 ];
 
 export function getProduct(slug: string) {
