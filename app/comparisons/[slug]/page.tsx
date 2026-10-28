@@ -205,6 +205,23 @@ export default function ComparisonDetail({ params }: { params: { slug: string } 
             </table>
           </>
         )}
+        {produits.length > 0 && produits[0] && (
+          <div className="affiliate-box" style={{ marginTop: 18 }}>
+            <div>
+              <strong>Want to see the current offer?</strong><br />
+              <span style={{ color: "#d9c4b4", fontSize: "0.9rem" }}>
+                Stock, size and price are confirmed at {produits[0].marchand} when you click.
+              </span>
+            </div>
+            <AffiliateButton
+              url={produits[0].urlAffiliation}
+              productSlug={produits[0].slug}
+              category={produits[0].categorie}
+              merchant={produits[0].marchand}
+              label="Check price"
+            />
+          </div>
+        )}
         {c.sections?.map((s) => (
           <section key={s.h2}>
             <h2>{s.h2}</h2>

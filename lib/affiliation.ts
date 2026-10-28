@@ -16,11 +16,10 @@ export function trackAffiliateClick(args: {
     arr.push({ ...args, at: new Date().toISOString() });
     localStorage.setItem(key, JSON.stringify(arr.slice(-500)));
   } catch {}
-  try {
-    // 2) Anonymous beacon to the API (no IP stored, see route.ts)
-    const blob = new Blob([JSON.stringify(args)], { type: "application/json" });
-    navigator.sendBeacon("/api/clicks", blob);
-  } catch {}
+  // Note: pas d'envoi serveur. Le site est un export statique (aucune route /api) :
+  // un sendBeacon vers /api/clicks renvoyait 404 à chaque clic.
+  // Les clics réels se lisent dans Amazon Associates (Reports > Clicks)
+  // et le trafic dans Cloudflare Web Analytics.
 }
 
 export function useAffiliateClick(meta: {

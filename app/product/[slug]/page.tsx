@@ -5,6 +5,7 @@ import { PRODUCTS, getCategory, getProduct, getProductsByCategory } from "@/data
 import { AffiliateButton } from "@/components/AffiliateButton";
 import { Disclosure } from "@/components/Disclosure";
 import { ProductCard } from "@/components/ProductCard";
+import { StickyBuyBar } from "@/components/StickyBuyBar";
 
 export function generateStaticParams() {
   return PRODUCTS.map((p) => ({ slug: p.slug }));
@@ -129,6 +130,13 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
           </div>
         )}
       </section>
+      <StickyBuyBar
+        url={p.urlAffiliation}
+        productSlug={p.slug}
+        category={p.categorie}
+        merchant={p.marchand}
+        productName={p.nom}
+      />
     </>
   );
 }
