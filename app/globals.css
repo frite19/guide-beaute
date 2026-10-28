@@ -156,6 +156,16 @@ img { max-width: 100%; height: auto; }
   background: #221a16; color: #fbf1e8; border-radius: 16px; padding: 18px;
   display: flex; gap: 14px; align-items: center; justify-content: space-between; flex-wrap: wrap;
 }
+
+/* Réponse directe en haut de page (format « position zéro »). */
+.answer-box {
+  background: #fffdf9; border: 1px solid var(--line); border-left: 4px solid var(--gold);
+  border-radius: 12px; padding: 14px 16px; margin: 18px 0 6px;
+}
+.answer-box strong {
+  font-family: var(--font-display); font-size: 1.02rem; color: var(--ink);
+}
+.answer-box p { margin: 6px 0 0; }
 .disclosure {
   background: #fff8ec; border: 1px solid #ecd9a8; border-radius: 12px;
   padding: 12px 14px; font-size: 0.88rem; color: #6b5a2e;

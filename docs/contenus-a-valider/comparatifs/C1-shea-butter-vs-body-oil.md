@@ -4,7 +4,12 @@
 **Type :** comparatif (2 options)
 **Requêtes couvertes :** body butter (57) · shea butter · body oil (62 requêtes du corpus) · body oil for dry skin (12)
 **Monétisation :** beurre de karité 16 oz (produit vérifié, en stock)
-**Statut :** brouillon à approuver — rien n'est publié.
+**Statut :** ✅ **PUBLIÉ le 28/10/2026** — commit `0735b03`
+**URL en ligne :** https://guide-beaute.pages.dev/comparisons/shea-butter-vs-body-oil/
+**Version publiée :** anglais (la version ci-dessous est le brouillon français de référence).
+Sections ajoutées à la rédaction finale : « The 3 cases where raw shea butter is the wrong pick »,
+« How this page was built » (méthode, pas de test), FAQ en 5 questions balisée en FAQPage.
+**Visuel :** `public/images/guides/shea-butter-vs-body-oil.jpg` (notre visuel généré, pas une photo Amazon).
 
 ---
 

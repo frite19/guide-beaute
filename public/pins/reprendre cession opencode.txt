@@ -1,0 +1,15 @@
+Session archivée ✅
+
+**Fichier : `D:\open application\guide-beaute\docs\session-2026-10-17.md`** (6,5 Ko)
+
+Contient tout pour reprendre plus tard :
+- Les 5 URLs de pins + images + boards + liens de la semaine 1
+- Toutes les règles (affiliation, routes du site, publication à la main "")
+- L'état complet des images (chaque photo mappée + les 2 conservées volontairement)
+- Les leçons techniques (Pexels UA header, Unsplash bloqué, miniatures mensongères…)
+- Les scripts utiles (`checkpin.py` — juste éditer l'URL du pin)
+- Le plan de la semaine 2 (stats 48-72h, re-pins, prochains visuels)
+
+(Le fichier `session-2026-10-16.md` de l'autre conversation reste en place pour l'historique complet.)
+
+Prochaine session → dis-moi simplement « reprendre la session du 17 » et je relirai l'archive.

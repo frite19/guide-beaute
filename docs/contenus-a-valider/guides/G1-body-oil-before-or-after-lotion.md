@@ -1,10 +1,14 @@
-# G1 — Body Oil Before or After Lotion? The Correct Order
+# G1 — Body Oil Before or After Lotion? The Correct Order — ✅ PUBLIÉ le 28/10/2026
 
+**URL :** https://guide-beaute.pages.dev/guides/body-oil-before-or-after-lotion/
 **Slug :** `/guides/body-oil-before-or-after-lotion/`
 **Type :** guide d'arbitrage (réponse directe)
 **Requêtes couvertes :** *does body oil go on before or after lotion* (+90 %) · body oil or lotion first (11) · lotion or body oil first (11)
 **Monétisation :** CeraVe 19 oz + beurre de karité
-**Statut :** brouillon à approuver.
+**Statut :** publié — la version anglaise en ligne fait foi (`app/guides/[slug]/page.tsx`, clé `body-oil-before-or-after-lotion`).
+
+> Ce document est le brief français d'origine. La page publiée est en anglais et conserve : réponse directe dans les 40 premiers mots, tableau des deux familles d'ingrédients, séquence en 4 étapes, 4 erreurs, 3 cas où la règle change, FAQ (6 questions, balisage FAQPage), aucun prix.
+> Différences assumées : board Pinterest `Body Care & Dry Skin` (au lieu de « Body Oil Guide », qui n'existe pas encore), encart produit CeraVe placé juste après la séquence, liens internes limités aux pages réellement publiées.
 
 ---
 

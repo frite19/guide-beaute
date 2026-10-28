@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>7 pins Éclatia — semaine 2</title>
+<style>
+  :root{--ink:#3f2a1d;--line:#e5dbd0;--muted:#7a6a5c;--bg:#faf7f3;--accent:#1f4f4a}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+  header{padding:28px 32px 10px;max-width:1400px;margin:0 auto}
+  h1{font-size:26px;margin:0 0 6px}
+  header p{margin:4px 0;color:var(--muted);font-size:14px;line-height:1.5}
+  .warn{display:inline-block;margin-top:12px;background:#fff3cd;border:1px solid #e8c96a;color:#6b4e00;padding:8px 12px;border-radius:8px;font-size:13px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:22px;padding:20px 32px 60px;max-width:1400px;margin:0 auto}
+  .card{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+  .imgwrap{background:#eee;position:relative}
+  .imgwrap img{width:100%;display:block}
+  .day{position:absolute;top:10px;left:10px;background:var(--ink);color:#fff;font-size:12px;font-weight:700;padding:5px 10px;border-radius:999px}
+  .body{padding:14px 16px 18px;display:flex;flex-direction:column;gap:10px}
+  .board{font-size:12px;color:var(--accent);font-weight:700;text-transform:uppercase;letter-spacing:.4px}
+  .field label{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);margin-bottom:3px}
+  .row{display:flex;gap:8px;align-items:flex-start}
+  .val{flex:1;font-size:13.5px;line-height:1.45;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:7px 9px;white-space:pre-wrap;word-break:break-word}
+  .val.link{font-family:ui-monospace,Consolas,monospace;font-size:11.5px}
+  button{cursor:pointer;border:1px solid var(--line);background:#fff;border-radius:8px;padding:7px 10px;font-size:12px;white-space:nowrap}
+  button:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
+  button.ok{background:#1f4f4a;color:#fff;border-color:#1f4f4a}
+  footer{max-width:1400px;margin:0 auto;padding:0 32px 60px;color:var(--muted);font-size:13px;line-height:1.6}
+</style>
+</head>
+<body>
+<header>
+  <h1>7 pins Éclatia — semaine 2</h1>
+  <p>Créés le 23/10/2026 · visuels 1000 × 1500 px · 1 pin par jour pendant 7 jours.</p>
+  <p>Publication manuelle : <strong>pinterest.com/pin-creation-tool</strong>. Chaque lien pointe vers une page du site, jamais vers Amazon.</p>
+  <div class="warn">Rien n'est publié. Vérifie chaque visuel, puis copie les textes avec les boutons.</div>
+</header>
+
+<div class="grid" id="grid"></div>
+
+<footer>
+  Règles : ne jamais modifier l'URL d'un pin déjà publié (Pinterest réinitialise ses statistiques de lien) · 2 modifications max par pin, espacées de 24 h · vérifier que le lien ouvre <strong>guide-beaute.pages.dev</strong> et pas eclatia-guide.com.
+</footer>
+
+<script>
+const PINS = [
+  {
+    day: "Jour 1", img: "01-Cetaphil-nettoyant.png",
+    board: "Skincare Routine for Beginners",
+    title: "Cetaphil Daily Cleanser + Lotion Set Review - 16 oz Bundle",
+    desc: "What is really in the box: a 16 oz gentle daily face wash plus a 2 oz moisturizing lotion, marketed for sensitive and dry skin as non-irritating and dermatologist recommended. The size imbalance to know before buying. #sensitiveskin #skincare #cetaphil",
+    link: "https://guide-beaute.pages.dev/product/cetaphil-daily-cleanser-lotion/",
+    alt: "Gentle face wash close-up."
+  },
+  {
+    day: "Jour 2", img: "02-Maybelline-mascara.png",
+    board: "Makeup for Dry Skin Natural Base",
+    title: "Maybelline Lash Sensational Sky High Mascara Review - Washable Volume",
+    desc: "Washable, buildable mascara in Blackest Black, marketed for volume, length, definition and curl. How it wears during the day, why washable formulas can transfer, and the 3-month replacement rule. #mascara #makeup #maybelline",
+    link: "https://guide-beaute.pages.dev/product/volume-length-mascara/",
+    alt: "Mascara brush and container on a marble surface."
+  },
+  {
+    day: "Jour 3", img: "03-Revlon-seche-cheveux.png",
+    board: "Hot Air Brush and Hair Styling Ideas",
+    title: "Revlon Compact Hair Dryer 1875W Review - Lightweight Travel Power",
+    desc: "Lightweight, travel-friendly 1875 W hair dryer built for drying power rather than styling attachments. What the listing confirms, what it does not, and who it actually suits. Honest review, no invented prices. #haircare #hairdryer #beautytravel",
+    link: "https://guide-beaute.pages.dev/product/revlon-compact-hair-dryer-1875w/",
+    alt: "Close-up of a red compact hair dryer."
+  },
+  {
+    day: "Jour 4", img: "04-Routine-eclat.png",
+    board: "Skincare Routine for Beginners",
+    title: "Beginner Glow Routine - 4 Steps in 5 Minutes (No 10-Product Shelf)",
+    desc: "The minimal skincare routine for beginners: cleanse, treat, moisturize, protect. Which step does what, how to start without irritation, and which products are actually worth buying first. #skincareroutine #beginnerskincare #glowingskin",
+    link: "https://guide-beaute.pages.dev/guides/beginner-glow-routine/",
+    alt: "Hands applying moisturizer."
+  },
+  {
+    day: "Jour 5", img: "05-Eraser-concealer.png",
+    board: "Makeup for Dry Skin Natural Base",
+    title: "Maybelline Age Rewind Eraser Concealer Review - Shade 110",
+    desc: "Multi-use concealer marketed to conceal, contour and correct, with a crease-resistant formula for under eyes and dark spots and up to 12 hours of wear. Sponge-tip application, shade 110, and the limitations to know. #concealer #makeup #darkcircles",
+    link: "https://guide-beaute.pages.dev/product/age-rewind-eraser-concealer/",
+    alt: "Illustrative photo: concealer being applied under the eye, product packaging may differ."
+  },
+  {
+    day: "Jour 6", img: "06-Brosse-chauffante-alternatives.png",
+    board: "Hot Air Brush and Hair Styling Ideas",
+    title: "Viral Heated Brush Alternatives - 2 Sensible Options for USA Hair",
+    desc: "On the fence about the viral one-step heated brush? Compare it with a powerful 1875 W dryer: drying speed, volume, frizz and who each one really suits. A clear guide, no hype, no fake prices. #hairstyling #hotairbrush #hairtips",
+    link: "https://guide-beaute.pages.dev/guides/alternatives-to-viral-heated-brush/",
+    alt: "Hair stylist blow-drying a client's wet hair in a salon."
+  },
+  {
+    day: "Jour 7", img: "07-Shea-beurre-karite.png",
+    board: "Skincare Routine for Beginners (ou nouveau tableau : Body Care & Dry Skin)",
+    title: "Raw Shea Butter 16 oz - Solid Butter, Not a Body Oil",
+    desc: "Raw, unrefined, degummed ivory shea butter in a 16 oz (473 ml) tub. It is a solid butter that melts on contact with warm skin, not a ready-to-use oil. Best uses, texture, scent, and who should skip it. #sheabutter #bodycare #dryskin",
+    link: "https://guide-beaute.pages.dev/product/raw-shea-butter-16oz/",
+    alt: "Illustrative photo: a jar of pale yellow cream with wood and dried flowers."
+  }
+];
+
+let uid = 0;
+function field(label, value, mono) {
+  uid++;
+  const id = "f" + uid;
+  return `<div class="field">
+    <label>${label}</label>
+    <div class="row">
+      <div class="val ${mono ? "link" : ""}" id="${id}">${value.replace(/</g,"&lt;")}</div>
+      <button onclick="copyText('${id}', this)">Copier</button>
+    </div>
+  </div>`;
+}
+
+function copyText(id, btn) {
+  const text = document.getElementById(id).textContent;
+  const done = () => { const old = btn.textContent; btn.textContent = "Copié ✓"; btn.classList.add("ok"); setTimeout(() => { btn.textContent = old; btn.classList.remove("ok"); }, 1400); };
+  if (navigator.clipboard && window.isSecureContext) {
+    navigator.clipboard.writeText(text).then(done).catch(() => fallback(text, done));
+  } else { fallback(text, done); }
+}
+function fallback(text, done) {
+  const ta = document.createElement("textarea");
+  ta.value = text; ta.style.position = "fixed"; ta.style.left = "-9999px";
+  document.body.appendChild(ta); ta.select();
+  try { document.execCommand("copy"); done(); } catch (e) { alert("Copie impossible : sélectionne le texte à la main."); }
+  document.body.removeChild(ta);
+}
+
+document.getElementById("grid").innerHTML = PINS.map((p, i) => `
+  <article class="card">
+    <div class="imgwrap">
+      <span class="day">${p.day}</span>
+      <a href="${p.img}" target="_blank"><img src="${p.img}" alt="${p.alt}" loading="lazy"></a>
+    </div>
+    <div class="body">
+      <div class="board">${p.board}</div>
+      ${field("Titre", p.title)}
+      ${field("Description", p.desc)}
+      ${field("Lien de destination", p.link, true)}
+      ${field("Alt text (optionnel)", p.alt)}
+      <div style="font-size:12px;color:#7a6a5c">Fichier : <strong>${p.img}</strong> · <a href="${p.img}" target="_blank">ouvrir en grand</a></div>
+    </div>
+  </article>
+`).join("");
+</script>
+</body>
+</html>

@@ -59,6 +59,17 @@ export const COMPARATIFS: Guide[] = [
 
 export const GUIDES: Guide[] = [
   {
+    slug: "body-oil-before-or-after-lotion",
+    type: "guide",
+    titre: "Body Oil Before or After Lotion? The Correct Order",
+    description: "Lotion first, oil last. Why the reverse order leaves skin greasy on top and still tight underneath, the 90-second sequence, and the 3 cases where the rule changes.",
+    image: "/images/guides/body-oil-before-or-after-lotion.jpg",
+    imageAlt: "A hand and body wash bottle next to a hand and body lotion bottle on a bathroom tray (illustrative photo)",
+    majLe: "2026-10-28",
+    lectureMin: 6,
+    produitsLies: ["ceramide-moisturizing-cream", "raw-shea-butter-16oz"],
+  },
+  {
     slug: "beginner-glow-routine",
     type: "guide",
     titre: "Beginner Glow Routine: 4 Steps, 5 Minutes",
