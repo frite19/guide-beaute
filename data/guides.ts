@@ -44,6 +44,17 @@ export const COMPARATIFS: Guide[] = [
     lectureMin: 5,
     produitsLies: ["age-rewind-eraser-concealer", "fit-me-shine-free-balance-stick", "ceramide-moisturizing-cream"],
   },
+  {
+    slug: "shea-butter-vs-body-oil",
+    type: "comparison",
+    titre: "Shea Butter vs Body Oil: Which One for Dry Skin?",
+    description: "Solid butter or liquid oil? Texture, absorption, scent and who each one suits, plus the 3 cases where raw shea butter is the wrong pick.",
+    image: "/images/guides/shea-butter-vs-body-oil.jpg",
+    imageAlt: "A jar of raw shea butter next to a bottle of body oil on a linen surface",
+    majLe: "2026-10-28",
+    lectureMin: 7,
+    produitsLies: ["raw-shea-butter-16oz"],
+  },
 ];
 
 export const GUIDES: Guide[] = [
