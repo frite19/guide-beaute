@@ -1,10 +1,9 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { COMPARATIFS } from "@/data/guides";
 import { getProduct } from "@/data/catalog";
 import { AffiliateButton } from "@/components/AffiliateButton";
-import { Disclosure } from "@/components/Disclosure";
 import { ProductCard } from "@/components/ProductCard";
 
 export function generateStaticParams() {
@@ -25,9 +24,9 @@ type Contenu = {
   libelleA?: string;
   libelleB?: string;
   tableau: { critere: string; a: string; b: string }[];
-  /** Sections rédigées entre le tableau et le verdict (h2 + paragraphes + listes). */
+  /** Sections rÃ©digÃ©es entre le tableau et le verdict (h2 + paragraphes + listes). */
   sections?: Bloc[];
-  /** FAQ affichée en <details> + balisage FAQPage. */
+  /** FAQ affichÃ©e en <details> + balisage FAQPage. */
   faq?: { q: string; a: string }[];
 };
 
@@ -37,7 +36,7 @@ const CONTENUS: Record<string, Contenu> = {
       "Looking for the best hot-air brush without falling for fake reviews? Here is the short version: the one-step heated brush is the simplest option for fine to normal hair, because it dries and adds volume in a single pass. For thick hair or pure express drying, a powerful dryer still wins.",
       "Our method: we compare the rated power, the heat and speed settings, what each tool physically includes, and the type of hair each one suits. We only publish figures we can confirm on the product page, and everything else is marked as to be checked at the retailer.",
     ],
-    verdict: "Verdict: volume in one motion on fine to normal hair → one-step heated brush. Speed and heavy volume on thick hair → 1875 W dryer. Both links below go to the retailer to check the current price, stock and exact specification.",
+    verdict: "Verdict: volume in one motion on fine to normal hair â†’ one-step heated brush. Speed and heavy volume on thick hair â†’ 1875 W dryer. Both links below go to the retailer to check the current price, stock and exact specification.",
     libelleA: "One-step heated brush",
     libelleB: "1875 W hair dryer",
     tableau: [
@@ -51,13 +50,13 @@ const CONTENUS: Record<string, Contenu> = {
   "one-step-brush-vs-powerful-dryer": {
     intro: [
       "An honest duel: the one-step heated brush bets on simplicity (one tool, one motion, volume as it dries), the 1875 W dryer bets on raw power and portability.",
-      "Choose by hair type: fine to normal and rushed in the morning → heated brush. Thick, curly or simply in a hurry after the gym → powerful dryer.",
+      "Choose by hair type: fine to normal and rushed in the morning â†’ heated brush. Thick, curly or simply in a hurry after the gym â†’ powerful dryer.",
     ],
     verdict: "If you keep only one: heated brush for simplicity, 1875 W dryer for power and travel. Heat settings, accessories and warranty vary, so confirm them at the retailer before you buy.",
     libelleA: "One-step heated brush",
     libelleB: "1875 W hair dryer",
     tableau: [
-      { critere: "Styling time", a: "One pass, volume as you dry", b: "3–6 min drying, then style" },
+      { critere: "Styling time", a: "One pass, volume as you dry", b: "3â€“6 min drying, then style" },
       { critere: "Learning curve", a: "Low", b: "Low" },
       { critere: "Weak point", a: "Underpowered on very thick hair", b: "No volume or style on its own" },
       { critere: "Travel", a: "Bulky relative to a dryer", b: "Lightweight, built for travel" },
@@ -66,7 +65,7 @@ const CONTENUS: Record<string, Contenu> = {
   "best-foundation-for-dry-skin": {
     intro: [
       "Most dry-skin foundation advice assumes a liquid or serum formula. A foundation stick behaves differently: the compact cream is denser, goes on in thin layers, and its matte finish sits on top of the skin instead of melting into it. On dehydrated skin that reads flat rather than luminous.",
-      "That does not make the stick a bad choice — it changes the order of the routine. On dry or normal-to-dry skin the cream base has to go on first, in enough quantity to do its job. The stick then only has to even out the tone, not carry the hydration.",
+      "That does not make the stick a bad choice â€” it changes the order of the routine. On dry or normal-to-dry skin the cream base has to go on first, in enough quantity to do its job. The stick then only has to even out the tone, not carry the hydration.",
       "The realistic expectation: a matte stick will never give you a dewy finish. What it does give you is speed, a controlled shine level, and a format that survives a bag.",
     ],
     verdict:
@@ -190,12 +189,11 @@ export default function ComparisonDetail({ params }: { params: { slug: string } 
       {faqLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />}
       <p style={{ margin: "22px 0 0", fontSize: "0.88rem" }}><Link href="/">Home</Link> / <Link href="/comparisons">Comparisons</Link> / {g.titre}</p>
       <h1 style={{ fontFamily: "var(--font-display)", margin: "8px 0" }}>{g.titre}</h1>
-      <p style={{ color: "var(--muted)" }}>{g.description} · {g.lectureMin} min read · Updated {g.majLe}</p>
+      <p style={{ color: "var(--muted)" }}>{g.description} Â· {g.lectureMin} min read Â· Updated {g.majLe}</p>
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img src={g.image} alt={g.imageAlt} style={{ borderRadius: 18, width: "100%", maxHeight: 380, objectFit: "cover" }} />
       <div className="prose" style={{ marginTop: 16 }}>
         {c.intro.map((p, i) => <p key={i}>{p}</p>)}
-        <Disclosure />
         {c.tableau.length > 0 && (
           <>
             <h2>Comparison table</h2>
@@ -234,7 +232,7 @@ export default function ComparisonDetail({ params }: { params: { slug: string } 
         <p>{c.verdict}</p>
         <div style={{ display: "flex", gap: 10, flexWrap: "wrap", margin: "12px 0" }}>
           {produits.map((p) => p && (
-            <AffiliateButton key={p.slug} url={p.urlAffiliation} productSlug={p.slug} category={p.categorie} merchant={p.marchand} label={`View: ${p.nom.slice(0, 28)}…`} />
+            <AffiliateButton key={p.slug} url={p.urlAffiliation} productSlug={p.slug} category={p.categorie} merchant={p.marchand} label={`View: ${p.nom.slice(0, 28)}â€¦`} />
           ))}
         </div>
         {c.faq && c.faq.length > 0 && (

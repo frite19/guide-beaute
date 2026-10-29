@@ -1,11 +1,10 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Fragment } from "react";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { GUIDES } from "@/data/guides";
 import { getProduct } from "@/data/catalog";
 import { AffiliateButton } from "@/components/AffiliateButton";
-import { Disclosure } from "@/components/Disclosure";
 import { ProductCard } from "@/components/ProductCard";
 
 export function generateStaticParams() {
@@ -30,13 +29,13 @@ type Bloc = {
 
 type Contenu = {
   intro?: string[];
-  /** Réponse directe, affichée dans un encadré juste après l'intro (format « position zéro »). */
+  /** RÃ©ponse directe, affichÃ©e dans un encadrÃ© juste aprÃ¨s l'intro (format Â« position zÃ©ro Â»). */
   reponse?: string;
   blocs: Bloc[];
-  /** Encart produit affiché après le bloc d'index donné (0 = premier bloc). */
+  /** Encart produit affichÃ© aprÃ¨s le bloc d'index donnÃ© (0 = premier bloc). */
   ctaApresBloc?: number;
   faq?: { q: string; a: string }[];
-  /** Maillage interne : uniquement des pages publiées. */
+  /** Maillage interne : uniquement des pages publiÃ©es. */
   liens?: { href: string; label: string }[];
 };
 
@@ -68,7 +67,7 @@ const CONTENUS: Record<string, Contenu> = {
           "Shower in warm water, not hot. Very hot water strips the lipid film faster than it takes to replace it.",
           "Get out and pat the skin dry with a towel, without rubbing until it is completely dry. Slightly damp is the goal.",
           "Apply the lotion or the cream to the whole body within about three minutes, while the skin is still damp. This is where hydration happens.",
-          "Apply the oil or the butter last: a small amount, only on the areas that still feel tight — elbows, knees, heels, feet.",
+          "Apply the oil or the butter last: a small amount, only on the areas that still feel tight â€” elbows, knees, heels, feet.",
         ],
         p: [
           "Total time: about 90 seconds, with no extra product. If you feel you need much more oil, the first step was usually too light rather than the oil being too scarce.",
@@ -97,7 +96,7 @@ const CONTENUS: Record<string, Contenu> = {
       {
         h2: "Where a shower oil fits",
         p: [
-          "A shower oil cleans while sparing the lipid film. It does not replace the lotion or the body oil: it changes the first step, the cleansing, not the hydration step. If you use one, you can sometimes skip the body oil — never the lotion on very dry skin.",
+          "A shower oil cleans while sparing the lipid film. It does not replace the lotion or the body oil: it changes the first step, the cleansing, not the hydration step. If you use one, you can sometimes skip the body oil â€” never the lotion on very dry skin.",
         ],
       },
       {
@@ -114,7 +113,7 @@ const CONTENUS: Record<string, Contenu> = {
       {
         h2: "How this page was built",
         p: [
-          "No test, no lab result, no invented trial. The product details quoted on this page — a 19 oz tub, ceramides and hyaluronic acid, fragrance-free, non-comedogenic; raw, unrefined shea butter in a 16 oz tub — come from the retailer listings checked in October 2026. The rest is standard body-care practice: patch-test a new product on a small area before using it on the whole body.",
+          "No test, no lab result, no invented trial. The product details quoted on this page â€” a 19 oz tub, ceramides and hyaluronic acid, fragrance-free, non-comedogenic; raw, unrefined shea butter in a 16 oz tub â€” come from the retailer listings checked in October 2026. The rest is standard body-care practice: patch-test a new product on a small area before using it on the whole body.",
         ],
       },
     ],
@@ -185,7 +184,7 @@ const CONTENUS: Record<string, Contenu> = {
       {
         h2: "How to use it",
         p: [
-          "Morning on dry skin, 3–4 drops, then cream and SPF. Patch-test 48h on the jawline. Persistent tingling or redness: space out, stop, and seek advice.",
+          "Morning on dry skin, 3â€“4 drops, then cream and SPF. Patch-test 48h on the jawline. Persistent tingling or redness: space out, stop, and seek advice.",
         ],
       },
     ],
@@ -223,7 +222,7 @@ const CONTENUS: Record<string, Contenu> = {
       {
         h2: "Which to pick?",
         p: [
-          "Quick daily routine and fine to normal hair → one-step heated brush. Heavy volume, thick hair, speed → 1875 W dryer. Either way, use heat protection and finish with cool air.",
+          "Quick daily routine and fine to normal hair â†’ one-step heated brush. Heavy volume, thick hair, speed â†’ 1875 W dryer. Either way, use heat protection and finish with cool air.",
         ],
       },
     ],
@@ -253,12 +252,11 @@ export default function GuideDetail({ params }: { params: { slug: string } }) {
       {faqLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />}
       <p style={{ margin: "22px 0 0", fontSize: "0.88rem" }}><Link href="/">Home</Link> / <Link href="/guides">Guides</Link> / {g.titre}</p>
       <h1 style={{ fontFamily: "var(--font-display)", margin: "8px 0" }}>{g.titre}</h1>
-      <p style={{ color: "var(--muted)" }}>{g.description} · {g.lectureMin} min · Updated {g.majLe}</p>
+      <p style={{ color: "var(--muted)" }}>{g.description} Â· {g.lectureMin} min Â· Updated {g.majLe}</p>
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img src={g.image} alt={g.imageAlt} style={{ borderRadius: 18, width: "100%", maxHeight: 380, objectFit: "cover" }} />
       <div className="prose" style={{ marginTop: 16 }}>
         {c.intro?.map((p, i) => <p key={i}>{p}</p>)}
-        <Disclosure />
         {c.reponse && (
           <div className="answer-box">
             <strong>The short answer</strong>
@@ -309,7 +307,7 @@ export default function GuideDetail({ params }: { params: { slug: string } }) {
         <h2>Recommended products in this guide</h2>
         <div style={{ display: "flex", gap: 10, flexWrap: "wrap", margin: "12px 0" }}>
           {produits.map((p) => p && (
-            <AffiliateButton key={p.slug} url={p.urlAffiliation} productSlug={p.slug} category={p.categorie} merchant={p.marchand} label={`View: ${p.nom.slice(0, 30)}…`} />
+            <AffiliateButton key={p.slug} url={p.urlAffiliation} productSlug={p.slug} category={p.categorie} merchant={p.marchand} label={`View: ${p.nom.slice(0, 30)}â€¦`} />
           ))}
         </div>
         {c.faq && c.faq.length > 0 && (

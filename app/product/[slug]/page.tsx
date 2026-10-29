@@ -1,9 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { PRODUCTS, getCategory, getProduct, getProductsByCategory } from "@/data/catalog";
 import { AffiliateButton } from "@/components/AffiliateButton";
-import { Disclosure } from "@/components/Disclosure";
 import { ProductCard } from "@/components/ProductCard";
 import { StickyBuyBar } from "@/components/StickyBuyBar";
 
@@ -16,7 +15,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   if (!p) return {};
   return {
     title: `${p.nom}: Honest Review, Pros & Cons`,
-    description: `${p.nom} (${p.marque}) — ${p.description.slice(0, 150)}. Detailed review, alternatives and transparent retailer link.`,
+    description: `${p.nom} (${p.marque}) â€” ${p.description.slice(0, 150)}. Detailed review, alternatives and transparent retailer link.`,
     alternates: { canonical: `/product/${p.slug}/` },
   };
 }
@@ -53,24 +52,23 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
         <div>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src={p.image} alt={p.imageAlt} />
-          <p className="price-note" style={{ marginTop: 8 }}>Illustrative photo — check the exact look and reference at {p.marchand} when you click.</p>
+          <p className="price-note" style={{ marginTop: 8 }}>Illustrative photo â€” check the exact look and reference at {p.marchand} when you click.</p>
         </div>
         <div>
-          <span className="badge">{p.marque} · {cat?.nom}</span>
+          <span className="badge">{p.marque} Â· {cat?.nom}</span>
           <h1 style={{ fontFamily: "var(--font-display)", margin: "8px 0" }}>{p.nom}</h1>
           <p style={{ color: "var(--muted)" }}>{p.description}</p>
           <p><strong>Best for:</strong> {p.publicIdeal}</p>
           <p className="price-note">
             {p.prixIndicatif
-              ? `Indicative price: ${p.prixDevise ?? "$"}${p.prixIndicatif} (checked ${p.prixVerifieLe}). The actual price may vary — confirmed at the retailer when you click.`
+              ? `Indicative price: ${p.prixDevise ?? "$"}${p.prixIndicatif} (checked ${p.prixVerifieLe}). The actual price may vary â€” confirmed at the retailer when you click.`
               : `No price shown on purpose: prices change fast. Click to see the current verified price at ${p.marchand}.`}
           </p>
           <div style={{ display: "flex", gap: 10, flexWrap: "wrap", margin: "12px 0" }}>
             <AffiliateButton url={p.urlAffiliation} productSlug={p.slug} category={p.categorie} merchant={p.marchand} label="Check price" />
             <AffiliateButton url={p.urlAffiliation} productSlug={p.slug} category={p.categorie} merchant={p.marchand} label="Discover the product" variant="ghost" />
           </div>
-          <Disclosure />
-          <p className="price-note">Review last updated: {p.majLe} · Retailer: {p.marchand}</p>
+          <p className="price-note">Review last updated: {p.majLe} Â· Retailer: {p.marchand}</p>
         </div>
       </div>
 
@@ -80,15 +78,15 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
           <tbody>
             {p.caracteristiques.map((c) => {
               const [k, ...rest] = c.split(":");
-              return <tr key={c}><th>{k}</th><td>{rest.join(":") || "—"}</td></tr>;
+              return <tr key={c}><th>{k}</th><td>{rest.join(":") || "â€”"}</td></tr>;
             })}
           </tbody>
         </table>
 
         <h2>Pros and cons</h2>
         <div className="pros-cons" style={{ fontSize: "0.95rem" }}>
-          <div className="panel"><strong>✅ Strengths</strong><ul>{p.avantages.map((a) => <li key={a}>{a}</li>)}</ul></div>
-          <div className="panel"><strong>⚠️ Honest limits</strong><ul>{p.inconvenients.map((a) => <li key={a}>{a}</li>)}</ul></div>
+          <div className="panel"><strong>âœ… Strengths</strong><ul>{p.avantages.map((a) => <li key={a}>{a}</li>)}</ul></div>
+          <div className="panel"><strong>âš ï¸ Honest limits</strong><ul>{p.inconvenients.map((a) => <li key={a}>{a}</li>)}</ul></div>
         </div>
 
         <h2>Recommended use cases</h2>

@@ -3,7 +3,6 @@ import type { Metadata } from "next";
 import { CATEGORIES, PRODUCTS, SITE } from "@/data/catalog";
 import { COMPARATIFS, GUIDES } from "@/data/guides";
 import { ProductCard } from "@/components/ProductCard";
-import { Disclosure } from "@/components/Disclosure";
 import { AffiliateButton } from "@/components/AffiliateButton";
 
 export const metadata: Metadata = {
@@ -61,8 +60,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <Disclosure />
 
       <section className="section" id="recommandes">
         <div className="section-head">

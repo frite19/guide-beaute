@@ -37,7 +37,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <a href="#contenu" style={{ position: "absolute", left: "-9999px" }}>Skip to content</a>
         <div className="top-disclosure">
-          Independent media — affiliate links disclosed. As an Amazon Associate we earn from qualifying purchases. <Link href="/affiliate-disclosure">How it works</Link>
+          As an Amazon Associate, Éclatia earns from qualifying purchases. <Link href="/affiliate-disclosure">How it works</Link>
         </div>
         <Header />
         <main className="container" id="contenu">{children}</main>
