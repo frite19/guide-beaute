@@ -55,6 +55,17 @@ export const COMPARATIFS: Guide[] = [
     lectureMin: 7,
     produitsLies: ["raw-shea-butter-16oz"],
   },
+  {
+    slug: "body-oil-vs-body-lotion",
+    type: "comparison",
+    titre: "Body Oil vs Body Lotion: What Actually Works for Dry Skin",
+    description: "Oil seals, lotion brings water. The real difference in texture, absorption and timing, plus the order that works and who should skip oil on very dry skin.",
+    image: "/images/guides/body-oil-vs-body-lotion.jpg",
+    imageAlt: "A swirl of white body lotion next to a puddle of golden body oil on a beige surface",
+    majLe: "2026-10-29",
+    lectureMin: 7,
+    produitsLies: ["ceramide-moisturizing-cream", "raw-shea-butter-16oz"],
+  },
 ];
 
 export const GUIDES: Guide[] = [

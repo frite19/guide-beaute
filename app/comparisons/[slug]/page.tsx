@@ -28,6 +28,8 @@ type Contenu = {
   sections?: Bloc[];
   /** FAQ affichÃ©e en <details> + balisage FAQPage. */
   faq?: { q: string; a: string }[];
+  /** Maillage interne : uniquement des pages publiees. */
+  liens?: { href: string; label: string }[];
 };
 
 const CONTENUS: Record<string, Contenu> = {
@@ -169,6 +171,117 @@ const CONTENUS: Record<string, Contenu> = {
         a: "No promises here. Patch-test on a small area and ask a healthcare professional: a product page is not a diagnosis.",
       },
     ],
+    liens: [
+      { href: "/guides/body-oil-before-or-after-lotion", label: "Body oil before or after lotion? The correct order" },
+      { href: "/comparisons/body-oil-vs-body-lotion", label: "Body oil vs body lotion: what each one actually does" },
+    ],
+  },
+  "body-oil-vs-body-lotion": {
+    intro: [
+      "Most pages answer this question with \u201cit depends\u201d and stop there. The mechanism is simpler than that: a lotion brings water and holds some of it, an oil holds water in. One adds something, the other slows what is already there from leaving.",
+      "That single difference decides most of the choice. Skin that feels tight after a shower is not fixed by oil alone. Skin that is rough on the surface is not fixed by a light lotion alone. Below: the comparison, the timing that matters more than the product, and the combination that works on very dry skin.",
+    ],
+    verdict:
+      "Lotion or cream alone if your skin is normal to dry with no rough patches, you want to get dressed right after, or you want one product and one step. Oil alone if your skin is already hydrated and you want a satin finish, for massage, or to cover large areas fast. On very dry skin, the combination beats both: cream on damp skin within three minutes, then a thin layer of butter or oil only where the skin still pulls. The first step is a water-based product \u2014 a ceramide cream in a large format covers it \u2014 and the second is an occlusive, where a raw shea butter or a body oil does the job.",
+    libelleA: "Body lotion / cream",
+    libelleB: "Body oil",
+    tableau: [
+      { critere: "Main role", a: "Brings water and emollients", b: "Slows water loss (occlusive)" },
+      { critere: "Texture", a: "Cream, spreads, sinks in", b: "Fluid, glides, leaves a film" },
+      { critere: "On damp skin", a: "Ideal: it holds the water from the shower", b: "Possible, but the hydrating effect stays limited" },
+      { critere: "On very dry, rough skin", a: "Yes, with a richer formula", b: "Not enough on its own" },
+      { critere: "Finish", a: "Matte to satin", b: "Satin to shiny" },
+      { critere: "Application time", a: "30 to 60 seconds", b: "10 to 20 seconds on large areas" },
+      { critere: "After feel", a: "Supple skin", b: "A film, sometimes tacky" },
+      { critere: "Clothes right after", a: "Fine after 2 to 3 minutes", b: "Can stain if you use too much" },
+      { critere: "Fragrance-free options", a: "Wide choice", b: "Rarer: check the label" },
+      { critere: "Skip it if", a: "Oily skin that needs a lighter texture", b: "Acne-prone chest and back" },
+    ],
+    sections: [
+      {
+        h2: "Why timing matters more than the product",
+        p: [
+          "A lotion needs water to work with. Applied about three minutes after the shower, on skin that is still damp, it traps the water that is already there. Applied to completely dry skin, it does part of its job and can feel like it disappears within the hour.",
+          "An oil on dry skin only greases the surface. The classic mistake \u2014 oil first, lotion on top \u2014 leaves the lotion sitting on the film instead of sinking in. That is the order question, and it has its own page.",
+        ],
+      },
+      {
+        h2: "Lotion alone: when it is enough",
+        ul: [
+          "Normal to dry skin with no rough patches.",
+          "You want to get dressed immediately after.",
+          "You want one product, one step, no layering.",
+          "You need a fragrance-free formula: the choice is wider on the lotion side.",
+        ],
+      },
+      {
+        h2: "Oil alone: when it makes sense",
+        ul: [
+          "Your skin is already hydrated and you want a satin finish.",
+          "For massage.",
+          "Large areas, applied fast.",
+          "You are avoiding the greasy step rather than the water step.",
+        ],
+      },
+      {
+        h2: "The combination that works on very dry skin",
+        ol: [
+          "After the shower, pat the skin dry and leave it damp.",
+          "Apply the cream or lotion everywhere within about three minutes.",
+          "Add a thin layer of butter or oil only where the skin still pulls: elbows, knees, heels.",
+        ],
+        p: [
+          "A ceramide cream in a 19 oz tub, fragrance-free and non-comedogenic, marketed for face and body, covers the first step. A raw shea butter in a 16 oz tub covers the second on the areas that pull. Both are optional: if your skin is only slightly dry, step one is enough.",
+        ],
+      },
+      {
+        h2: "The limits, said plainly",
+        ul: [
+          "An oil does not hydrate, it seals. On dehydrated skin it can feel comfortable without fixing the tightness.",
+          "A light lotion can be insufficient in winter on very dry skin: the answer is a richer formula, not more layers.",
+          "Too much oil means stained clothes and a tacky feel. A small amount is enough for both legs.",
+          "Neither product treats a skin condition such as eczema or psoriasis: that is a medical question.",
+        ],
+      },
+      {
+        h2: "How this page was built",
+        p: [
+          "No test, no lab result, no invented trial. The product details quoted here come from the retailer listings checked in October 2026: 19 oz, ceramides and hyaluronic acid, fragrance-free, non-comedogenic for the cream; raw, unrefined, 16 oz for the shea butter. The rest is standard body-care practice. Patch-test a new product on a small area before using it on the whole body.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Is body oil better than body lotion for dry skin?",
+        a: "Neither is better: they do different jobs. Lotion brings water, oil slows water loss. On very dry skin, the two together work better than either one alone.",
+      },
+      {
+        q: "Can I use body oil instead of lotion?",
+        a: "If your skin is already hydrated and you only want a finish or a massage, yes. If your skin feels tight after a shower, no: oil alone seals in the dryness.",
+      },
+      {
+        q: "Which one goes first, lotion or oil?",
+        a: "Lotion first, on damp skin, then oil on the areas that still pull. The reverse order leaves the lotion on the film of oil.",
+      },
+      {
+        q: "Can I mix the oil and the lotion in my hand?",
+        a: "You can, but you lose the point of the order. Two thin successive layers work better than one mixed layer.",
+      },
+      {
+        q: "How much should I use?",
+        a: "Three to four pumps of lotion for the whole body, and about a small amount of butter or two to three pumps of oil for both legs.",
+      },
+      {
+        q: "Is body oil comedogenic?",
+        a: "It depends on the oil and on your skin. On an acne-prone chest and back, skip the oil and keep a non-comedogenic lotion instead.",
+      },
+    ],
+    liens: [
+      { href: "/guides/body-oil-before-or-after-lotion", label: "Body oil before or after lotion? The correct order" },
+      { href: "/comparisons/shea-butter-vs-body-oil", label: "Shea butter vs body oil: which one for dry skin" },
+      { href: "/product/ceramide-moisturizing-cream", label: "CeraVe Moisturizing Cream, 19 oz tub" },
+      { href: "/product/raw-shea-butter-16oz", label: "Raw shea butter, 16 oz tub" },
+    ],
   },
 };
 
@@ -243,6 +356,16 @@ export default function ComparisonDetail({ params }: { params: { slug: string } 
                 <details key={f.q}><summary><strong>{f.q}</strong></summary><p>{f.a}</p></details>
               ))}
             </div>
+          </>
+        )}
+        {c.liens && c.liens.length > 0 && (
+          <>
+            <h2>Keep reading</h2>
+            <ul>
+              {c.liens.map((l) => (
+                <li key={l.href}><Link href={l.href}>{l.label}</Link></li>
+              ))}
+            </ul>
           </>
         )}
         <h2>Detailed reviews</h2>
