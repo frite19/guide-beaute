@@ -1,10 +1,14 @@
-# C2 — Body Oil vs Body Lotion: What Actually Works
+# C2 — Body Oil vs Body Lotion: What Actually Works — ✅ PUBLIÉ le 29/10/2026
 
+**URL :** https://guide-beaute.pages.dev/comparisons/body-oil-vs-body-lotion/
 **Slug :** `/comparisons/body-oil-vs-body-lotion/`
 **Type :** comparatif (2 options)
 **Requêtes couvertes :** body lotion (97) · body oil (62 requêtes) · dry body oil (37, +50 %) · moisturizing body oil (26, +130 %)
 **Monétisation :** CeraVe 19 oz (crème céramides) + beurre de karité
-**Statut :** brouillon à approuver.
+**Statut :** publié — la version anglaise en ligne fait foi (`app/comparisons/[slug]/page.tsx`, clé `body-oil-vs-body-lotion`).
+
+> La page reprend le brief : intro « it depends », tableau 10 critères, section sur le moment d'application, verdict argumenté (lotion seule / huile seule / duo), limites dites franchement, FAQ 6 questions avec balisage FAQPage, aucun prix.
+> Ajouts : section « Keep reading » (maillage vers G1, C1 et les deux fiches produit) — nouveau champ `liens` du gabarit comparatif, déjà rétro-ajouté sur C1.
 
 ---
 
