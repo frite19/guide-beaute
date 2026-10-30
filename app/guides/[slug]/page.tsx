@@ -145,10 +145,132 @@ const CONTENUS: Record<string, Contenu> = {
       },
     ],
     liens: [
+      { href: "/guides/dry-body-oil-vs-body-lotion", label: "Dry body oil vs body lotion: texture and finish" },
       { href: "/comparisons/shea-butter-vs-body-oil", label: "Shea butter vs body oil: which one for dry skin" },
       { href: "/product/ceramide-moisturizing-cream", label: "CeraVe Moisturizing Cream, 19 oz tub" },
       { href: "/product/raw-shea-butter-16oz", label: "Raw shea butter, 16 oz tub" },
       { href: "/guides", label: "All beauty guides" },
+    ],
+  },
+  "dry-body-oil-vs-body-lotion": {
+    intro: [
+      "\u201cDry oil\u201d does not mean an oil that dries the skin out. It describes a formula built to sink in fast and leave a satin finish instead of a greasy film. A lotion brings water and emollients and leaves the skin soft, usually matte.",
+      "So the choice is not about which one hydrates more. It is about the finish you want, the time you have before getting dressed, and whether your skin feels tight after a shower. Below: what actually differs, the three profiles, and the mistake that cancels the benefit of both products.",
+    ],
+    reponse:
+      "A dry oil is a finish, not a hydration step: it sinks in fast and leaves a light sheen. A lotion brings water and leaves a soft, mostly matte surface. If your skin feels tight after the shower, the lotion comes first, on damp skin, and the oil goes on top \u2014 or only on the areas that still pull.",
+    blocs: [
+      {
+        h2: "What actually differs, in one table",
+        tableau: {
+          entetes: ["Criteria", "Dry body oil", "Body lotion"],
+          lignes: [
+            ["What it leaves on the skin", "A thin, satin, slightly shiny film", "A matte to satin finish, no visible film"],
+            ["Time before getting dressed", "2 to 5 minutes", "1 to 3 minutes"],
+            ["Large areas (legs, arms, back)", "Very fast, about 30 seconds", "Fast too, but you have to rub it in"],
+            ["Skin that feels tight after the shower", "Not enough on its own", "That is exactly its job"],
+            ["Marks on clothes", "Possible if you use too much", "Rare once absorbed"],
+            ["Glow effect", "Yes, that is the main point", "No"],
+            ["Scent", "Often fragranced (check for fragrance-free)", "Wide choice without fragrance"],
+            ["Reactive skin", "Check the fragrance first", "Fragrance-free options are common"],
+          ],
+        },
+      },
+      {
+        h2: "Where the word \u201cdry\u201d comes from",
+        p: [
+          "The name describes the touch, not the effect on the skin. It usually comes from one of two things in the formula:",
+        ],
+        ul: [
+          "A light base: fluid plant oils such as jojoba, hazelnut or grapeseed, rather than thick mineral oils.",
+          "Volatile silicones: they evaporate within a few minutes and carry away the greasy feel with them.",
+        ],
+      },
+      {
+        h2: "The consequence, in one sentence",
+        p: [
+          "A dry oil is still an oil. It seals the water that is already in the skin; it does not bring any. If your skin feels tight, a dry oil will not fix that \u2014 it will only make the surface more comfortable while the tightness stays underneath.",
+        ],
+      },
+      {
+        h2: "Three profiles, three answers",
+        ul: [
+          "Normal to dry skin, and you want a satin finish before going out: dry oil last, on skin that is already moisturised. Two pumps for the legs, one for the arms.",
+          "Very dry skin, tight after the shower: lotion or cream first, on skin that is still damp, then a thin layer of shea butter on elbows, knees and heels. Raw shea butter is not an oil: it is solid, melts on contact with warm skin and leaves a richer occlusive film. It is the right pick on an area that really pulls, and the wrong one if you dislike a greasy film.",
+          "Reactive skin, redness, fragrance that does not sit well: a fragrance-free lotion or cream, and no scented oil. If you still want an oil, look for \u201cfragrance-free\u201d on the listing, not \u201cnatural scent\u201d.",
+        ],
+      },
+      {
+        h2: "The most common mistake",
+        p: [
+          "Putting a dry oil on perfectly dry skin, then wondering why the skin still feels tight an hour later. An oil can only hold water that is already there, and on dry skin there is nothing to hold.",
+          "The right reflex: get out of the shower, pat the skin dry without rubbing, apply the lotion within about three minutes, then the oil or the butter last, only on the areas that pull. The full sequence is covered in the guide on body oil before or after lotion.",
+        ],
+      },
+      {
+        h2: "How much product, concretely",
+        tableau: {
+          entetes: ["Area", "Dry oil", "Lotion"],
+          lignes: [
+            ["Both legs", "2 pumps", "2 pumps"],
+            ["Arms", "1 pump", "1 pump"],
+            ["Whole body", "4 to 5 pumps", "4 to 5 pumps"],
+            ["Elbows, knees, heels", "A small amount of butter rather than more oil", "No need to add more"],
+          ],
+        },
+        p: [
+          "If you feel you need more and more product, the hydrating step is almost always too light \u2014 not the oil too scarce.",
+        ],
+      },
+      {
+        h2: "The limits, said plainly",
+        ul: [
+          "No oil treats a skin condition such as eczema or psoriasis. That is a medical question, not a product choice.",
+          "Fragranced oils are the first cause of irritation on reactive skin.",
+          "A dry oil can still mark light-coloured clothes if you overdose it.",
+          "The glow is a visual effect. It does not mean the skin is better hydrated.",
+        ],
+      },
+      {
+        h2: "How this page was built",
+        p: [
+          "No test, no lab result, no invented trial. The product details quoted here come from the retailer listings checked in October 2026: a 19 oz tub, ceramides and hyaluronic acid, fragrance-free, non-comedogenic for the cream; raw, unrefined shea butter in a 16 oz tub. No body oil in the catalogue has been verified yet, so no specific oil is named on this page. The rest is standard body-care practice: patch-test a new product on a small area before using it on the whole body.",
+        ],
+      },
+    ],
+    ctaApresBloc: 1,
+    faq: [
+      {
+        q: "Is dry body oil better than body lotion?",
+        a: "Neither is better: they do different jobs. A dry oil gives a finish and slows water loss; a lotion brings water. On very dry skin, the lotion comes first and the oil goes on top.",
+      },
+      {
+        q: "Does dry oil dry out the skin?",
+        a: "No. \u201cDry\u201d refers to the touch, not to a drying effect: the formula absorbs faster and leaves less film. It adds no water either, which is why it cannot replace a lotion on tight skin.",
+      },
+      {
+        q: "Can I use dry oil instead of lotion?",
+        a: "If your skin is already comfortable and you want a sheen, yes. If it feels tight after the shower, no: the oil has no water to hold.",
+      },
+      {
+        q: "Can I use a dry oil on my face?",
+        a: "Some formulas, yes, but a body oil is rarely designed for the face. Raw shea butter is too rich for most faces: keep it for the body.",
+      },
+      {
+        q: "Dry oil or classic body oil?",
+        a: "Same family. \u201cDry\u201d describes the touch and the speed of absorption, not the ability to nourish.",
+      },
+      {
+        q: "And if the skin on my body is oily?",
+        a: "No oil on the chest and back. A non-comedogenic lotion is enough there.",
+      },
+    ],
+    liens: [
+      { href: "/comparisons/body-oil-vs-body-lotion", label: "Body oil vs body lotion: what each one actually does" },
+      { href: "/guides/body-oil-before-or-after-lotion", label: "Body oil before or after lotion? The correct order" },
+      { href: "/comparisons/shea-butter-vs-body-oil", label: "Shea butter vs body oil: which one for dry skin" },
+      { href: "/product/ceramide-moisturizing-cream", label: "CeraVe Moisturizing Cream, 19 oz tub" },
+      { href: "/product/raw-shea-butter-16oz", label: "Raw shea butter, 16 oz tub" },
     ],
   },
   "beginner-glow-routine": {

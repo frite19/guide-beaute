@@ -278,6 +278,7 @@ const CONTENUS: Record<string, Contenu> = {
     ],
     liens: [
       { href: "/guides/body-oil-before-or-after-lotion", label: "Body oil before or after lotion? The correct order" },
+      { href: "/guides/dry-body-oil-vs-body-lotion", label: "Dry body oil vs body lotion: texture and finish" },
       { href: "/comparisons/shea-butter-vs-body-oil", label: "Shea butter vs body oil: which one for dry skin" },
       { href: "/product/ceramide-moisturizing-cream", label: "CeraVe Moisturizing Cream, 19 oz tub" },
       { href: "/product/raw-shea-butter-16oz", label: "Raw shea butter, 16 oz tub" },

@@ -70,6 +70,17 @@ export const COMPARATIFS: Guide[] = [
 
 export const GUIDES: Guide[] = [
   {
+    slug: "dry-body-oil-vs-body-lotion",
+    type: "guide",
+    titre: "Dry Body Oil vs Body Lotion: Texture, Finish and Who It Suits",
+    description: "Dry oil is not a drying oil: it is an oil with a light finish. How it differs from lotion on texture, shine and clothing, and who should pick which.",
+    image: "/images/guides/dry-body-oil-vs-body-lotion.jpg",
+    imageAlt: "A leg with a satin sheen next to an amber bottle of body oil in soft daylight",
+    majLe: "2026-10-30",
+    lectureMin: 6,
+    produitsLies: ["ceramide-moisturizing-cream", "raw-shea-butter-16oz"],
+  },
+  {
     slug: "body-oil-before-or-after-lotion",
     type: "guide",
     titre: "Body Oil Before or After Lotion? The Correct Order",
