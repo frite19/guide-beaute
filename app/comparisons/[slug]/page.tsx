@@ -24,9 +24,9 @@ type Contenu = {
   libelleA?: string;
   libelleB?: string;
   tableau: { critere: string; a: string; b: string }[];
-  /** Sections rÃ©digÃ©es entre le tableau et le verdict (h2 + paragraphes + listes). */
+  /** Sections rédigées entre le tableau et le verdict (h2 + paragraphes + listes). */
   sections?: Bloc[];
-  /** FAQ affichÃ©e en <details> + balisage FAQPage. */
+  /** FAQ affichée en <details> + balisage FAQPage. */
   faq?: { q: string; a: string }[];
   /** Maillage interne : uniquement des pages publiees. */
   liens?: { href: string; label: string }[];
@@ -58,7 +58,7 @@ const CONTENUS: Record<string, Contenu> = {
     libelleA: "One-step heated brush",
     libelleB: "1875 W hair dryer",
     tableau: [
-      { critere: "Styling time", a: "One pass, volume as you dry", b: "3â€“6 min drying, then style" },
+      { critere: "Styling time", a: "One pass, volume as you dry", b: "3–6 min drying, then style" },
       { critere: "Learning curve", a: "Low", b: "Low" },
       { critere: "Weak point", a: "Underpowered on very thick hair", b: "No volume or style on its own" },
       { critere: "Travel", a: "Bulky relative to a dryer", b: "Lightweight, built for travel" },
@@ -67,7 +67,7 @@ const CONTENUS: Record<string, Contenu> = {
   "best-foundation-for-dry-skin": {
     intro: [
       "Most dry-skin foundation advice assumes a liquid or serum formula. A foundation stick behaves differently: the compact cream is denser, goes on in thin layers, and its matte finish sits on top of the skin instead of melting into it. On dehydrated skin that reads flat rather than luminous.",
-      "That does not make the stick a bad choice â€” it changes the order of the routine. On dry or normal-to-dry skin the cream base has to go on first, in enough quantity to do its job. The stick then only has to even out the tone, not carry the hydration.",
+      "That does not make the stick a bad choice — it changes the order of the routine. On dry or normal-to-dry skin the cream base has to go on first, in enough quantity to do its job. The stick then only has to even out the tone, not carry the hydration.",
       "The realistic expectation: a matte stick will never give you a dewy finish. What it does give you is speed, a controlled shine level, and a format that survives a bag.",
     ],
     verdict:
@@ -346,7 +346,7 @@ export default function ComparisonDetail({ params }: { params: { slug: string } 
         <p>{c.verdict}</p>
         <div style={{ display: "flex", gap: 10, flexWrap: "wrap", margin: "12px 0" }}>
           {produits.map((p) => p && (
-            <AffiliateButton key={p.slug} url={p.urlAffiliation} productSlug={p.slug} category={p.categorie} merchant={p.marchand} label={`View: ${p.nom.slice(0, 28)}â€¦`} />
+            <AffiliateButton key={p.slug} url={p.urlAffiliation} productSlug={p.slug} category={p.categorie} merchant={p.marchand} label={`View: ${p.nom.slice(0, 28)}…`} />
           ))}
         </div>
         {c.faq && c.faq.length > 0 && (

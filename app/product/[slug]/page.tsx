@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   if (!p) return {};
   return {
     title: `${p.nom}: Honest Review, Pros & Cons`,
-    description: `${p.nom} (${p.marque}) â€” ${p.description.slice(0, 150)}. Detailed review, alternatives and transparent retailer link.`,
+    description: `${p.nom} (${p.marque}) — ${p.description.slice(0, 150)}. Detailed review, alternatives and transparent retailer link.`,
     alternates: { canonical: `/product/${p.slug}/` },
   };
 }
@@ -52,7 +52,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
         <div>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src={p.image} alt={p.imageAlt} />
-          <p className="price-note" style={{ marginTop: 8 }}>Illustrative photo â€” check the exact look and reference at {p.marchand} when you click.</p>
+          <p className="price-note" style={{ marginTop: 8 }}>Illustrative photo — check the exact look and reference at {p.marchand} when you click.</p>
         </div>
         <div>
           <span className="badge">{p.marque} Â· {cat?.nom}</span>
@@ -61,7 +61,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
           <p><strong>Best for:</strong> {p.publicIdeal}</p>
           <p className="price-note">
             {p.prixIndicatif
-              ? `Indicative price: ${p.prixDevise ?? "$"}${p.prixIndicatif} (checked ${p.prixVerifieLe}). The actual price may vary â€” confirmed at the retailer when you click.`
+              ? `Indicative price: ${p.prixDevise ?? "$"}${p.prixIndicatif} (checked ${p.prixVerifieLe}). The actual price may vary — confirmed at the retailer when you click.`
               : `No price shown on purpose: prices change fast. Click to see the current verified price at ${p.marchand}.`}
           </p>
           <div style={{ display: "flex", gap: 10, flexWrap: "wrap", margin: "12px 0" }}>
@@ -78,7 +78,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
           <tbody>
             {p.caracteristiques.map((c) => {
               const [k, ...rest] = c.split(":");
-              return <tr key={c}><th>{k}</th><td>{rest.join(":") || "â€”"}</td></tr>;
+              return <tr key={c}><th>{k}</th><td>{rest.join(":") || "—"}</td></tr>;
             })}
           </tbody>
         </table>

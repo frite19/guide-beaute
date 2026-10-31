@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   if (!cat) return {};
   return {
     title: `${cat.nom}: 2026 Comparison & Top Picks`,
-    description: `${cat.nom} â€” ${cat.description} Honest comparison, detailed reviews and transparent retailer links.`,
+    description: `${cat.nom} — ${cat.description} Honest comparison, detailed reviews and transparent retailer links.`,
     alternates: { canonical: `/category/${cat.slug}/` },
   };
 }
@@ -45,7 +45,7 @@ export default function CategoryPage({ params }: { params: { slug: string } }) {
         <h2>How we compare ({cat.nom.toLowerCase()})</h2>
         <h3>1. Verifiable criteria</h3>
         <p>Declared composition and specs, format, tolerance (fragrance, pH), ease of use. No invented tests.</p>
-        <h3>2. Who it is for â€” and who should skip it</h3>
+        <h3>2. Who it is for — and who should skip it</h3>
         <p>Each review names the ideal audience and cases where another product fits better, with links to our <Link href="/comparisons">comparisons</Link> and <Link href="/guides">guides</Link>.</p>
       </section>
     </>
