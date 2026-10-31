@@ -9,7 +9,7 @@ export function Header() {
   return (
     <header className="site-header">
       <div className="header-inner">
-        <Link href="/" className="logo" aria-label="Éclatia home">
+        <Link href="/" className="logo" aria-label="Éclatia, the independent beauty guide">
           <span className="logo-mark">é</span>
           <span>
             <span className="logo-name">Éclatia</span>
