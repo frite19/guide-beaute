@@ -31,36 +31,31 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/affiliate-disclosure",
   ];
 
+  // Chaque URL est ecrite exactement comme son canonical (slash final inclus,
+  // trailingSlash: true). Google recommande <loc> + <lastmod> uniquement :
+  // <changefreq> et <priority> sont ignores depuis 2023, donc retires.
+  const url = (path: string) => `${BASE}${path}/`.replace(/\/+$/, "/");
+
   const entries: MetadataRoute.Sitemap = [
     ...staticPages.map((path) => ({
-      url: `${BASE}${path}`,
+      url: path === "" ? `${BASE}/` : `${BASE}${path}/`,
       lastModified: latest,
-      changeFrequency: "weekly" as const,
-      priority: path === "" ? 1 : 0.6,
     })),
     ...CATEGORIES.map((c) => ({
-      url: `${BASE}/category/${c.slug}`,
+      url: url(`/category/${c.slug}`),
       lastModified: latest,
-      changeFrequency: "weekly" as const,
-      priority: 0.7,
     })),
     ...products.map((p) => ({
-      url: `${BASE}/product/${p.slug}`,
+      url: url(`/product/${p.slug}`),
       lastModified: p.majLe,
-      changeFrequency: "monthly" as const,
-      priority: 0.9,
     })),
     ...COMPARATIFS.map((g) => ({
-      url: `${BASE}/comparisons/${g.slug}`,
+      url: url(`/comparisons/${g.slug}`),
       lastModified: g.majLe,
-      changeFrequency: "monthly" as const,
-      priority: 0.8,
     })),
     ...GUIDES.map((g) => ({
-      url: `${BASE}/guides/${g.slug}`,
+      url: url(`/guides/${g.slug}`),
       lastModified: g.majLe,
-      changeFrequency: "monthly" as const,
-      priority: 0.8,
     })),
   ];
 
