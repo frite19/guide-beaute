@@ -9,8 +9,8 @@ export function Footer() {
           <p style={{ fontSize: "0.9rem", color: "#cbb7a6" }}>
             Honest beauty comparisons and guides. We sell nothing: we help you choose, then send you to the partner retailer.
           </p>
-          <p className="disclosure" style={{ marginTop: 12 }}>
-            Some links are affiliate links: if you buy through them, we may earn a commission at no extra cost to you. As an Amazon Associate we earn from qualifying purchases. <Link href="/affiliate-disclosure">How affiliate links work</Link>
+          <p style={{ marginTop: 12, fontSize: "0.86rem", color: "#cbb7a6" }}>
+            Some links are affiliate links: if you buy through them, we may earn a commission at no extra cost to you. As an Amazon Associate we earn from qualifying purchases. <Link href="/affiliate-disclosure" style={{ color: "#f7ece3", textDecoration: "underline" }}>How affiliate links work</Link>
           </p>
         </div>
         <div>
