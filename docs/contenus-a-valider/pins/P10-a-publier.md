@@ -33,10 +33,11 @@ Toutes ces pages n'ont **aucun pin publié** depuis le 26/10 :
 
 | Date | Pin dispo (dossier `pin 2/`) | Destination |
 |---|---|---|
-| 01/11 | `01-Cetaphil-nettoyant.png` | `/product/cetaphil-daily-cleanser-lotion/` |
-| 02/11 | `02-Maybelline-mascara.png` | `/product/volume-length-mascara/` |
-| 03/11 | `03-Revlon-seche-cheveux.png` | `/product/revlon-compact-hair-dryer-1875w/` |
-| 04/11 | `04-Routine-eclat.png` | `/guides/beginner-glow-routine/` |
+| 31/10 (2ᵉ pin) | `01-Cetaphil-nettoyant.png` | `/product/cetaphil-daily-cleanser-lotion/` (fiche P13) |
+| 01/11 | `02-Maybelline-mascara.png` | `/product/volume-length-mascara/` |
+| 02/11 | `03-Revlon-seche-cheveux.png` | `/product/revlon-compact-hair-dryer-1875w/` |
+| 03/11 | `04-Routine-eclat.png` | `/guides/beginner-glow-routine/` |
+| 04/11 | `05-Eraser-concealer.png` | `/product/age-rewind-eraser-concealer/` |
 | **05/11** | **`pin-P10.jpg`** | **`/guides/body-oil-before-or-after-lotion/`** |
 
 ---
