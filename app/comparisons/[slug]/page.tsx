@@ -38,7 +38,7 @@ const CONTENUS: Record<string, Contenu> = {
       "Looking for the best hot-air brush without falling for fake reviews? Here is the short version: the one-step heated brush is the simplest option for fine to normal hair, because it dries and adds volume in a single pass. For thick hair or pure express drying, a powerful dryer still wins.",
       "Our method: we compare the rated power, the heat and speed settings, what each tool physically includes, and the type of hair each one suits. We only publish figures we can confirm on the product page, and everything else is marked as to be checked at the retailer.",
     ],
-    verdict: "Verdict: volume in one motion on fine to normal hair â†’ one-step heated brush. Speed and heavy volume on thick hair â†’ 1875 W dryer. Both links below go to the retailer to check the current price, stock and exact specification.",
+    verdict: "Verdict: volume in one motion on fine to normal hair → one-step heated brush. Speed and heavy volume on thick hair → 1875 W dryer. Both links below go to the retailer to check the current price, stock and exact specification.",
     libelleA: "One-step heated brush",
     libelleB: "1875 W hair dryer",
     tableau: [
@@ -52,7 +52,7 @@ const CONTENUS: Record<string, Contenu> = {
   "one-step-brush-vs-powerful-dryer": {
     intro: [
       "An honest duel: the one-step heated brush bets on simplicity (one tool, one motion, volume as it dries), the 1875 W dryer bets on raw power and portability.",
-      "Choose by hair type: fine to normal and rushed in the morning â†’ heated brush. Thick, curly or simply in a hurry after the gym â†’ powerful dryer.",
+      "Choose by hair type: fine to normal and rushed in the morning → heated brush. Thick, curly or simply in a hurry after the gym → powerful dryer.",
     ],
     verdict: "If you keep only one: heated brush for simplicity, 1875 W dryer for power and travel. Heat settings, accessories and warranty vary, so confirm them at the retailer before you buy.",
     libelleA: "One-step heated brush",
@@ -284,6 +284,121 @@ const CONTENUS: Record<string, Contenu> = {
       { href: "/product/raw-shea-butter-16oz", label: "Raw shea butter, 16 oz tub" },
     ],
   },
+  "oil-body-wash-vs-body-wash": {
+    intro: [
+      "This is the most searched question of the whole body-care cluster, and the answer fits in one sentence: a classic body wash cleans by removing sebum, an oil body wash cleans while sparing more of it. It is not a premium version of the same product. It is a different trade-off.",
+      "That trade-off has a cost, and it is rarely mentioned: less lather, a film some people dislike, a slippery shower floor, and a real weakness on oily backs and on thick mineral sunscreen. Below: the comparison, who should switch, who should not, and how to tell a real oil wash from a gel wash with a little oil in it.",
+    ],
+    verdict:
+      "Switch if your skin feels tight after a classic wash, if you shower hot and often, or if your skin has simply become drier with age. Stay with a classic wash on the back, the chest, the underarms and the feet, and after a hard workout. For most people the answer is not one or the other: an oil wash on the body, a classic wash where sebum is concentrated. The product linked on this page follows that logic, with glycerin listed first, a multi-oil blend and mild surfactants, and it is not truly fragrance-free: its scent comes from botanical extracts, so check the ingredient list if that matters to you.",
+    libelleA: "Classic body wash",
+    libelleB: "Oil body wash",
+    tableau: [
+      { critere: "Base", a: "Surfactants in water", b: "Oils and emulsifiers, often glycerin first" },
+      { critere: "Cleansing", a: "Strong: removes sebum, sweat, sunscreen", b: "Gentle: lifts sunscreen and pollution, spares more of the lipid film" },
+      { critere: "Feel during", a: "Lather", b: "Little or no lather" },
+      { critere: "Feel after", a: "Can feel tight if the formula is harsh", b: "Supple skin, light film" },
+      { critere: "Dry to very dry skin", a: "Often too stripping", b: "The main use case" },
+      { critere: "Oily skin, back, underarms", a: "Suitable", b: "Not enough on its own" },
+      { critere: "Rinsing", a: "Easy", b: "Needs more water, floor gets slippery" },
+      { critere: "Scent", a: "Varies", b: "Often fragranced" },
+      { critere: "In the shower", a: "Standard use", b: "Before wetting, or on wet skin, depending on the instructions" },
+      { critere: "What you can check on the listing", a: "The type of surfactants", b: "The word oil, the base (mineral or plant), the fragrance" },
+    ],
+    sections: [
+      {
+        h2: "Who should switch",
+        ul: [
+          "Skin that feels tight after the shower, especially in winter.",
+          "Frequent hot showers, which strip the lipid film faster than the skin rebuilds it.",
+          "Older or very dry skin, where a classic wash has become uncomfortable.",
+          "Anyone who dislikes lather and the squeaky-clean feeling that comes with it.",
+        ],
+      },
+      {
+        h2: "Who should not",
+        ul: [
+          "An oily back or chest, or skin that breaks out there: the oil can clog.",
+          "Removing a thick mineral sunscreen: a classic wash is still more effective.",
+          "A hard, sweaty workout: salt and sweat call for a more thorough cleanse.",
+          "A shower floor that gets slippery easily: it is a genuine fall risk, not a detail.",
+        ],
+      },
+      {
+        h2: "The compromise that works",
+        p: [
+          "Most people do not have to choose. Oil wash on the body, classic wash on the underarms, the feet and the back: that is the most common arrangement in practice, and it keeps the benefit where the skin is dry without losing the cleansing power where sebum is concentrated.",
+        ],
+      },
+      {
+        h2: "How to choose on the label",
+        ol: [
+          "Look at the base: mineral oil (occlusive, neutral) or plant oils (more nourishing, sometimes more expensive).",
+          "Look for fragrance-free if your skin is reactive: shower oils are often fragranced.",
+          "Read the instructions: some go on dry skin before rinsing, others under the shower. It is not a detail, it changes the result.",
+          "Be suspicious of deep clean on an oil: it contradicts the principle of the product.",
+        ],
+      },
+      {
+        h2: "The product that matches this page",
+        p: [
+          "One concrete example, checked on its listing: Naturium The Glow Getter Multi-Oil Body Wash, 16.9 fl oz (500 ml).",
+          "What the listing actually says: glycerin listed first, before water; a blend of sea buckthorn, rose hip, jojoba and squalane; an oil-to-lather texture; marketed for all skin types as a gentle cleanser that does not strip moisture; neither SLS nor SLES in the published ingredient list.",
+          "On fragrance, the wording matters: no added fragrance appears in the ingredient list, but the scent comes from botanical extracts such as vanilla, gardenia and clove. It is not an unscented product, and it should not be described as one.",
+          "This is exactly the compromise described above: it is not pure oil, and it does contain mild surfactants. It is an oil body wash in the commercial sense, not an oil that you apply and rinse off.",
+        ],
+      },
+      {
+        h2: "What the search results hide",
+        p: [
+          "Many people type body oil wash and get classic gel washes that contain a little oil. On the first page of results, real oil washes and oil-enriched gels sit side by side, and the bottle rarely makes the difference obvious.",
+          "The 3-second test: open the ingredient list. If water is the first ingredient and the oil arrives fifth, it is a gel wash with oil in it. If glycerin or an oil is at the top, you are looking at the right type of product.",
+        ],
+      },
+      {
+        h2: "The limits, said plainly",
+        ul: [
+          "An oil body wash does not disinfect, and it does not replace a proper cleanse after very sweaty activity.",
+          "It can leave a film. If you hate that feeling, a rich classic wash is the better choice.",
+          "No body wash treats a skin condition. Dermatitis and eczema are medical questions.",
+        ],
+      },
+      {
+        h2: "How this page was built",
+        p: [
+          "No test, no lab result, no invented trial. The product details quoted here come from the retailer listing checked in October 2026: 16.9 fl oz, glycerin first, the four oils named on the label, no SLS or SLES in the published list, no added fragrance but botanical extracts for the scent. No price is shown on this page: check it at the retailer. Patch-test a new product on a small area before using it on the whole body.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Can I use an oil body wash every day?",
+        a: "Yes on dry skin. On combination skin, alternate with a mild classic wash, especially on the back and underarms.",
+      },
+      {
+        q: "Does an oil body wash lather?",
+        a: "Little or not at all. Less lather does not mean less cleansing: it means the surfactants are milder.",
+      },
+      {
+        q: "Oil body wash or body oil after the shower?",
+        a: "Different jobs. One cleans, the other seals water in. The oil comes after the lotion, not instead of the wash.",
+      },
+      {
+        q: "Is an oil body wash greasy?",
+        a: "It rinses clean, but it can leave a light film on the skin. If you dislike that, a rich classic wash is a better fit.",
+      },
+      {
+        q: "Is the Naturium wash fragrance-free?",
+        a: "The ingredient list shows no added fragrance, but the scent comes from botanical extracts such as vanilla, gardenia and clove. It is not unscented.",
+      },
+    ],
+    liens: [
+      { href: "/guides/body-oil-before-or-after-lotion", label: "Body oil before or after lotion? The correct order" },
+      { href: "/comparisons/body-oil-vs-body-lotion", label: "Body oil vs body lotion: what each one actually does" },
+      { href: "/product/naturium-glow-getter-multi-oil-body-wash", label: "Naturium The Glow Getter Multi-Oil Body Wash" },
+      { href: "/guides", label: "All beauty guides" },
+    ],
+  },
 };
 
 export default function ComparisonDetail({ params }: { params: { slug: string } }) {
@@ -303,7 +418,7 @@ export default function ComparisonDetail({ params }: { params: { slug: string } 
       {faqLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />}
       <p style={{ margin: "22px 0 0", fontSize: "0.88rem" }}><Link href="/">Home</Link> / <Link href="/comparisons">Comparisons</Link> / {g.titre}</p>
       <h1 style={{ fontFamily: "var(--font-display)", margin: "8px 0" }}>{g.titre}</h1>
-      <p style={{ color: "var(--muted)" }}>{g.description} Â· {g.lectureMin} min read Â· Updated {g.majLe}</p>
+      <p style={{ color: "var(--muted)" }}>{g.description} · {g.lectureMin} min read · Updated {g.majLe}</p>
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img src={g.image} alt={g.imageAlt} style={{ borderRadius: 18, width: "100%", maxHeight: 380, objectFit: "cover" }} />
       <div className="prose" style={{ marginTop: 16 }}>

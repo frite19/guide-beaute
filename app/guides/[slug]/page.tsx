@@ -344,9 +344,349 @@ const CONTENUS: Record<string, Contenu> = {
       {
         h2: "Which to pick?",
         p: [
-          "Quick daily routine and fine to normal hair â†’ one-step heated brush. Heavy volume, thick hair, speed â†’ 1875 W dryer. Either way, use heat protection and finish with cool air.",
+          "Quick daily routine and fine to normal hair → one-step heated brush. Heavy volume, thick hair, speed → 1875 W dryer. Either way, use heat protection and finish with cool air.",
         ],
       },
+    ],
+  },
+  "body-glow-oil": {
+    intro: [
+      "A body glow oil is not a moisturiser with extra shine. It is a finishing product: it goes on last, over skin that is already hydrated, and its only job is the way the skin catches the light. Used that way, two pumps cover both legs.",
+      "The confusion comes from two words that look interchangeable and are not: glow and shimmer. One is a finish, the other is a particle. Below: the four product types side by side, the 4-step method, the two mistakes that turn a sheen into grease, and who should skip it altogether.",
+    ],
+    reponse:
+      "A glow oil is a finish, not a hydration step. Apply it last, on skin that has already had a lotion or a cream, two pumps maximum, and only on the areas that catch the light: shins, shoulders, collarbones, tops of the arms. Let it settle for 5 minutes before dressing. On very dry skin it does not replace the cream underneath.",
+    blocs: [
+      {
+        h2: "Glow, shimmer, classic oil, butter",
+        tableau: {
+          entetes: ["Type", "What you see", "What you feel", "Where it goes"],
+          lignes: [
+            ["Classic body oil", "Soft skin, discreet sheen", "A film, more or less rich", "Anywhere on the body"],
+            ["Glow oil", "Satin sheen, skin looks bare but lit", "Fluid, medium absorption", "Shins, shoulders, collarbones"],
+            ["Shimmer oil", "Visible particles in the light", "Can feel grainy or tacky", "Evenings, photos, legs"],
+            ["Raw shea butter", "No sheen at all: matte to greasy", "Rich, occlusive", "Very dry patches"],
+          ],
+        },
+        p: [
+          "Shimmer shows up more in a photo than in real life, and more on fair skin. Keep it for evenings and events, not for the office.",
+        ],
+      },
+      {
+        h2: "The method in 4 steps",
+        ol: [
+          "Hydrate first. Lotion or cream on skin that is still damp, after the shower. Without this step the oil only greases the surface.",
+          "Wait 2 minutes. Putting oil on cream that is still wet makes the product pill or slide.",
+          "Two pumps, not more. Warm it between the palms, then pat it on rather than rubbing: upwards on the shins, outwards on the shoulders.",
+          "Wait 5 minutes before dressing. Otherwise you get marks on dark clothes and on furniture.",
+        ],
+        p: [
+          "The sheen is a visual effect. If the skin feels tight an hour later, the problem is step one, not the oil.",
+        ],
+      },
+      {
+        h2: "The 2 mistakes that make it greasy",
+        tableau: {
+          entetes: ["Mistake", "What happens", "Fix"],
+          lignes: [
+            ["Putting it on the whole body", "Too much surface, too much product, shine everywhere", "Only the areas that catch the light"],
+            ["Putting it on dry, unmoisturised skin", "The oil sits on the surface and the skin still feels tight", "Lotion first, oil last"],
+          ],
+        },
+        p: [
+          "A third one is less obvious: oil plus heat plus sweat. In summer a glow oil on the legs can run and mark. A small amount is enough, and the back of the knees is best left alone.",
+        ],
+      },
+      {
+        h2: "Who should skip it",
+        ul: [
+          "A back or chest that breaks out: an occlusive film does not help there.",
+          "Reactive skin: glow oils are often fragranced. Look for fragrance-free on the listing, not for natural scent.",
+          "Light-coloured or silk clothes straight after application.",
+          "Children: fragranced formulas and shimmer particles are not designed for them.",
+        ],
+      },
+      {
+        h2: "Very dry skin: glow is not the answer",
+        p: [
+          "If the legs feel tight or flaky, the missing piece is water, not sheen. Adding more oil to dry skin seals the dryness in.",
+        ],
+        ol: [
+          "Cream or lotion on damp skin, everywhere.",
+          "Raw shea butter in a thin layer on the rough areas: elbows, knees, heels. It is solid, melts on contact with warm skin, and leaves a much richer occlusive film than a glow oil.",
+          "Then, if you still want the visual effect, the glow oil on the shins only.",
+        ],
+      },
+      {
+        h2: "Why butter and glow oil are not interchangeable",
+        p: [
+          "The butter gives no sheen, which is exactly why it does not replace a glow oil. And the glow oil gives no water, which is why it does not replace the cream. One is the hydrating and occlusive step; the other is the finishing touch, and neither substitutes for the other.",
+        ],
+      },
+      {
+        h2: "How much product it really takes",
+        p: [
+          "A glow oil applied to the whole body goes fast, 4 to 5 pumps per use. Limited to the shins and shoulders, 1 to 2 pumps are enough. That is the difference between a bottle that lasts three weeks and one that lasts three months.",
+        ],
+      },
+      {
+        h2: "How this page was built",
+        p: [
+          "No test, no lab result, no invented trial. The product details quoted here come from a retailer listing checked in November 2026: raw, unrefined, degummed ivory shea butter in a 16 oz (473 ml) tub, marketed for skin, hair and face, solid rather than liquid. No shimmer or glow oil in the catalogue has been verified yet, so no specific glow product is named or linked on this page. The rest is standard body-care practice: patch-test a new product on a small area before using it on the whole body.",
+        ],
+      },
+    ],
+    ctaApresBloc: 5,
+    faq: [
+      {
+        q: "Is glow oil the same as body oil?",
+        a: "Often, yes: glow is a claim about the finish. Read the ingredient list, though: the presence of mica or other particles is what separates a glow oil from a shimmer oil.",
+      },
+      {
+        q: "Can I use it on my face?",
+        a: "No. Body glow oils are too rich, and often too fragranced, for the face.",
+      },
+      {
+        q: "Does it stain the sheets?",
+        a: "It can if you go to bed straight after. Give it time to settle, or keep it for the morning.",
+      },
+      {
+        q: "Does it hydrate?",
+        a: "It seals the water already in the skin. It does not add any. On dehydrated skin it is not enough on its own.",
+      },
+      {
+        q: "What about photos?",
+        a: "Shimmer reads stronger than glow. For a natural result, stay with a glow oil and keep it on the shins.",
+      },
+    ],
+    liens: [
+      { href: "/guides/dry-body-oil-vs-body-lotion", label: "Dry body oil vs body lotion: texture and finish" },
+      { href: "/guides/body-oil-before-or-after-lotion", label: "Body oil before or after lotion? The correct order" },
+      { href: "/comparisons/shea-butter-vs-body-oil", label: "Shea butter vs body oil: which one for dry skin" },
+      { href: "/product/raw-shea-butter-16oz", label: "Raw shea butter, 16 oz tub" },
+      { href: "/guides", label: "All beauty guides" },
+    ],
+  },
+  "fragrance-free-body-oil-sensitive-skin": {
+    intro: [
+      "Sensitive skin on the body is usually not reacting to the oil itself, but to what was added to it: fragrance, essential oils, alcohol high in the list. The problem is that the label rarely says so in plain words.",
+      "Three mentions look like the same promise and are not: fragrance-free, unscented, and natural scent. Below: what each one means, the five lines to look for in an ingredient list, the 3-day patch test, and what a body oil will not fix.",
+    ],
+    reponse:
+      "Fragrance-free means no fragrance has been added. Unscented means the smell has been neutralised, sometimes with a masking fragrance. Natural scent almost always means essential oils or botanical extracts, which are fragrance compounds even when the word fragrance does not appear. For reactive skin, fragrance-free is the default choice.",
+    blocs: [
+      {
+        h2: "The four labels that look the same",
+        tableau: {
+          entetes: ["What the listing says", "What it means", "For reactive skin"],
+          lignes: [
+            ["Fragrance-free", "No fragrance added to the formula", "The default choice"],
+            ["Unscented", "The smell has been neutralised, sometimes by a masking fragrance", "Check further: the mask can irritate"],
+            ["Natural fragrance, natural scent", "Essential oils or botanical extracts carry the smell", "Treat it as fragrance"],
+            ["No mention at all", "Unknown", "Not worth the risk"],
+          ],
+        },
+      },
+      {
+        h2: "Fragrance-free does not mean odourless",
+        p: [
+          "This is the point that surprises most people, and it is worth knowing before you open the tub: raw, unrefined shea butter smells strong. That smell is the ingredient, not an added fragrance. It is nutty, sometimes smoky, and it fades as the butter is worked into the skin.",
+          "No added fragrance and no smell are two different promises. A product can be fragrance-free and still have a marked natural scent, and a product can smell of nothing because a masking agent is doing the work.",
+        ],
+      },
+      {
+        h2: "The 5 things to look for in an ingredient list",
+        ul: [
+          "Alcohol denat. near the top: it dries the skin out and is a poor first ingredient in a body product.",
+          "Essential oils: lavender, citrus, mint, eucalyptus. Natural, and still fragrance compounds that can irritate.",
+          "The words fragrance or parfum: the mention to avoid on reactive skin.",
+          "Lanolin: well tolerated by many people, a known allergen for others.",
+          "Preservatives such as phenoxyethanol: rarely an issue in an oil with no water in it, but worth recognising on a label.",
+        ],
+        p: [
+          "None of these ingredients is dangerous in itself. The question is whether your skin tolerates it, and the only way to know is to test on a small area.",
+        ],
+      },
+      {
+        h2: "The 3-day patch test",
+        ol: [
+          "Pick one product at a time. Two new products at once and you learn nothing about either.",
+          "Apply a small amount inside the wrist or the crook of the elbow, morning and evening, for three days.",
+          "Stop at the first sign of redness, itching or heat, and do not apply it anywhere else.",
+        ],
+        p: [
+          "A reaction can also appear later, after a few days of full-body use. The patch test lowers the risk; it does not remove it.",
+        ],
+      },
+      {
+        h2: "What an oil will not fix",
+        p: [
+          "Eczema, psoriasis and dermatitis are medical conditions. A fragrance-free oil can be part of a routine that does not aggravate them. It does not treat them, and no product page should suggest otherwise.",
+        ],
+        ul: [
+          "It does not calm a flare-up.",
+          "It does not replace a prescribed treatment.",
+          "It does not make a reaction disappear once it has started: stop the product and ask a healthcare professional.",
+        ],
+      },
+      {
+        h2: "Two products, two different jobs",
+        p: [
+          "The hydrating step and the occlusive step are not the same purchase, and on reactive skin the order matters as much as the label.",
+          "A ceramide cream in a 19 oz tub, fragrance-free and non-comedogenic, marketed for dry skin and for the skin barrier, for face and body, covers the first step. Raw shea butter in a 16 oz tub covers the second: no fragrance added, a strong natural scent, and a rich film that suits elbows, knees and heels rather than the whole body.",
+          "If you buy only one, buy the cream. It is the step that brings water, and it is the easiest to find in a fragrance-free version.",
+        ],
+      },
+      {
+        h2: "How this page was built",
+        p: [
+          "No test, no lab result, no invented trial. The product details quoted here come from retailer listings checked in October and November 2026: a 19 oz tub, ceramides and hyaluronic acid, fragrance-free, non-comedogenic for the cream; raw, unrefined, degummed shea butter in a 16 oz tub, no added fragrance and a strong natural scent, for the butter. The rest is standard practice: patch-test, one product at a time, and a doctor for anything that persists.",
+        ],
+      },
+    ],
+    ctaApresBloc: 5,
+    faq: [
+      {
+        q: "Is fragrance-free the same as unscented?",
+        a: "No. Fragrance-free means nothing has been added to scent the product. Unscented means the smell has been neutralised, sometimes with a masking fragrance, so it is not necessarily fragrance-free.",
+      },
+      {
+        q: "Can a natural oil be fragrance-free?",
+        a: "Yes. Many single-ingredient oils contain no added fragrance and still smell of themselves. Fragrance-free describes what was added, not what the ingredient smells like.",
+      },
+      {
+        q: "Is raw shea butter fragrance-free?",
+        a: "On the listing it is sold with no added fragrance, but it has a strong natural scent. If you need a product with no smell at all, this is not it.",
+      },
+      {
+        q: "Is hypoallergenic a reliable label?",
+        a: "It is a marketing term rather than a standard you can check. An ingredient list and a patch test tell you more.",
+      },
+      {
+        q: "Should I test a body oil before using it everywhere?",
+        a: "Yes: three days on the wrist or the crook of the elbow, one product at a time.",
+      },
+      {
+        q: "Can an oil treat eczema?",
+        a: "No. It can avoid aggravating the skin, but it is not a treatment. See a healthcare professional for a flare-up.",
+      },
+    ],
+    liens: [
+      { href: "/comparisons/shea-butter-vs-body-oil", label: "Shea butter vs body oil: which one for dry skin" },
+      { href: "/guides/dry-body-oil-vs-body-lotion", label: "Dry body oil vs body lotion: texture and finish" },
+      { href: "/guides/body-oil-before-or-after-lotion", label: "Body oil before or after lotion? The correct order" },
+      { href: "/product/ceramide-moisturizing-cream", label: "CeraVe Moisturizing Cream, 19 oz tub" },
+      { href: "/product/raw-shea-butter-16oz", label: "Raw shea butter, 16 oz tub" },
+    ],
+  },
+  "hair-oil-vs-body-oil": {
+    intro: [
+      "One bottle on the shelf, two possible uses. Sometimes that works, and the reason it works is not the oil: it is the formula around it. A body oil is built to leave a film on skin. A hair oil is built to glide through the fibre without weighing it down.",
+      "Below: what actually differs, which oils genuinely work on both, the one product in this catalogue that is marketed for both uses, and the three cases where sharing a product goes wrong.",
+    ],
+    reponse:
+      "Sometimes yes, often no. A body oil is usually richer, more fragranced and more occlusive; a hair oil is lighter and built for combing and frizz. The only reliable case for sharing is when the listing says both uses explicitly. On the scalp, a body oil is the wrong product whatever the label promises.",
+    blocs: [
+      {
+        h2: "What actually differs",
+        tableau: {
+          entetes: ["Criteria", "Hair oil", "Body oil"],
+          lignes: [
+            ["Purpose", "Detangle, tame frizz, shine, protect ends", "Nourish, seal water in, massage"],
+            ["Texture", "Often lighter, with silicones", "Richer, sometimes thick"],
+            ["Fragrance", "Frequent, sometimes strong", "Varies"],
+            ["On the scalp", "Sometimes designed for it", "Not recommended: too occlusive"],
+            ["On the skin", "Possible, but expensive per use", "Its intended use"],
+            ["Rinsing", "Usually leave-in", "Leave-in"],
+          ],
+        },
+      },
+      {
+        h2: "Oils that work on both",
+        p: [
+          "These are general properties of the ingredients, not claims about any specific bottle. Read the listing of the product in your hand before you buy it for both uses.",
+        ],
+        ul: [
+          "Jojoba: close to the skin's own sebum, light, tolerated by many skins and hair types.",
+          "Coconut: effective on thick, curly hair, but comedogenic for some skins and it can clog the scalp.",
+          "Sweet almond: mild, suits the body and works on hair ends.",
+          "Argan: works on both, and is usually the most expensive of the list.",
+          "Mineral oil, including baby oil: body only. Never on the scalp.",
+        ],
+      },
+      {
+        h2: "The shea butter case",
+        p: [
+          "The one product in this catalogue that covers both uses is a raw shea butter, marketed on its listing for skin, hair and face. That wording is worth reading carefully: marketed for three uses does not mean suitable for every skin, every hair type and every zone.",
+          "It is a solid butter, not an oil: raw, unrefined, degummed, ivory, in a 16 oz (473 ml) tub. It melts at skin temperature, which is why it has to be warmed between the palms first.",
+          "What works: a small amount, warmed between the fingers, on the ends of dry or damp hair; a thin layer on elbows, knees and heels; and under a lighter oil, on skin that is already moisturised.",
+          "What does not: the scalp, where it is too occlusive and leaves a residue; fine hair, which it flattens; and the face for most skins, which is too rich even though the listing mentions it.",
+        ],
+      },
+      {
+        h2: "The 3 cases where you should not share",
+        ol: [
+          "A scalp that itches or flakes. Any fragranced body product can make it worse, and if it persists that is a medical question.",
+          "Fine hair plus a rich body oil. The result is flat, greasy hair that needs two shampoos to recover.",
+          "The face. A fragranced body oil has no place on reactive facial skin.",
+        ],
+      },
+      {
+        h2: "How to use one product for both without ruining it",
+        p: [
+          "The rule is simple: a small amount for the hair, a small amount for the body, and never the same finger in the tub twice.",
+        ],
+        ul: [
+          "Take the hair amount first, from a clean tub, then the body amount.",
+          "Or use a clean spatula and put the product in your palm, not back in the tub.",
+          "Keep the tub closed and away from the shower spray: water in a raw butter is a bad idea.",
+        ],
+      },
+      {
+        h2: "The verdict, in two lines",
+        p: [
+          "One product for both uses: a raw multi-use butter, if you accept a solid texture and a strong natural scent. Two separate products: simpler, and the better default when either use is daily. Neither, on an irritated scalp: see a doctor before adding anything.",
+        ],
+      },
+      {
+        h2: "How this page was built",
+        p: [
+          "No test, no lab result, no invented trial. The shea butter details come from a retailer listing checked in November 2026: raw, unrefined, degummed ivory shea butter, 16 oz (473 ml), solid, marketed for skin, hair and face. The properties of jojoba, coconut, almond, argan and mineral oil are general and conditional. Nothing here is a treatment claim: patch-test a new product on a small area before using it on the whole body, and start with the ends rather than the scalp.",
+        ],
+      },
+    ],
+    ctaApresBloc: 3,
+    faq: [
+      {
+        q: "Can I use body oil on my hair?",
+        a: "On the ends, usually yes, in a small amount. On the scalp and on fine hair, no: it is too heavy and too occlusive.",
+      },
+      {
+        q: "Can I use hair oil on my body?",
+        a: "You can, but it is an expensive way to moisturise, and some hair oils are built around silicones rather than emollients.",
+      },
+      {
+        q: "Is shea butter a hair oil?",
+        a: "No. It is a solid butter marketed for skin, hair and face. On hair it works on the ends, not on the scalp.",
+      },
+      {
+        q: "Does coconut oil clog the scalp?",
+        a: "It can, for some people. It is comedogenic for a share of skins, and on the scalp it can leave a residue that is hard to rinse out.",
+      },
+      {
+        q: "Can an oil make hair grow faster?",
+        a: "Nothing on this page makes that claim. An oil can change how the hair feels and looks, not how fast it grows.",
+      },
+      {
+        q: "What if my scalp itches after using oil?",
+        a: "Stop the product, and see a healthcare professional if it persists. An irritated scalp is not a styling problem.",
+      },
+    ],
+    liens: [
+      { href: "/product/raw-shea-butter-16oz", label: "Raw shea butter, 16 oz tub" },
+      { href: "/comparisons/shea-butter-vs-body-oil", label: "Shea butter vs body oil: which one for dry skin" },
+      { href: "/guides/body-oil-before-or-after-lotion", label: "Body oil before or after lotion? The correct order" },
+      { href: "/guides/dry-body-oil-vs-body-lotion", label: "Dry body oil vs body lotion: texture and finish" },
     ],
   },
 };
@@ -374,7 +714,7 @@ export default function GuideDetail({ params }: { params: { slug: string } }) {
       {faqLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />}
       <p style={{ margin: "22px 0 0", fontSize: "0.88rem" }}><Link href="/">Home</Link> / <Link href="/guides">Guides</Link> / {g.titre}</p>
       <h1 style={{ fontFamily: "var(--font-display)", margin: "8px 0" }}>{g.titre}</h1>
-      <p style={{ color: "var(--muted)" }}>{g.description} Â· {g.lectureMin} min Â· Updated {g.majLe}</p>
+      <p style={{ color: "var(--muted)" }}>{g.description} · {g.lectureMin} min · Updated {g.majLe}</p>
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img src={g.image} alt={g.imageAlt} style={{ borderRadius: 18, width: "100%", maxHeight: 380, objectFit: "cover" }} />
       <div className="prose" style={{ marginTop: 16 }}>
