@@ -34,8 +34,9 @@ Toutes ces pages n'ont **aucun pin publié** depuis le 26/10 :
 | Date | Pin dispo | Destination |
 |---|---|---|
 | 01/11 | `pin 2/05-Eraser-concealer.png` | `/product/age-rewind-eraser-concealer/` (fiche P14) |
-| 02/11 | `pin 2/04-Routine-eclat.png` | `/guides/beginner-glow-routine/` |
-| 03-04/11 | **à produire** (réserve `pin 2/` épuisée) | — |
+| 02/11 | `pin-P05.jpg` (visage) | `/guides/body-glow-oil/` ✅ **publié** |
+| 03/11 | `pin 2/04-Routine-eclat.png` | `/guides/beginner-glow-routine/` (fiche P15) |
+| 04/11 | `pin-P07.jpg` | `/comparisons/oil-body-wash-vs-body-wash/` (fiche P07) |
 | **05/11** | **`pin-P10.jpg`** | **`/guides/body-oil-before-or-after-lotion/`** |
 
 > Déjà publiés, à ne pas refaire : Cetaphil (24/10), Mascara (25/10), Revlon compact (28/10), Brosse alternatives (30/10), Shea (26/10), Naturium (27/10).

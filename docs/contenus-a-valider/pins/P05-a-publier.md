@@ -1,6 +1,7 @@
-# P05 — Body glow oil — PRÊT À PUBLIER (03/11)
+# P05 — Body glow oil — PUBLIÉ (02/11)
 
-**Statut :** prêt · **à publier le 03/11/2026**
+**Statut :** ✅ **publié le 02/11/2026 à 07:22 GMT** (08:22 heure d'Alger) — tableau `Body Care & Dry Skin`
+**Pin :** https://www.pinterest.com/pin/e1_AfqPShxMBdTbNBHTFTAgJlokJeYoWe7Y5SMOG7qR7DM1LTqT849eow/
 **Page de destination :** https://guide-beaute.pages.dev/guides/body-glow-oil/ (HTTP 200, index/follow, aucun prix)
 
 > 🖼️ Le visuel a été **refait le 02/11** : la première version ne montrait que le cou et les épaules (photo source coupée au menton, aucun visage). La nouvelle version montre un **profil avec le visage**, les yeux fermés, la nuque et l'épaule dans une lumière crème — même palette que les autres pins.

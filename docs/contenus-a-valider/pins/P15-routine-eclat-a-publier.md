@@ -1,6 +1,6 @@
-# P15 — Beginner Glow Routine — PRÊT À PUBLIER (02/11)
+# P15 — Beginner Glow Routine — PRÊT À PUBLIER (03/11)
 
-**Statut :** prêt · **à publier le 02/11/2026**
+**Statut :** prêt · **à publier le 03/11/2026** (décalé de 24 h : P05 est parti le 02/11)
 **Page de destination :** https://guide-beaute.pages.dev/guides/beginner-glow-routine/ (HTTP 200, index/follow, aucun prix)
 
 > Dernier visuel restant de la réserve `pin 2/`. Après celui-ci, il faut produire de nouveaux pins.
