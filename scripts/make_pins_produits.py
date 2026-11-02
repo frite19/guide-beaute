@@ -76,7 +76,7 @@ def compose(code, src_name, box, kicker, lines):
     spaced(d, (W - x - tw, H - 62), label, fs, ACCENT, 5)
 
     out = os.path.join(BASE, f"pin-{code}.jpg")
-    canvas.save(out, quality=92, optimize=True)
+    canvas.save(out, quality=92)
     print("ok", out, canvas.size, os.path.getsize(out) // 1024, "Ko")
 
 
