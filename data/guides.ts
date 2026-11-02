@@ -98,9 +98,9 @@ export const GUIDES: Guide[] = [
     description: "Lotion first, oil last. Why the reverse order leaves skin greasy on top and still tight underneath, the 90-second sequence, and the 3 cases where the rule changes.",
     image: "/images/guides/body-oil-before-or-after-lotion.jpg",
     imageAlt: "A hand and body wash bottle next to a hand and body lotion bottle on a bathroom tray (illustrative photo)",
-    majLe: "2026-10-28",
     lectureMin: 6,
-    produitsLies: ["ceramide-moisturizing-cream", "raw-shea-butter-16oz"],
+    produitsLies: ["ceramide-moisturizing-cream", "raw-shea-butter-16oz", "eos-shea-better-caramel-cashmere-travel-lotion"],
+    majLe: "2026-11-02",
   },
   {
     slug: "body-glow-oil",
@@ -142,9 +142,9 @@ export const GUIDES: Guide[] = [
     description: "Cleanse, treat, moisturize, protect: the minimal routine that actually works, without buying 10 products.",
     image: "https://images.pexels.com/photos/3762875/pexels-photo-3762875.jpeg?auto=compress&cs=tinysrgb&w=900",
     imageAlt: "Hands applying moisturizer",
-    majLe: "2026-10-05",
+    majLe: "2026-11-02",
     lectureMin: 6,
-    produitsLies: ["cetaphil-daily-cleanser-lotion", "truskin-vitamin-c-duo", "ceramide-moisturizing-cream"],
+    produitsLies: ["cetaphil-daily-cleanser-lotion", "truskin-vitamin-c-duo", "ceramide-moisturizing-cream", "medicube-pdrn-pink-collagen-toner-pads"],
   },
   {
     slug: "how-to-choose-vitamin-c-serum",

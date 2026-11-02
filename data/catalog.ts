@@ -8,6 +8,9 @@ export interface Product {
   description: string;
   image: string;
   imageAlt: string;
+  // Optional caption shown under the hero photo. Use it when the photo is a
+  // real product shot (Amazon listing) rather than an illustrative stock photo.
+  imageNote?: string;
   caracteristiques: string[];
   avantages: string[];
   inconvenients: string[];
@@ -497,6 +500,107 @@ slug: "revlon-compact-hair-dryer-1875w",
       { q: "Is it fragrance-free?", a: "No added fragrance is highlighted on the listing. Formulas change and the listing is not the full ingredient list: check the packaging if your skin reacts to scent." },
       { q: "How many shades are there?", a: "The range lists 12 shades. This page refers to one of them, Tenderly, a soft pink." },
       { q: "Will it work on oily skin?", a: "It can, in a thin layer, but cream colour moves more than powder on oily skin and in heat. Set it with a light powder if you need it to stay put." },
+    ],
+  },
+  {
+    slug: "medicube-pdrn-pink-collagen-toner-pads",
+    nom: "medicube PDRN Pink Collagen Jelly Toner Pads",
+    marque: "medicube",
+    categorie: "face-care",
+    description:
+      "A pouch of 70 pre-soaked gel toner pads in a pink jelly texture, marketed around salmon DNA PDRN and collagen. The pad is a Tencel-based gel disc you can leave on for five minutes as a mini mask, then wipe across the face. Niacinamide, allantoin and glycerin appear in the ingredient list published on the listing.",
+    image: "https://m.media-amazon.com/images/I/61lZFElGdBL._SL1500_.jpg",
+    imageAlt: "Pink medicube jar labelled PDRN Pink Collagen Toning Gel Toner Pad, 120 ml and 70 pads",
+    imageNote: "Product photo from the Amazon listing: the jar is labelled 120 ml / 4.05 fl oz (70 pads). Packaging and formulas change, so check the reference at Amazon when you click.",
+    caracteristiques: [
+      "Format: 70 pads, 120 ml / 4.05 fl oz",
+      "Pad: Tencel-based gel disc",
+      "Marketed ingredients: salmon DNA PDRN, collagen",
+      "Listed ingredients: niacinamide, allantoin, glycerin",
+      "Skin types: marketed for all skin types and daily use",
+      "Use: 5 seconds in the essence, 5 minutes on the skin, wipe, then pat in the rest",
+      "Amazon rank: #1 in Facial Toners & Astringents (2 Nov 2026)",
+    ],
+    avantages: [
+      "A pad format: no cotton wool and no bottle of toner to decant",
+      "Can be left on for five minutes as a mask over one area, not only swiped",
+      "Niacinamide is named in the published ingredient list, not only in the title",
+      "The full ingredient list is published, so you can check it before buying",
+    ],
+    inconvenients: [
+      "PDRN and madecassoside appear in the title and the brand claims, but neither is named in the ingredient list published on the listing (checked 2 Nov 2026)",
+      "The pack reads \"High Purity Salmon PDRN 99%\": that figure describes the purity of the raw material, not a concentration in the finished product",
+      "The listing adds a footnote saying the PDRN information describes the raw material, not a result measured on skin",
+      "One pouch opened and closed repeatedly: the pads can dry out if it is not sealed well",
+      "Chamomile oil, rose water and jasmine water are in the formula, so it is not fragrance-free",
+    ],
+    publicIdeal: "Anyone who prefers a pre-soaked pad to a liquid toner, and wants a five-minute step rather than a ten-step routine.",
+    casUsage: ["Evening tone step", "Five-minute mask on the cheeks", "Travel, instead of a bottle of toner"],
+    prixIndicatif: null,
+    prixVerifieLe: null,
+    marchand: "Amazon",
+    urlAffiliation: "https://www.amazon.com/dp/B0DX74CWSQ?tag=eclatia20-20",
+    statut: "active",
+    majLe: "2026-11-02",
+    noteRedaction: 3.9,
+    faq: [
+      { q: "What is PDRN?", a: "PDRN stands for polydeoxyribonucleotide, a DNA fragment the brand presents as salmon-derived. On this listing it works as an ingredient name in the title and the bullets: the ingredient list published on the page does not spell it out. Judge the product on what is listed (niacinamide, allantoin, glycerin) and on the pad format." },
+      { q: "Does the 99% on the jar mean the product is 99% PDRN?", a: "No. The jar reads \"High Purity Salmon PDRN 99%\", which describes the purity of the raw material the brand uses. The listing's own footnote says the information concerns the characteristics of the raw material." },
+      { q: "How do you use the pads?", a: "As written on the listing: open the pouch, pour in the essence and wait 5 seconds; apply the pads to the areas you want and leave them on for 5 minutes; wipe gently, avoiding the eyes and lips; then pat in the remaining essence." },
+      { q: "Are they fragrance-free?", a: "No. Chamomile flower oil, Rosa Damascena flower water and jasmine flower water are in the ingredient list. If your skin reacts to scent, patch-test first." },
+      { q: "Can you use them every day?", a: "The listing markets them for daily use and for all skin types. On reactive skin, start two or three times a week and see how it goes before making it a daily step." },
+      { q: "Do you need to rinse after using them?", a: "No. The protocol ends with wiping and patting in the rest of the essence, then continuing with your moisturizer." },
+    ],
+  },
+  {
+    slug: "eos-shea-better-caramel-cashmere-travel-lotion",
+    nom: "eos Shea Better Body Lotion — Caramel Cashmere (Travel Size)",
+    marque: "eos",
+    categorie: "body-bath",
+    description:
+      "Limited-edition holiday body lotion in a travel size: two 2.5 fl oz tubes, scented with caramel, spiced vanilla and sugar cookie. Marketed as a 24-hour moisture formula built on seven oils and butters, including shea butter and shea oil, and sold as vegan and cruelty-free.",
+    image: "https://m.media-amazon.com/images/I/81TgeqFWejL._SL1500_.jpg",
+    imageAlt: "Two purple eos Shea Better 24H Moisture body lotion tubes, 2.5 fl oz each",
+    imageNote: "Product photo from the Amazon listing. The tubes in the main photo are printed \"Cocoa Cashmere\", while the listing title and the tube's back label read \"Caramel Cashmere\". Check the scent name on the label when the pack arrives.",
+    caracteristiques: [
+      "Format: 2 tubes × 2.5 fl oz (74 ml)",
+      "Scent: caramel, spiced vanilla, sugar cookie",
+      "Formula: marketed as 7 oils and butters, including shea butter and shea oil",
+      "Also listed: vitamin E",
+      "Claims: 24-hour moisture, lightweight, non-greasy",
+      "Free from: marketed as vegan, cruelty-free and phthalate-free",
+      "Edition: limited holiday release",
+      "Amazon rank: #1 in Body Lotions (2 Nov 2026)",
+    ],
+    avantages: [
+      "Travel format: fits a bag, a desk drawer or a gym kit",
+      "Two tubes, so one can be kept and one given away",
+      "Shea butter and shea oil are named in the formula, which suits dry skin",
+      "Layers with the brand's body wash and mist in the same scent",
+    ],
+    inconvenients: [
+      "Limited edition: when the holiday stock is gone, the scent usually goes with it",
+      "Fragranced on purpose, so not an option if you need fragrance-free body care",
+      "2.5 fl oz is small for daily full-body use: two tubes go fast",
+      "\"24-hour moisture\" is a brand claim, not a result measured on this page",
+      "The listing states that its details describe the pack, not a single tube",
+    ],
+    publicIdeal: "Dry skin that likes scented body care, plus travel sizes and small gifts.",
+    casUsage: ["Travel and weekends away", "Gift or stocking filler", "Layering with a matching body wash"],
+    prixIndicatif: null,
+    prixVerifieLe: null,
+    marchand: "Amazon",
+    urlAffiliation: "https://www.amazon.com/dp/B0FYKPSR5N?tag=eclatia20-20",
+    statut: "active",
+    majLe: "2026-11-02",
+    noteRedaction: 4.0,
+    faq: [
+      { q: "Is this the full-size lotion?", a: "No. This listing is a pack of two travel tubes, 2.5 fl oz each — not the full-size bottle." },
+      { q: "Is it fragrance-free?", a: "No, the scent is the point: caramel, spiced vanilla and sugar cookie. If you need unscented body care, this is not it." },
+      { q: "Why does the photo read Cocoa Cashmere?", a: "That is what the listing's main image shows. The title, the scent notes and the back label of the tube say Caramel Cashmere. It looks like a mixed-up product photo on Amazon's side: check the label when the pack arrives, and the scent name on the listing before ordering." },
+      { q: "Is it vegan and cruelty-free?", a: "The listing markets it as vegan, cruelty-free and phthalate-free. Formulas vary by scent and by edition: check the tube you receive." },
+      { q: "Is it enough for very dry skin?", a: "It is a lotion built on shea butter and shea oil, so it is comfortable on dry skin. Very dry skin usually needs a richer butter, or a body oil on top of the lotion." },
+      { q: "How long does one tube last?", a: "Two 2.5 fl oz tubes are a travel format: used daily on the whole body, they run out in a few weeks. For daily use at home, a full-size bottle is more economical." },
     ],
   },
 ];

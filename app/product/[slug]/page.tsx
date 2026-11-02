@@ -52,7 +52,9 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
         <div>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src={p.image} alt={p.imageAlt} />
-          <p className="price-note" style={{ marginTop: 8 }}>Illustrative photo — check the exact look and reference at {p.marchand} when you click.</p>
+          <p className="price-note" style={{ marginTop: 8 }}>
+            {p.imageNote ?? `Illustrative photo — check the exact look and reference at ${p.marchand} when you click.`}
+          </p>
         </div>
         <div>
           <span className="badge">{p.marque} Â· {cat?.nom}</span>
