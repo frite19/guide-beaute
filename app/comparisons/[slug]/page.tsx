@@ -109,7 +109,7 @@ const CONTENUS: Record<string, Contenu> = {
         h2: "What raw shea butter actually is",
         p: [
           "The product on this page is described by the retailer as raw, unrefined, degummed ivory shea butter in a 16 oz (473 ml) tub, marketed for skin, hair and face. That wording matters: \u201cshea butter\u201d on a label can also mean a blended cream that contains a small percentage of butter.",
-          "\u201cDegummed\u201d means the gums naturally present in the raw fat were removed. It is still unrefined, so the colour and the smell stay those of the raw ingredient.",
+          "\u201cDegummed\u201d means the gums naturally present in the raw fat were removed. It is still unrefined, so the color and the smell stay those of the raw ingredient.",
         ],
         ul: [
           "It is not an oil. It is a solid fat that melts at skin temperature, which is why it has to be warmed between the palms before it spreads.",

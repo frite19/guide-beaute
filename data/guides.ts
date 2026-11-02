@@ -106,7 +106,7 @@ export const GUIDES: Guide[] = [
     slug: "body-glow-oil",
     type: "guide",
     titre: "Body Glow Oil: What It Is and How to Use It Without Looking Greasy",
-    description: "Glow oil is a finish, not a moisturiser. The difference with shimmer oil, how much to use, where to put it, and the two mistakes that make it look greasy.",
+    description: "Glow oil is a finish, not a moisturizer. The difference with shimmer oil, how much to use, where to put it, and the two mistakes that make it look greasy.",
     image: "/images/guides/body-glow-oil.jpg",
     imageAlt: "A leg with a satin sheen next to an amber bottle of body oil in warm daylight",
     majLe: "2026-11-01",

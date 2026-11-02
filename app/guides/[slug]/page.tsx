@@ -195,7 +195,7 @@ const CONTENUS: Record<string, Contenu> = {
       {
         h2: "Three profiles, three answers",
         ul: [
-          "Normal to dry skin, and you want a satin finish before going out: dry oil last, on skin that is already moisturised. Two pumps for the legs, one for the arms.",
+          "Normal to dry skin, and you want a satin finish before going out: dry oil last, on skin that is already moisturized. Two pumps for the legs, one for the arms.",
           "Very dry skin, tight after the shower: lotion or cream first, on skin that is still damp, then a thin layer of shea butter on elbows, knees and heels. Raw shea butter is not an oil: it is solid, melts on contact with warm skin and leaves a richer occlusive film. It is the right pick on an area that really pulls, and the wrong one if you dislike a greasy film.",
           "Reactive skin, redness, fragrance that does not sit well: a fragrance-free lotion or cream, and no scented oil. If you still want an oil, look for \u201cfragrance-free\u201d on the listing, not \u201cnatural scent\u201d.",
         ],
@@ -227,7 +227,7 @@ const CONTENUS: Record<string, Contenu> = {
         ul: [
           "No oil treats a skin condition such as eczema or psoriasis. That is a medical question, not a product choice.",
           "Fragranced oils are the first cause of irritation on reactive skin.",
-          "A dry oil can still mark light-coloured clothes if you overdose it.",
+          "A dry oil can still mark light-colored clothes if you overdose it.",
           "The glow is a visual effect. It does not mean the skin is better hydrated.",
         ],
       },
@@ -351,7 +351,7 @@ const CONTENUS: Record<string, Contenu> = {
   },
   "body-glow-oil": {
     intro: [
-      "A body glow oil is not a moisturiser with extra shine. It is a finishing product: it goes on last, over skin that is already hydrated, and its only job is the way the skin catches the light. Used that way, two pumps cover both legs.",
+      "A body glow oil is not a moisturizer with extra shine. It is a finishing product: it goes on last, over skin that is already hydrated, and its only job is the way the skin catches the light. Used that way, two pumps cover both legs.",
       "The confusion comes from two words that look interchangeable and are not: glow and shimmer. One is a finish, the other is a particle. Below: the four product types side by side, the 4-step method, the two mistakes that turn a sheen into grease, and who should skip it altogether.",
     ],
     reponse:
@@ -390,7 +390,7 @@ const CONTENUS: Record<string, Contenu> = {
           entetes: ["Mistake", "What happens", "Fix"],
           lignes: [
             ["Putting it on the whole body", "Too much surface, too much product, shine everywhere", "Only the areas that catch the light"],
-            ["Putting it on dry, unmoisturised skin", "The oil sits on the surface and the skin still feels tight", "Lotion first, oil last"],
+            ["Putting it on dry, unmoisturized skin", "The oil sits on the surface and the skin still feels tight", "Lotion first, oil last"],
           ],
         },
         p: [
@@ -402,7 +402,7 @@ const CONTENUS: Record<string, Contenu> = {
         ul: [
           "A back or chest that breaks out: an occlusive film does not help there.",
           "Reactive skin: glow oils are often fragranced. Look for fragrance-free on the listing, not for natural scent.",
-          "Light-coloured or silk clothes straight after application.",
+          "Light-colored or silk clothes straight after application.",
           "Children: fragranced formulas and shimmer particles are not designed for them.",
         ],
       },
@@ -473,7 +473,7 @@ const CONTENUS: Record<string, Contenu> = {
       "Three mentions look like the same promise and are not: fragrance-free, unscented, and natural scent. Below: what each one means, the five lines to look for in an ingredient list, the 3-day patch test, and what a body oil will not fix.",
     ],
     reponse:
-      "Fragrance-free means no fragrance has been added. Unscented means the smell has been neutralised, sometimes with a masking fragrance. Natural scent almost always means essential oils or botanical extracts, which are fragrance compounds even when the word fragrance does not appear. For reactive skin, fragrance-free is the default choice.",
+      "Fragrance-free means no fragrance has been added. Unscented means the smell has been neutralized, sometimes with a masking fragrance. Natural scent almost always means essential oils or botanical extracts, which are fragrance compounds even when the word fragrance does not appear. For reactive skin, fragrance-free is the default choice.",
     blocs: [
       {
         h2: "The four labels that look the same",
@@ -481,14 +481,14 @@ const CONTENUS: Record<string, Contenu> = {
           entetes: ["What the listing says", "What it means", "For reactive skin"],
           lignes: [
             ["Fragrance-free", "No fragrance added to the formula", "The default choice"],
-            ["Unscented", "The smell has been neutralised, sometimes by a masking fragrance", "Check further: the mask can irritate"],
+            ["Unscented", "The smell has been neutralized, sometimes by a masking fragrance", "Check further: the mask can irritate"],
             ["Natural fragrance, natural scent", "Essential oils or botanical extracts carry the smell", "Treat it as fragrance"],
             ["No mention at all", "Unknown", "Not worth the risk"],
           ],
         },
       },
       {
-        h2: "Fragrance-free does not mean odourless",
+        h2: "Fragrance-free does not mean odorless",
         p: [
           "This is the point that surprises most people, and it is worth knowing before you open the tub: raw, unrefined shea butter smells strong. That smell is the ingredient, not an added fragrance. It is nutty, sometimes smoky, and it fades as the butter is worked into the skin.",
           "No added fragrance and no smell are two different promises. A product can be fragrance-free and still have a marked natural scent, and a product can smell of nothing because a masking agent is doing the work.",
@@ -501,7 +501,7 @@ const CONTENUS: Record<string, Contenu> = {
           "Essential oils: lavender, citrus, mint, eucalyptus. Natural, and still fragrance compounds that can irritate.",
           "The words fragrance or parfum: the mention to avoid on reactive skin.",
           "Lanolin: well tolerated by many people, a known allergen for others.",
-          "Preservatives such as phenoxyethanol: rarely an issue in an oil with no water in it, but worth recognising on a label.",
+          "Preservatives such as phenoxyethanol: rarely an issue in an oil with no water in it, but worth recognizing on a label.",
         ],
         p: [
           "None of these ingredients is dangerous in itself. The question is whether your skin tolerates it, and the only way to know is to test on a small area.",
@@ -548,7 +548,7 @@ const CONTENUS: Record<string, Contenu> = {
     faq: [
       {
         q: "Is fragrance-free the same as unscented?",
-        a: "No. Fragrance-free means nothing has been added to scent the product. Unscented means the smell has been neutralised, sometimes with a masking fragrance, so it is not necessarily fragrance-free.",
+        a: "No. Fragrance-free means nothing has been added to scent the product. Unscented means the smell has been neutralized, sometimes with a masking fragrance, so it is not necessarily fragrance-free.",
       },
       {
         q: "Can a natural oil be fragrance-free?",
@@ -619,7 +619,7 @@ const CONTENUS: Record<string, Contenu> = {
         p: [
           "The one product in this catalogue that covers both uses is a raw shea butter, marketed on its listing for skin, hair and face. That wording is worth reading carefully: marketed for three uses does not mean suitable for every skin, every hair type and every zone.",
           "It is a solid butter, not an oil: raw, unrefined, degummed, ivory, in a 16 oz (473 ml) tub. It melts at skin temperature, which is why it has to be warmed between the palms first.",
-          "What works: a small amount, warmed between the fingers, on the ends of dry or damp hair; a thin layer on elbows, knees and heels; and under a lighter oil, on skin that is already moisturised.",
+          "What works: a small amount, warmed between the fingers, on the ends of dry or damp hair; a thin layer on elbows, knees and heels; and under a lighter oil, on skin that is already moisturized.",
           "What does not: the scalp, where it is too occlusive and leaves a residue; fine hair, which it flattens; and the face for most skins, which is too rich even though the listing mentions it.",
         ],
       },
@@ -663,7 +663,7 @@ const CONTENUS: Record<string, Contenu> = {
       },
       {
         q: "Can I use hair oil on my body?",
-        a: "You can, but it is an expensive way to moisturise, and some hair oils are built around silicones rather than emollients.",
+        a: "You can, but it is an expensive way to moisturize, and some hair oils are built around silicones rather than emollients.",
       },
       {
         q: "Is shea butter a hair oil?",
