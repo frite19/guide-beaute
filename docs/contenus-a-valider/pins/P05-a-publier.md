@@ -18,7 +18,7 @@
 | **Description** | `Glow oil is a finish, not a moisturizer. Two pumps on the shins and shoulders, never on dry skin, and five minutes before getting dressed. The dosage rule and the 2 mistakes that make it look greasy. #glowoil #bodycare #dryskin` |
 | **Lien** | `https://guide-beaute.pages.dev/guides/body-glow-oil/?utm_source=Pinterest&utm_medium=organic&utm_campaign=P05` |
 | **Tableau** | `Body Care & Dry Skin` |
-| **Tagged topics** | Body Care · Dry Skin · Beauty Tips |
+| **Tagged topics** (jusqu'à 10, facultatifs) | `Body Care` · `Dry Skin` · `Beauty Tips` · `Body Oil` · `Skincare Routine` · `Glowing Skin` · `Self Care` · `Moisturizer` |
 | **Alt** | `Side profile of a woman with her eyes closed, bare shoulder and collarbone in soft window light.` |
 
 ---
