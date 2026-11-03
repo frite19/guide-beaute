@@ -13,7 +13,7 @@
 
 | Champ | Valeur |
 |---|---|
-| **Image** | `docs/contenus-a-valider/visuels/produits/pin-P17.jpg` — 1000 × 1500 (2:3) |
+| **Image** | `docs/contenus-a-valider/visuels/produits/pin-P17.jpg` — 1000 × 1500 (2:3) · **variante v2 encadrée : `visuels/produits/v2/pin-P17.jpg`** (même texte, photo avec marges crème) |
 | **Titre** | `eos Caramel Cashmere Travel Lotion: Why the Photo Says Cocoa` |
 | **Description** | `Two travel tubes of 2.5 fl oz (74 ml) in a limited holiday scent. The main photo shows tubes printed “Cocoa Cashmere”, while the listing title and the back label say “Caramel Cashmere” — most likely a mixed-up product photo, so check the scent name when the pack arrives. Marketed as 7 oils and butters, shea butter included, for 24-hour moisture (a brand claim). #bodylotion #dryskin #travelsize` |
 | **Lien** | `https://guide-beaute.pages.dev/product/eos-shea-better-caramel-cashmere-travel-lotion/?utm_source=Pinterest&utm_medium=organic&utm_campaign=P17` |

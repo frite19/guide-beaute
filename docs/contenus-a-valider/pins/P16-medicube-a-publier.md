@@ -13,7 +13,7 @@
 
 | Champ | Valeur |
 |---|---|
-| **Image** | `docs/contenus-a-valider/visuels/produits/pin-P16.jpg` — 1000 × 1500 (2:3) |
+| **Image** | `docs/contenus-a-valider/visuels/produits/pin-P16.jpg` — 1000 × 1500 (2:3) · **variante v2 encadrée : `visuels/produits/v2/pin-P16.jpg`** (même texte, photo avec marges crème) |
 | **Titre** | `medicube PDRN Toner Pads: What "99% PDRN" Actually Means` |
 | **Description** | `70 pre-soaked gel toner pads, 120 ml, listed as #1 in Facial Toners on Amazon.com. The jar reads “High Purity Salmon PDRN 99%”: that figure describes the raw material, not the concentration in the finished product — and PDRN is not named in the ingredient list published on the listing. What is listed: niacinamide, allantoin, glycerin. The five-minute method, and who the pad format suits. #tonerpads #kbeauty #skincareroutine` |
 | **Lien** | `https://guide-beaute.pages.dev/product/medicube-pdrn-pink-collagen-toner-pads/?utm_source=Pinterest&utm_medium=organic&utm_campaign=P16` |
