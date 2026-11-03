@@ -1,7 +1,11 @@
-# P15 — Beginner Glow Routine — PRÊT À PUBLIER (03/11)
+# P15 — Beginner Glow Routine — PUBLIÉ (03/11)
 
-**Statut :** prêt · **à publier le 03/11/2026** (décalé de 24 h : P05 est parti le 02/11)
+**Statut :** ✅ **publié le 03/11/2026 à 07:57 GMT** (08:57 heure d'Alger) — tableau `Skincare Routine for Beginners`
+**Pin :** https://www.pinterest.com/pin/e1_AfqPShwPiJ8OEdTT8c82xHH0_XjBFj-LjDedH-e4fgykzGvWndKtDw/
 **Page de destination :** https://guide-beaute.pages.dev/guides/beginner-glow-routine/ (HTTP 200, index/follow, aucun prix)
+
+> Vérifié via le flux RSS du tableau : le pin apparaît en 2ᵉ position, daté du 03/11 07:57 GMT,
+> avec la description exacte de la fiche (« The minimal skincare routine for beginners… »).
 
 > Dernier visuel restant de la réserve `pin 2/`. Après celui-ci, il faut produire de nouveaux pins.
 
