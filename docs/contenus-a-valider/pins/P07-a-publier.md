@@ -9,13 +9,13 @@
 
 | Champ | Valeur |
 |---|---|
-| **Image** | `docs/contenus-a-valider/visuels/body-oil/pin-P07.jpg` — 1000 × 1500 (2:3) |
+| **Image** | `docs/contenus-a-valider/visuels/body-oil/pin-P07.jpg` — 1000 × 1500 (2:3) · copie PNG : `pin-P07.png` |
 | **Titre** | `Oil Body Wash vs Body Wash - Who Should Switch?` |
 | **Description** | `A classic body wash cleans by removing sebum. A shower oil cleans while sparing more of it. Not a premium version of the same product: a different trade-off, with less lather and a slippery floor. Who should switch, and who should not. #bodywash #showeroil #dryskin` |
 | **Lien** | `https://guide-beaute.pages.dev/comparisons/oil-body-wash-vs-body-wash/?utm_source=Pinterest&utm_medium=organic&utm_campaign=P07` |
 | **Tableau** | `Body Care & Dry Skin` |
 | **Tagged topics** | Body Care · Dry Skin · Beauty Tips · Skincare |
-| **Alt** | `An amber pump bottle on the edge of a bathtub, with a shower running behind it.` |
+| **Alt** | `A chrome shower head running against white tiles, above a close-up of a pool of golden shower oil.` |
 
 ---
 
@@ -33,6 +33,17 @@
 | Test / avis inventé | ❌ aucun |
 | Marque sur le visuel | ❌ aucun logo Amazon |
 | Page déjà pinnée | ❌ jamais |
+
+### Le visuel (v2, diptyque)
+
+Deux photos Pexels empilées, aucune marque visible, aucun produit identifiable :
+
+- haut — pommeau de douche, eau qui coule (Pexels 4194863) → légende « GEL WASH »
+- bas — macro d'huile dorée (Pexels 4465831) → légende « SHOWER OIL »
+- bandeau bas inchangé : « BODY WASH / Should you switch to a shower oil? »
+
+Script : `scripts/make_pins_p07.py` (sources `base-P07-water.jpg`, `base-P07-oil.jpg`).
+L'ancienne version (flacon ambré sous la douche) est conservée en `base-P07.jpg` mais n'est plus utilisée.
 
 ---
 
