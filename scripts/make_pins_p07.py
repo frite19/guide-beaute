@@ -1,11 +1,16 @@
-"""Compose le pin P07 (v2) : diptyque eau / huile + bandeau texte.
+"""Compose le pin P07 (v3) : diptyque vertical gel douche / huile de douche.
 
-Pourquoi un diptyque : le pin compare un gel douche classique a une huile de
-douche. Deux photos empilees (eau qui coule / huile doree) rendent la
-comparaison lisible en une seconde, sans aucune marque visible.
+Chaque moitie montre un PRODUIT, pas seulement un decor :
+- gauche : deux flacons pompe dans la douche, carrelage blanc (gel douche)
+- droite : flacon ambre pompe sur plateau dore (huile de douche)
 
-Entree  : visuels/body-oil/base-P07-water.jpg  (Pexels 4194863, pommeau de douche)
-          visuels/body-oil/base-P07-oil.jpg    (Pexels 4465831, huile doree)
+Le diptyque vertical garde les flacons entiers (pas de recadrage Panoramique
+qui coupait les pompes) et se lit de gauche a droite comme la comparaison.
+
+Aucune marque lisible sur les deux photos (verre vert uni / verre ambre uni).
+
+Entree  : visuels/body-oil/base-P07-gel.jpg        (Pexels 7262767)
+          visuels/body-oil/base-P07-oilbottle.jpg  (Pexels 7796452)
 Sortie  : visuels/body-oil/pin-P07.jpg + pin-P07.png (1000 x 1500)
 """
 import os
@@ -17,14 +22,15 @@ from make_pins_body_oil import ACCENT, CREAM, H, INK, LINE, SEGOE_B, W, fit_font
 BASE = os.path.join("docs", "contenus-a-valider", "visuels", "body-oil")
 PANEL_H = 480
 GAP = 10
-BAND_H = 505  # 505 * 2 + 10 = 1020 -> hauteur photo totale
+PHOTO_H = 1020
+COL_W = (W - GAP) // 2  # 495
 
 KICKER = "BODY WASH"
 LINES = ["Should you switch", "to a shower oil?"]
 LABELS = [
-    # (fichier, libelle, decalage vertical du recadrage en fraction de la hauteur)
-    ("base-P07-water.jpg", "GEL WASH", 0.10),
-    ("base-P07-oil.jpg", "SHOWER OIL", 0.50),
+    # (fichier, libelle, x de gauche)
+    ("base-P07-gel.jpg", "GEL WASH", 0),
+    ("base-P07-oilbottle.jpg", "SHOWER OIL", COL_W + GAP),
 ]
 
 
@@ -40,21 +46,20 @@ def crop_fill(img, w, h, top_frac=0.5):
 def chip(d, xy, text, font):
     x, y = xy
     tw = sum(d.textlength(c, font=font) + 3 for c in text) - 3
-    pad_x, pad_y = 16, 10
+    pad_x, pad_y = 14, 9
     d.rectangle([x, y, x + tw + 2 * pad_x, y + font.size + 2 * pad_y], fill=CREAM)
     spaced(d, (x + pad_x, y + pad_y - 2), text, font, ACCENT, 3)
 
 
 def build():
     canvas = Image.new("RGB", (W, H), CREAM)
-    top = 0
-    for name, label, top_frac in LABELS:
-        photo = crop_fill(Image.open(os.path.join(BASE, name)).convert("RGB"), W, BAND_H, top_frac)
-        canvas.paste(photo, (0, top))
+    fchip = ImageFont.truetype(SEGOE_B, 19)
+    for name, label, x in LABELS:
+        photo = crop_fill(Image.open(os.path.join(BASE, name)).convert("RGB"), COL_W, PHOTO_H)
+        canvas.paste(photo, (x, 0))
         d = ImageDraw.Draw(canvas)
-        d.rectangle([0, top, W - 1, top + BAND_H - 1], outline=LINE, width=1)
-        chip(d, (36, top + 36), label, ImageFont.truetype(SEGOE_B, 20))
-        top += BAND_H + GAP
+        d.rectangle([x, 0, x + COL_W - 1, PHOTO_H - 1], outline=LINE, width=1)
+        chip(d, (x + 28, 28), label, fchip)
 
     # bandeau texte
     d = ImageDraw.Draw(canvas)

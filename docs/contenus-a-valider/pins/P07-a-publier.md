@@ -15,7 +15,7 @@
 | **Lien** | `https://guide-beaute.pages.dev/comparisons/oil-body-wash-vs-body-wash/?utm_source=Pinterest&utm_medium=organic&utm_campaign=P07` |
 | **Tableau** | `Body Care & Dry Skin` |
 | **Tagged topics** | Body Care · Dry Skin · Beauty Tips · Skincare |
-| **Alt** | `A chrome shower head running against white tiles, above a close-up of a pool of golden shower oil.` |
+| **Alt** | `Two green pump bottles in a white tiled shower, next to an amber pump bottle on a gold tray.` |
 
 ---
 
@@ -34,16 +34,16 @@
 | Marque sur le visuel | ❌ aucun logo Amazon |
 | Page déjà pinnée | ❌ jamais |
 
-### Le visuel (v2, diptyque)
+### Le visuel (v3, diptyque vertical)
 
-Deux photos Pexels empilées, aucune marque visible, aucun produit identifiable :
+Deux photos Pexels côte à côte, **chacune montre un produit**, aucune marque visible :
 
-- haut — pommeau de douche, eau qui coule (Pexels 4194863) → légende « GEL WASH »
-- bas — macro d'huile dorée (Pexels 4465831) → légende « SHOWER OIL »
+- gauche — deux flacons pompe verts dans une douche carrelée (Pexels 7262767) → « GEL WASH »
+- droite — flacon pompe ambre posé sur un plateau doré (Pexels 7796452) → « SHOWER OIL »
 - bandeau bas inchangé : « BODY WASH / Should you switch to a shower oil? »
 
-Script : `scripts/make_pins_p07.py` (sources `base-P07-water.jpg`, `base-P07-oil.jpg`).
-L'ancienne version (flacon ambré sous la douche) est conservée en `base-P07.jpg` mais n'est plus utilisée.
+Script : `scripts/make_pins_p07.py` (sources `base-P07-gel.jpg`, `base-P07-oilbottle.jpg`).
+Versions précédentes conservées mais plus utilisées : `base-P07.jpg` (flacon ambré sous la douche).
 
 ---
 
