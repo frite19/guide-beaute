@@ -1,7 +1,11 @@
-# P07 — Oil body wash vs body wash — PRÊT À PUBLIER (04/11)
+# P07 — Oil body wash vs body wash — PUBLIÉ (04/11)
 
-**Statut :** prêt · **à publier le 04/11/2026**
+**Statut :** ✅ **publié le 04/11/2026 à 08:58 GMT** (09:58 heure d'Alger) — tableau `Body Care & Dry Skin`
+**Pin :** https://www.pinterest.com/pin/e1_AfqPShxoO-BgVa4ZnB0s2BrKcnzTlT3KxmomQBhsIVn7SGjbfeiNjQ/
 **Page de destination :** https://guide-beaute.pages.dev/comparisons/oil-body-wash-vs-body-wash/ (HTTP 200, index/follow, aucun prix)
+
+> Vérifié via le flux RSS du tableau : le pin apparaît en 1ʳᵉ position, daté du 04/11 08:58 GMT,
+> avec la description exacte de la fiche (« A classic body wash cleans by removing sebum… »).
 
 ---
 
