@@ -1,7 +1,11 @@
-# P10 — 3 body oil mistakes — PRÊT À PUBLIER
+# P10 — 3 body oil mistakes — PUBLIÉ (05/11)
 
-**Statut :** prêt · **à publier le 05/11/2026** (voir la contrainte de date ci-dessous)
-**Page de destination :** en ligne → https://guide-beaute.pages.dev/guides/body-oil-before-or-after-lotion/ (HTTP 200, FAQPage, 2 tableaux, aucun prix)
+**Statut :** ✅ **publié le 05/11/2026 à 08:05 GMT** (09:05 heure d'Alger) — tableau `Body Care & Dry Skin`
+**Pin :** https://www.pinterest.com/pin/e1_AfqPShzCTaM4NHhNlYF8f-pzMWwXy44JA3J4KYt3OD14k-nnMixMCw/
+**Page de destination :** https://guide-beaute.pages.dev/guides/body-oil-before-or-after-lotion/ (HTTP 200, index/follow, aucun prix)
+
+> Vérifié via le flux RSS du tableau : le pin apparaît en 1ʳᵉ position, daté du 05/11 08:05 GMT,
+> avec la description exacte de la fiche (« Oil on dry skin. Lotion on top of the oil… »).
 
 ---
 
