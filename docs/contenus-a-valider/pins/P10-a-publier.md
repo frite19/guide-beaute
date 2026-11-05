@@ -9,13 +9,25 @@
 
 | Champ | Valeur |
 |---|---|
-| **Image** | `docs/contenus-a-valider/visuels/body-oil/pin-P10.jpg` — 1000 × 1500 (2:3) |
+| **Image** | `docs/contenus-a-valider/visuels/body-oil/pin-P10.jpg` — 1000 × 1500 (2:3) · copie PNG : `pin-P10.png` |
 | **Titre** | `3 Body Oil Mistakes That Cancel the Benefit` |
 | **Description** | `Oil on dry skin. Lotion on top of the oil. Far too much product. Three habits that leave the surface greasy while the skin stays tight underneath, and the order that fixes it: lotion first, on damp skin, then a thin layer of oil only where it pulls. #bodyoil #dryskin #bodycare` |
 | **Lien** | `https://guide-beaute.pages.dev/guides/body-oil-before-or-after-lotion/?utm_source=Pinterest&utm_medium=organic&utm_campaign=P10` |
 | **Tableau** | `Body Care & Dry Skin` |
 | **Tagged topics** | Body Care · Dry Skin · Beauty Tips |
-| **Alt** | `Title card reading "3 body oil mistakes" on a cream background, Eclatia.` |
+| **Alt** | `A hand catching a few drops of oil from an amber dropper bottle on a marble surface.` |
+
+---
+
+## Le visuel (v2, photo réelle)
+
+L'ancienne image était un simple dégradé beige : il ne disait pas de quoi parlait le pin.
+La nouvelle montre une main qui reçoit quelques gouttes d'huile d'un flacon ambre — c'est
+littéralement le sujet du pin (le dosage).
+
+- Photo : Pexels 4959973, flacon sans étiquette, **aucune marque lisible** (vérifié en zoom)
+- Texte inchangé : `DOSAGE` / « 3 body oil mistakes » / signature ECLATIA
+- Script : `scripts/make_pins_p10.py` (source `base-P10.jpg`)
 
 ---
 
