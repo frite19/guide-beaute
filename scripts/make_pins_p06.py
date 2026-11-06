@@ -1,12 +1,12 @@
-"""Compose le pin P06 (v2) : flacon avec etiquette vierge au lieu du flacon abstrait.
+﻿"""Compose le pin P06 (v2) : flacon avec etiquette vierge au lieu du flacon abstrait.
 
-Le sujet du pin est « ce que dit l'etiquette ». L'ancien visuel montrait un
+Le sujet du pin est Â« ce que dit l'etiquette Â». L'ancien visuel montrait un
 flacon blanc en gros plan, sans etiquette du tout : il ne parlait pas du sujet.
 Ici on voit un flacon ambre avec une etiquette blanche vierge, pose dans une
-coupelle en bois avec de l'eucalyptus — le lecteur comprend qu'il s'agit de lire
+coupelle en bois avec de l'eucalyptus â€” le lecteur comprend qu'il s'agit de lire
 une etiquette. Etiquette vierge = aucune marque visible.
 
-Entree  : visuels/body-oil/base-P06b.jpg  (Pexels 11441227, 1600 x 1057)
+Entree  : visuels/body-oil/base-P06c.jpg  (Pexels 11441227, 1600 x 1057)
 Sortie  : visuels/body-oil/pin-P06.jpg + pin-P06.png (1000 x 1500)
 """
 import os
@@ -34,7 +34,7 @@ def crop_fill(img, w, h, cx=0.5, cy=0.5):
 
 def build():
     photo = crop_fill(
-        Image.open(os.path.join(BASE, "base-P06b.jpg")).convert("RGB"), W, H - PANEL_H, 0.5, 0.5
+        Image.open(os.path.join(BASE, "base-P06c.jpg")).convert("RGB"), W, H - PANEL_H, 0.95, 0.5
     )
     canvas = Image.new("RGB", (W, H), CREAM)
     canvas.paste(photo, (0, 0))

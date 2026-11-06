@@ -15,17 +15,22 @@
 | **Lien** | `https://guide-beaute.pages.dev/guides/fragrance-free-body-oil-sensitive-skin/?utm_source=Pinterest&utm_medium=organic&utm_campaign=P06` |
 | **Tableau** | `Body Care & Dry Skin` |
 | **Tagged topics** | Sensitive Skin · Skincare · Body Care |
-| **Alt** | `An amber bottle with a blank white label standing in a wooden bowl among dried botanicals.` |
+| **Alt** | `A clear bottle of golden body oil with a black cap and a blank white label, on a cream background.` |
 
 ---
 
-## Le visuel (v2)
+## Le visuel (v3, photo produit)
 
-L'ancienne image montrait un flacon blanc en très gros plan, **sans étiquette** : elle ne parlait pas du sujet (« ce que dit l'étiquette »). La nouvelle montre un flacon ambre avec une **étiquette blanche vierge**, dans une coupelle en bois avec des botaniques séchées — l'idée de « lire une étiquette » est immédiate, et les plantes évoquent la question du parfum.
+L'image de référence envoyée par Farid était une photo Amazon (Neutrogena) : **impossible de l'utiliser**, les images Amazon ne sortent jamais du site et ne vont jamais sur Pinterest. On en a repris l'**idée** avec une photo Pexels libre :
 
-- Photo : Pexels 11441227 · étiquette **vierge**, aucune marque visible
-- Texte inchangé : `SENSITIVE SKIN` / « Fragrance-free or unscented? » / signature ECLATIA
-- Script : `scripts/make_pins_p06.py` (source `base-P06b.jpg`)
+- flacon transparent, huile dorée visible, bouchon noir, **étiquette blanche vierge**
+- fond crème et socle en bois clair → même famille de couleurs que le bandeau
+- aucune marque visible, aucune retouche du produit
+
+Texte inchangé : `SENSITIVE SKIN` / « Fragrance-free or unscented? » / signature ECLATIA.
+Script : `scripts/make_pins_p06.py` (source `base-P06c.jpg`, Pexels 6801173).
+
+Historique : v1 = flacon blanc sans étiquette (illisible) · v2 = flacon ambre en coupelle (aspect « médicament ») · **v3 retenue**.
 
 ---
 
