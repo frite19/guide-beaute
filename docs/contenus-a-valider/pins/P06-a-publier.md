@@ -16,6 +16,21 @@
 | **Tableau** | `Body Care & Dry Skin` |
 | **Tagged topics** | Sensitive Skin · Skincare · Body Care |
 | **Alt** | `A clear bottle of golden body oil with a black cap and a blank white label, on a cream background.` |
+| **Product tag** | `https://www.amazon.com/dp/B001B0ZZFS?tag=eclatia20-20` — Neutrogena Body Oil, Light Sesame Formula, **Fragrance-Free**, 8.5 fl oz |
+
+### Le tag produit (choix)
+
+Le tag doit être une huile **réellement sans parfum**, sinon il contredit le pin et la page.
+
+| Candidat | Verdict |
+|---|---|
+| Neutrogena Body Oil **Fragrance-Free** (`B001B0ZZFS`) | ✅ retenu — ingrédients : Isopropyl Myristate, Sesamum Indicum Seed Oil, PEG-40 Sorbitan Peroleate, Propylparaben, BHT. Aucun `Fragrance`/`Parfum`, aucune huile essentielle |
+| Neutrogena Body Oil 16 oz (`B00008BK7H`) | ❌ version parfumée |
+| Aveeno Daily Moisturizing Body Oil Mist | ❌ liste d'ingrédients : `Fragrance` |
+| OSEA Undaria Algae Body Oil (`B004L17FKC`) | ❌ citrus + `Fragrance/Parfum` → incompatible avec « fragrance-free » |
+| Bio-Oil / Palmer's / Ancient Greek Remedy | ❌ parfumés |
+
+Tagger via **Tag products → Use a link**, jamais la recherche par nom (risque de tomber sur la variante parfumée). Le lien de destination du pin reste la page du site.
 
 ---
 
