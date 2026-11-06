@@ -15,7 +15,17 @@
 | **Lien** | `https://guide-beaute.pages.dev/guides/fragrance-free-body-oil-sensitive-skin/?utm_source=Pinterest&utm_medium=organic&utm_campaign=P06` |
 | **Tableau** | `Body Care & Dry Skin` |
 | **Tagged topics** | Sensitive Skin · Skincare · Body Care |
-| **Alt** | `Close-up of a plain white unlabeled bottle, with the caption "Fragrance-free or unscented?".` |
+| **Alt** | `An amber bottle with a blank white label standing in a wooden bowl among dried botanicals.` |
+
+---
+
+## Le visuel (v2)
+
+L'ancienne image montrait un flacon blanc en très gros plan, **sans étiquette** : elle ne parlait pas du sujet (« ce que dit l'étiquette »). La nouvelle montre un flacon ambre avec une **étiquette blanche vierge**, dans une coupelle en bois avec des botaniques séchées — l'idée de « lire une étiquette » est immédiate, et les plantes évoquent la question du parfum.
+
+- Photo : Pexels 11441227 · étiquette **vierge**, aucune marque visible
+- Texte inchangé : `SENSITIVE SKIN` / « Fragrance-free or unscented? » / signature ECLATIA
+- Script : `scripts/make_pins_p06.py` (source `base-P06b.jpg`)
 
 ---
 
