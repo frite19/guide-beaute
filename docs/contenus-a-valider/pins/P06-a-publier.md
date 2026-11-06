@@ -15,7 +15,7 @@
 | **Lien** | `https://guide-beaute.pages.dev/guides/fragrance-free-body-oil-sensitive-skin/?utm_source=Pinterest&utm_medium=organic&utm_campaign=P06` |
 | **Tableau** | `Body Care & Dry Skin` |
 | **Tagged topics** | Sensitive Skin · Skincare · Body Care |
-| **Alt** | `Close-up of a plain white bottle with the text "Fragrance-free or unscented?".` |
+| **Alt** | `Close-up of a plain white unlabeled bottle, with the caption "Fragrance-free or unscented?".` |
 
 ---
 
