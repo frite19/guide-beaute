@@ -1,6 +1,7 @@
-# P06 — Fragrance-free body oil — PRÊT À PUBLIER (06/11)
+# P06 — Fragrance-free body oil — PUBLIÉ (06/11)
 
-**Statut :** prêt · **à publier le 06/11/2026**
+**Statut :** ✅ **publié le 06/11/2026 à 16:51 GMT** (17:51 heure d'Alger) — tableau `Body Care & Dry Skin`
+**Pin en ligne :** https://www.pinterest.com/pin/e1_AfqPShxGRYJoXAcEAMPNsa6FVymtOjXcWV_Q5rtZIEEoXVoYpjzUOA/
 **Page de destination :** https://guide-beaute.pages.dev/guides/fragrance-free-body-oil-sensitive-skin/ (HTTP 200, index/follow, aucun prix)
 
 ---
