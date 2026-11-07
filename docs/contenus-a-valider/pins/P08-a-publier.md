@@ -15,6 +15,7 @@
 | **Lien** | `https://guide-beaute.pages.dev/guides/hair-oil-vs-body-oil/?utm_source=Pinterest&utm_medium=organic&utm_campaign=P08` |
 | **Tableau** | `Body Care & Dry Skin` |
 | **Tagged topics** | Hair Care · Body Care · Beauty Tips |
+| **Product tag** | `https://www.amazon.com/dp/B01A74442I?tag=eclatia20-20` — Cliganic Organic Jojoba Oil, 100% pure, 4 oz, **marketed for face & hair** |
 | **Alt** | `An amber dropper bottle labeled HAIR OIL next to a clear bottle of golden oil labeled BODY OIL.` |
 
 ---
