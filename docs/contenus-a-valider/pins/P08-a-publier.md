@@ -15,7 +15,19 @@
 | **Lien** | `https://guide-beaute.pages.dev/guides/hair-oil-vs-body-oil/?utm_source=Pinterest&utm_medium=organic&utm_campaign=P08` |
 | **Tableau** | `Body Care & Dry Skin` |
 | **Tagged topics** | Hair Care · Body Care · Beauty Tips |
-| **Alt** | `A drop of golden oil held between two fingertips, backlit.` |
+| **Alt** | `An amber dropper bottle labeled HAIR OIL next to a clear bottle of golden oil labeled BODY OIL.` |
+
+---
+
+## Le visuel (v2, diptyque produit)
+
+La v1 montrait une goutte d'huile entre deux doigts sur un fond beige presque vide. Joli, mais abstrait — et les chiffres du compte sont sans ambiguïté : le tableau corps fait **0,4 % de clics sortants**, le tableau cheveux **5,3 %**, sur la même période. Les pins « concept » ne déclenchent pas de clic ; les pins « produit à choisir » oui.
+
+La v2 se lit en une seconde : **HAIR OIL** à gauche, **BODY OIL** à droite, et la question en bas. Aucune marque lisible (flacon ambre uni, flacon transparent uni).
+
+- Photos : Pexels 7795850 (cheveux) et 6801173 (corps, déjà utilisé pour P06)
+- Script : `scripts/make_pins_p08.py`
+- Mise en page : diptyque 2 × 495 px, bandeau crème 480 px, même charte que P07
 
 ---
 
