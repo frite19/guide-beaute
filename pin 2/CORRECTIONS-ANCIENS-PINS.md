@@ -4,6 +4,12 @@ Vérification faite le 23/10/2026 contre les fiches du site (auditées le 18/10)
 **5 pins en ligne contredisent encore le site.** Ils ont été écrits le 17/10, avant la correction
 des fiches produits. Ce sont eux qui créent l'incohérence, pas les 7 nouveaux pins.
 
+> **07/11/2026 — pins cheveux : textes remplacés.**
+> Les corrections des pins `1115133557770769453` et `1115133557770691404` ci-dessous
+> contiennent encore « Tested the… » et « Honest USA Test ». **Ne pas les recopier.**
+> Les versions à coller sont dans `docs/contenus-a-valider/pins/corrections-2-pins-cheveux.md`.
+> Les corrections Fit Me et TruSkin contiennent aussi « Tested the… » : à réécrire avant usage.
+
 ## RÈGLE ABSOLUE
 Sur un pin déjà publié : on modifie **le titre et la description**, on ne touche **JAMAIS au lien**
 (Pinterest efface les statistiques du lien). 2 modifications max par pin, espacées de 24 h.
