@@ -1,7 +1,11 @@
-# P18 — Best hot air brush for fine hair — À PUBLIER (08/11)
+# P18 — Best hot air brush for fine hair — PUBLIÉ (08/11)
 
-**Statut :** prêt · **à publier le 08/11/2026**
+**Statut :** ✅ **publié le 08/11/2026 à 07:41 GMT** (08:41 heure d'Alger) — tableau `Hot Air Brush and Hair Styling Ideas`
+**Pin en ligne :** https://www.pinterest.com/pin/e1_AfqPShykmgIs7_Tutz6msat51OA4Pt1WvMfJPaXOlKbXL90D2Y77DA/
 **Page de destination :** https://guide-beaute.pages.dev/comparisons/best-hot-air-brush-2026/ (HTTP 200, index/follow, aucun prix)
+
+> Vérifié via le flux RSS du tableau : le pin apparaît en 1ʳᵉ position, daté du 08/11 07:41 GMT,
+> avec la description exacte de la fiche (« Fine hair: one tool instead of two… »).
 
 ---
 

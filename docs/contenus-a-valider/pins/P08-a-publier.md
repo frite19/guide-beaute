@@ -1,7 +1,11 @@
-# P08 — Hair oil vs body oil — PRÊT À PUBLIER (07/11)
+# P08 — Hair oil vs body oil — PUBLIÉ (07/11)
 
-**Statut :** prêt · **à publier le 07/11/2026**
+**Statut :** ✅ **publié le 07/11/2026 à 13:20 GMT** (14:20 heure d'Alger) — tableau `Body Care & Dry Skin`
+**Pin en ligne :** https://www.pinterest.com/pin/e1_AfqPShxjHEjBt1yZliyFXnpGQfeWQzVgpjCJe1iyHAEuri00Eez46A/
 **Page de destination :** https://guide-beaute.pages.dev/guides/hair-oil-vs-body-oil/ (HTTP 200, index/follow, aucun prix)
+
+> Vérifié via le flux RSS du tableau : pin en 1ʳᵉ position, daté du 07/11 13:20 GMT,
+> avec la description exacte de la fiche (« Sometimes yes, often no… »).
 
 ---
 
