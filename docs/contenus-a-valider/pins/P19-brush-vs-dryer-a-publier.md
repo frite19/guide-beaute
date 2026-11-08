@@ -11,7 +11,7 @@
 |---|---|
 | **Image** | `docs/contenus-a-valider/visuels/hair/pin-P19.jpg` — 1000 × 1500 (2:3) · copie PNG : `pin-P19.png` |
 | **Titre** | `One-Step Brush vs 1875 W Dryer - Which One for Your Hair?` |
-| **Description** | `One pass that dries and lifts the roots, or three to six minutes of raw drying power and then styling by hand. The weak point of each (very thick hair on one side, no volume on the other), travel, and who should keep just one. #hairdryer #hotairbrush #haircare` |
+| **Description** | `One pass that dries and lifts the roots, or three to six minutes of raw drying power and then styling by hand. The weak point of each (very thick hair on one side, no volume on the other), travel, and who should keep just one. Some links on this page are affiliate links. #hairdryer #hotairbrush #haircare` |
 | **Lien** | `https://guide-beaute.pages.dev/comparisons/one-step-brush-vs-powerful-dryer/?utm_source=Pinterest&utm_medium=organic&utm_campaign=P19` |
 | **Tableau** | `Hot Air Brush and Hair Styling Ideas` |
 | **Tagged topics** | Hair Care · Hair Styling · Beauty Tips |

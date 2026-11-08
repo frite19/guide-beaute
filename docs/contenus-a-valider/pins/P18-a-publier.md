@@ -11,7 +11,7 @@
 |---|---|
 | **Image** | `docs/contenus-a-valider/visuels/hair/pin-P18.jpg` — 1000 × 1500 (2:3) · copie PNG : `pin-P18.png` |
 | **Titre** | `Best Hot Air Brush 2026 - Which One for Fine Hair?` |
-| **Description** | `Fine to normal hair, one pass: a 1100 W one-step brush, 3 heat and 2 speed settings, a fixed oval head with nothing to swap mid-routine. Thick or soaking-wet hair is the case where a 1875 W dryer still wins. What to check before buying. #hotairbrush #finehair #hairtools` |
+| **Description** | `Fine to normal hair, one pass: a 1100 W one-step brush, 3 heat and 2 speed settings, a fixed oval head with nothing to swap mid-routine. Thick or soaking-wet hair is the case where a 1875 W dryer still wins. What to check before buying. Some links on this page are affiliate links. #hotairbrush #finehair #hairtools` |
 | **Lien** | `https://guide-beaute.pages.dev/comparisons/best-hot-air-brush-2026/?utm_source=Pinterest&utm_medium=organic&utm_campaign=P18` |
 | **Tableau** | `Hot Air Brush and Hair Styling Ideas` |
 | **Tagged topics** | Hair Care · Hair Styling · Beauty Tips |
