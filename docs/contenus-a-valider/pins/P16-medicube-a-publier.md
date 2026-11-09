@@ -13,9 +13,9 @@
 
 | Champ | Valeur |
 |---|---|
-| **Image** | `docs/contenus-a-valider/visuels/produits/pin-P16.jpg` — 1000 × 1500 (2:3) · **variante v2 encadrée : `visuels/produits/v2/pin-P16.jpg`** (même texte, photo avec marges crème) |
+| **Image** | `docs/contenus-a-valider/visuels/produits/v2/pin-P16.jpg` — 1000 × 1500 (2:3), **version encadrée (marges crème + sous-titre) : c'est celle à publier**. Original sans marges : `visuels/produits/pin-P16.jpg` |
 | **Titre** | `medicube PDRN Toner Pads: What "99% PDRN" Actually Means` |
-| **Description** | `70 pre-soaked gel toner pads, 120 ml, listed as #1 in Facial Toners on Amazon.com. The jar reads “High Purity Salmon PDRN 99%”: that figure describes the raw material, not the concentration in the finished product — and PDRN is not named in the ingredient list published on the listing. What is listed: niacinamide, allantoin, glycerin. The five-minute method, and who the pad format suits. #tonerpads #kbeauty #skincareroutine` |
+| **Description** | `70 pre-soaked gel toner pads, 120 ml, listed as #1 in Facial Toners on Amazon.com. The jar reads “High Purity Salmon PDRN 99%”: that figure describes the raw material, not the concentration in the finished product — and PDRN is not named in the ingredient list published on the listing. What is listed: niacinamide, allantoin, glycerin. The five-minute method, and who the pad format suits. Some links on this page are affiliate links. #tonerpads #kbeauty #skincareroutine` |
 | **Lien** | `https://guide-beaute.pages.dev/product/medicube-pdrn-pink-collagen-toner-pads/?utm_source=Pinterest&utm_medium=organic&utm_campaign=P16` |
 | **Tableau** | `Skincare Routine for Beginners` |
 | **Tagged topics** (jusqu'à 10, facultatifs) | `Skincare Routine` · `Toner` · `K Beauty` · `Face Care` · `Skincare Tips` · `Glowing Skin` · `Beauty Tips` · `Self Care` |
@@ -50,5 +50,5 @@
 
 - Ne jamais modifier le lien après publication.
 - Ne pas cliquer sur son propre pin : ouvrir l'URL du site directement.
-- 1 pin par jour, heure régulière (le 08/11 = P09 sur `Body Care & Dry Skin`, donc autre tableau ici).
+- 1 pin par jour, heure régulière. Le 08/11 était P18 (tableau cheveux), le 10/11 sera P17 : un seul pin aujourd'hui, sur `Skincare Routine for Beginners`.
 - Photo : Pexels 9775159 (licence Pexels, usage libre, attribution non obligatoire). Base conservée hors du site : `visuels/produits/base-P16.jpg`.
