@@ -20,6 +20,7 @@
 | **Tableau** | `Skincare Routine for Beginners` |
 | **Tagged topics** (jusqu'à 10, facultatifs) | `Skincare Routine` · `Toner` · `K Beauty` · `Face Care` · `Skincare Tips` · `Glowing Skin` · `Beauty Tips` · `Self Care` |
 | **Alt** | `Woman with curly hair pressing two cotton pads on her cheeks, pink backdrop, cream panel reading "What PDRN 99% actually means".` |
+| **Product tag** | `https://www.amazon.com/dp/B0DX74CWSQ?tag=eclatia20-20` — medicube PDRN Pink Collagen Jelly Toner Pads, 70 pads / 120 ml |
 
 ---
 
