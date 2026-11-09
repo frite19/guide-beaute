@@ -1,7 +1,12 @@
-# P16 — medicube PDRN toner pads — PRÊT À PUBLIER (09/11)
+# P16 — medicube PDRN toner pads — PUBLIÉ (09/11)
 
-**Statut :** prêt · **à publier le 09/11/2026** (1 pin ce jour-là, pas de 2ᵉ)
+**Statut :** ✅ **publié le 09/11/2026 à 08:25 GMT** (09:25 heure d'Alger) — tableau `Skincare Routine for Beginners`
+**Pin en ligne :** https://www.pinterest.com/pin/e1_AfqPShyGitJ7AgGxIqWd1V8lTB_behzI65oHhCBGLYg2_Ib0h83pEg/
 **Page de destination :** https://guide-beaute.pages.dev/product/medicube-pdrn-pink-collagen-toner-pads/ (HTTP 200, index/follow, aucun prix)
+
+> Vérifié via le flux RSS du tableau : pin en 1ʳᵉ position, daté du 09/11 08:25 GMT,
+> avec la description exacte de la fiche (« 70 pre-soaked gel toner pads… ») et la
+> mention « Some links on this page are affiliate links. ».
 
 > Visuel neuf, composé le 02/11. Aucune photo Amazon n'a été utilisée : la fiche
 > Amazon interdit la réutilisation de ses images (et encore plus la génération
