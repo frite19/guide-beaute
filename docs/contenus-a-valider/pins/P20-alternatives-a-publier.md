@@ -16,7 +16,7 @@
 | **Tableau** | `Hot Air Brush and Hair Styling Ideas` |
 | **Tagged topics** | Hair Care · Hair Styling · Beauty Tips |
 | **Alt** | `A hand lifting a strand of long blonde wavy hair while a red hair dryer is held above it.` |
-| **Product tag** | aucun (voir note ci-dessous) |
+| **Product tag** | `https://www.amazon.com/dp/B01HZ5K8UE?tag=eclatia20-20` — Revlon One-Step Dryer & Volumizer |
 
 ---
 
@@ -52,14 +52,12 @@ Script : `scripts/make_pins_kling.py` (source `base-kling-2.jpg`).
 
 ## Note sur le tag produit
 
-P18 (08/11) tague déjà la brosse one-step `B01HZ5K8UE` et P19 (11/11) le sèche-cheveux `B003TQPRGY`. Les deux seuls produits liés à cette page sont ceux-là : un tag ici ferait un doublon.
+Choix **B** (validé le 09/11) : tag produit assumé, même si le produit a déjà été tagué.
 
-**Deux choix possibles :**
+- **P20** tague la **brosse one-step** `B01HZ5K8UE` (déjà taguée par P18, 08/11) — c'est le premier « remplacement » proposé par la page, et le pin parle justement de la brosse virale.
+- **P21** tague le **sèche-cheveux** `B003TQPRGY` (déjà tagué par P19, 11/11) — c'est l'appareil visible sur l'image.
 
-- **A (recommandé)** — pas de tag produit sur P20. Le pin envoie vers le guide, le guide envoie vers les fiches.
-- **B** — taguer `https://www.amazon.com/dp/B01HZ5K8UE?tag=eclatia20-20` (la brosse), en acceptant le doublon avec P18.
-
-Réponds A ou B, je mets la fiche à jour avant le 12/11.
+Les deux tags pointent vers `?tag=eclatia20-20`. Rappel : un tag produit ne remplace jamais le champ « Lien » — le pin continue d'envoyer vers la page du site.
 
 ---
 

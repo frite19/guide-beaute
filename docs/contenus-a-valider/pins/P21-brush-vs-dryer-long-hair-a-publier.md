@@ -18,7 +18,7 @@
 | **Tableau** | `Hot Air Brush and Hair Styling Ideas` |
 | **Tagged topics** | Hair Care · Hair Styling · Beauty Tips |
 | **Alt** | `Back view of long blonde wavy hair being blow-dried with a red hair dryer.` |
-| **Product tag** | aucun (voir note ci-dessous) |
+| **Product tag** | `https://www.amazon.com/dp/B003TQPRGY?tag=eclatia20-20` — Revlon Compact Hair Dryer 1875W |
 
 ---
 
@@ -55,14 +55,12 @@ Script : `scripts/make_pins_kling.py` (source `base-kling-3.jpg`).
 
 ## Note sur le tag produit
 
-P18 (08/11) tague déjà la brosse `B01HZ5K8UE` et P19 (11/11) le sèche-cheveux `B003TQPRGY`. Cette page ne lie que ces deux produits : un tag ici ferait un doublon.
+Choix **B** (validé le 09/11) : tag produit assumé, même si le produit a déjà été tagué.
 
-**Deux choix possibles :**
+- **P21** tague le **sèche-cheveux** `B003TQPRGY` (déjà tagué par P19, 11/11) — c'est l'appareil visible sur l'image.
+- **P20** (12/11) tague la **brosse one-step** `B01HZ5K8UE` (déjà taguée par P18, 08/11). Les deux nouveaux pins ne taguent donc pas le même produit.
 
-- **A (recommandé)** — pas de tag produit sur P21.
-- **B** — taguer `https://www.amazon.com/dp/B003TQPRGY?tag=eclatia20-20` (le sèche-cheveux), en acceptant le doublon avec P19.
-
-Réponds A ou B, je mets la fiche à jour avant le 16/11.
+Le tag ne remplace jamais le champ « Lien » : le pin continue d'envoyer vers la page du site, jamais vers Amazon.
 
 ---
 
