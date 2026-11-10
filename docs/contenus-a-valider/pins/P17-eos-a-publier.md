@@ -20,6 +20,7 @@
 | **Tableau** | `Body Care & Dry Skin` |
 | **Tagged topics** (jusqu'à 10, facultatifs) | `Body Care` · `Dry Skin` · `Body Lotion` · `Moisturizer` · `Travel Size` · `Gift Ideas` · `Self Care` · `Beauty Tips` |
 | **Alt** | `Two hands, one squeezing lotion from a tube onto the back of the other, cream panel reading "The photo says Cocoa. The label says Caramel."` |
+| **Product tag** | `https://www.amazon.com/dp/B0FYKPSR5N?tag=eclatia20-20` — eos Shea Better Travel Size Body Lotion, Caramel Cashmere, 2.5 fl oz |
 
 ---
 
