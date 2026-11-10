@@ -432,21 +432,29 @@ export default function ComparisonDetail({ params }: { params: { slug: string } 
             </table>
           </>
         )}
-        {produits.length > 0 && produits[0] && (
+        {produits.length > 0 && (
           <div className="affiliate-box" style={{ marginTop: 18 }}>
-            <div>
-              <strong>Want to see the current offer?</strong><br />
+            <div style={{ flex: "1 1 240px" }}>
+              <strong>Want to see the current offers?</strong><br />
               <span style={{ color: "#d9c4b4", fontSize: "0.9rem" }}>
-                Stock, size and price are confirmed at {produits[0].marchand} when you click.
+                Stock, size and price are confirmed at the retailer when you click.
               </span>
             </div>
-            <AffiliateButton
-              url={produits[0].urlAffiliation}
-              productSlug={produits[0].slug}
-              category={produits[0].categorie}
-              merchant={produits[0].marchand}
-              label="Check price"
-            />
+            <div style={{ display: "flex", gap: 14, flexWrap: "wrap" }}>
+              {produits.map((p) => p && (
+                <div key={p.slug} style={{ display: "flex", flexDirection: "column", gap: 6, minWidth: 210 }}>
+                  <span style={{ color: "#d9c4b4", fontSize: "0.85rem", lineHeight: 1.3 }}>{p.nom}</span>
+                  <AffiliateButton
+                    url={p.urlAffiliation}
+                    productSlug={p.slug}
+                    category={p.categorie}
+                    merchant={p.marchand}
+                    label="Check price"
+                    small
+                  />
+                </div>
+              ))}
+            </div>
           </div>
         )}
         {c.sections?.map((s) => (
