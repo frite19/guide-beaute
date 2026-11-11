@@ -1,7 +1,17 @@
-# P19 — One-step brush vs 1875 W dryer — À PUBLIER (11/11)
+# P19 — One-step brush vs 1875 W dryer — ✅ PUBLIÉ (11/11)
 
-**Statut :** prêt · **à publier le 11/11/2026**
+**Statut :** ✅ **publié le 11/11/2026 à 18:02 GMT** (10:02 heure du Pacifique)
+**Pin :** https://www.pinterest.com/pin/e1_AfqPShzFwb7i7wAwpwN4emlMydYRdrNWnVVG20wtPI_xQOYv9odUpg/
+**Tableau :** `Hot Air Brush and Hair Styling Ideas`
 **Page de destination :** https://guide-beaute.pages.dev/comparisons/one-step-brush-vs-powerful-dryer/ (HTTP 200, index/follow, aucun prix)
+
+> ⚠️ **Angle changé avant publication.** Le pin du 16/10 (`1115133557770691404`) pointe vers
+> `/comparisons/best-hot-air-brush-2026/`, avec un titre quasi jumeau (« Hot Air Brush vs
+> 1875 W Dryer: Which One Actually Works? ») et une description cousine. Pour éviter deux
+> pins concurrents, P19 a été recentré sur l'angle **« n'en garder qu'un »** + voyage.
+> Description réellement publiée (vérifiée via le flux RSS, 390 caractères) : « Two tools,
+> two jobs. … Which one to keep if you buy only one. Some links on this page are affiliate
+> links. #hairdryer #hotairbrush #haircare ».
 
 ---
 
@@ -10,8 +20,8 @@
 | Champ | Valeur |
 |---|---|
 | **Image** | `docs/contenus-a-valider/visuels/hair/pin-P19.jpg` — 1000 × 1500 (2:3) · copie PNG : `pin-P19.png` |
-| **Titre** | `One-Step Brush vs 1875 W Dryer - Which One for Your Hair?` |
-| **Description** | `One pass that dries and lifts the roots, or three to six minutes of raw drying power and then styling by hand. The weak point of each (very thick hair on one side, no volume on the other), travel, and who should keep just one. Some links on this page are affiliate links. #hairdryer #hotairbrush #haircare` |
+| **Titre** | `Keep Only One: Heated Brush or 1875 W Dryer?` **(titre final à confirmer par l'auteur — voir note)** |
+| **Description** | `Two tools, two jobs. The heated brush adds volume while it dries, no round brush needed. The 1875 W dryer gets through thick or soaking-wet hair fast and packs light for travel. The catches: 1100 W is not enough on very thick hair, and the dryer styles nothing on its own. Which one to keep if you buy only one. Some links on this page are affiliate links. #hairdryer #hotairbrush #haircare` |
 | **Lien** | `https://guide-beaute.pages.dev/comparisons/one-step-brush-vs-powerful-dryer/?utm_source=Pinterest&utm_medium=organic&utm_campaign=P19` |
 | **Tableau** | `Hot Air Brush and Hair Styling Ideas` |
 | **Tagged topics** | Hair Care · Hair Styling · Beauty Tips |
