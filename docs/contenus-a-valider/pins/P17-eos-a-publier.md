@@ -1,7 +1,10 @@
 # P17 — eos Caramel Cashmere travel lotion — PRÊT À PUBLIER (10/11)
 
-**Statut :** prêt · **à publier le 10/11/2026** (1 pin ce jour-là)
+**Statut :** ✅ **publié le 10/11/2026 à 16:42 GMT** (08:42 heure du Pacifique) — 1 pin ce jour-là
+**Pin :** https://www.pinterest.com/pin/e1_AfqPShzhicZp1O8dDxwJs0gPvMvo5kJb2XUux6-xj0VrG2ISFb9p7w/
+**Tableau :** `Body Care & Dry Skin`
 **Page de destination :** https://guide-beaute.pages.dev/product/eos-shea-better-caramel-cashmere-travel-lotion/ (HTTP 200, index/follow, aucun prix)
+**Tag produit :** non ajouté (Pinterest renvoyait « Something went wrong » sur le lien Amazon) — à ne pas réessayer sur ce pin, il est publié
 
 > Visuel neuf, composé le 02/11, photo Pexels libre. Le sujet du pin est une
 > **incohérence réelle constatée sur la fiche Amazon** (photo ≠ titre), pas un
@@ -48,6 +51,18 @@
 > gift » : ce serait un avis, pas un fait de fiche.
 
 ---
+
+## Après publication — 1 écart à arbitrer
+
+Le flux RSS du tableau montre une description publiée qui se termine par `#amazon affiliate`
+et **ne contient pas** la phrase de divulgation `Some links on this page are affiliate links.`
+(présente sur P19, P20 et P21).
+
+- Texte de la fiche = **396 caractères** ; la limite Pinterest est de 500 → il reste la place.
+- Correctif possible en **une seule modification** : remplacer les hashtags finaux par
+  `Some links on this page are affiliate links. #bodylotion #dryskin #travelsize` (≈ 430 car.).
+- Rappel : **2 modifications maximum par pin et par 24 h** → une seule suffit, ne pas enchaîner.
+- Ne pas toucher au lien du site (`utm_campaign=P17`).
 
 ## Rappels
 

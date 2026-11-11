@@ -84,3 +84,7 @@ statistique de site, c'est un outil de test des liens.
 2. Pinterest Analytics → noter **outbound clicks**
 3. Amazon Associates → noter **clicks** et **ordered items**
 4. Ajouter 3 à 7 pins dans la semaine (1 pin/jour vers un guide, jamais directement Amazon)
+
+> Les relevés datés et comparables d'un mois sur l'autre sont dans
+> `docs/suivi-trafic-mensuel.md`. C'est ce fichier qui fait foi pour mesurer une
+> progression ; le présent mode d'emploi ne sert qu'à savoir où cliquer.
