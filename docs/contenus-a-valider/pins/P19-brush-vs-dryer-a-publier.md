@@ -20,7 +20,7 @@
 | Champ | Valeur |
 |---|---|
 | **Image** | `docs/contenus-a-valider/visuels/hair/pin-P19.jpg` — 1000 × 1500 (2:3) · copie PNG : `pin-P19.png` |
-| **Titre** | `Keep Only One: Heated Brush or 1875 W Dryer?` **(titre final à confirmer par l'auteur — voir note)** |
+| **Titre** | `Keep Only One: Heated Brush or 1875 W Dryer?` ✅ (titre publié, confirmé par l'auteur) |
 | **Description** | `Two tools, two jobs. The heated brush adds volume while it dries, no round brush needed. The 1875 W dryer gets through thick or soaking-wet hair fast and packs light for travel. The catches: 1100 W is not enough on very thick hair, and the dryer styles nothing on its own. Which one to keep if you buy only one. Some links on this page are affiliate links. #hairdryer #hotairbrush #haircare` |
 | **Lien** | `https://guide-beaute.pages.dev/comparisons/one-step-brush-vs-powerful-dryer/?utm_source=Pinterest&utm_medium=organic&utm_campaign=P19` |
 | **Tableau** | `Hot Air Brush and Hair Styling Ideas` |
