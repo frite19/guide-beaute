@@ -1,7 +1,17 @@
-# P20 — Alternatives au « viral brush » — À PUBLIER (12/11)
+# P20 — Alternatives au « viral brush » — ✅ PUBLIÉ (12/11)
 
-**Statut :** prêt · **à publier le 12/11/2026** (1 pin ce jour-là)
+**Statut :** ✅ **publié le 12/11/2026 à 16:57 GMT** (08:57 heure du Pacifique) — 1 pin ce jour-là
+**Pin :** https://www.pinterest.com/pin/e1_AfqPShzPm3CbhrBKb7l6eIHfwY-DOrLeBjyi6ZGlyHZYuK3B1ZlhFg/
+**Tableau :** `Hot Air Brush and Hair Styling Ideas`
 **Page de destination :** https://guide-beaute.pages.dev/guides/alternatives-to-viral-heated-brush/ (HTTP 200, index/follow, aucun prix)
+
+> 🔁 **Visuel refait le 12/11.** La première composition (base KlingAI) montrait une main
+> anatomiquement fausse — doigts trop longs, poignet désaxé, et une seconde main parasite en
+> bas du cadre. La génération IA étant indisponible, le pin est parti sur une **photo réelle** :
+> Pexels 7440133 (licence Pexels, usage commercial libre, attribution non obligatoire),
+> recadrée et composée avec `scripts/pin_p20_alt.py`. Fichier : `visuels/hair/pin-P20-d.jpg`.
+> Variantes non utilisées : `pin-P20-c.jpg` (cadrage trop haut), `pin-P20-e.jpg` (fond vert,
+> cheveux bruns). L'ancienne image `pin-P20.jpg` reste dans le dossier mais n'est plus à utiliser.
 
 ---
 
@@ -9,13 +19,13 @@
 
 | Champ | Valeur |
 |---|---|
-| **Image** | `docs/contenus-a-valider/visuels/hair/pin-P20.jpg` — 1000 × 1500 (2:3) · copie PNG : `pin-P20.png` |
+| **Image** | `docs/contenus-a-valider/visuels/hair/pin-P20-d.jpg` — 1000 × 1500 (2:3) · **publiée** (photo Pexels 7440133) |
 | **Titre** | `Not Sure About the Viral Heated Brush? 2 Alternatives` |
 | **Description** | `The viral brush is not a bad tool, it is a tool with conditions: very thick hair, express drying, budget. Two calmer paths: a one-step heated brush for a quick daily routine, or a powerful dryer plus a round brush when you want control. Heat protection and a cool-air finish either way. Some links on this page are affiliate links. #hairdryer #hotairbrush #haircare` |
 | **Lien** | `https://guide-beaute.pages.dev/guides/alternatives-to-viral-heated-brush/?utm_source=Pinterest&utm_medium=organic&utm_campaign=P20` |
 | **Tableau** | `Hot Air Brush and Hair Styling Ideas` |
 | **Tagged topics** | Hair Care · Hair Styling · Beauty Tips |
-| **Alt** | `A hand lifting a strand of long blonde wavy hair while a red hair dryer is held above it.` |
+| **Alt** | `A stylist holds a white hair dryer in one hand and a round brush in the other, lifting a section of long blonde hair.` (à utiliser pour le nouveau visuel) |
 | **Product tag** | `https://www.amazon.com/dp/B01HZ5K8UE?tag=eclatia20-20` — Revlon One-Step Dryer & Volumizer |
 
 ---
