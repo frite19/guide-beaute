@@ -94,6 +94,64 @@ l'échantillon est trop petit (règle des ~1 000 impressions).
 
 ---
 
+## Relevé n°2 — Pinterest Analytics — 12/11/2026
+
+**Période :** 12/10/2026 → 11/11/2026 (31 jours) · export `Pinterest Analytics overview 20261012-20261111.csv`
+**Filtres :** tous contenus, tous appareils, toutes sources · bots non exclus par Pinterest
+
+### Volumes
+
+| Indicateur | Valeur |
+|---|---|
+| Impressions totales | **2 466** (~80/jour) |
+| Clics sortants (vers le site) | **22** (0,89 % des impressions) |
+| Clics sur le pin (ouverture) | 45 |
+| Engagements | 63 |
+| Enregistrements | **1** |
+
+**Courbe :** 20 à 140 impressions/jour jusqu'au 08/11, puis **820 le 09/11**,
+294 le 10/11, 307 le 11/11. Les deux derniers jours sont des estimations réajustées.
+
+### Par tableau
+
+| Tableau | Impressions | Engagements | Clics pin | Clics sortants | Taux sortant |
+|---|---|---|---|---|---|
+| Body Care & Dry Skin | 1 722 | 15 | 15 | 1 | **0,06 %** |
+| Skincare Routine for Beginners | 304 | 16 | 11 | 6 | 2,0 % |
+| Hot Air Brush and Hair Styling | 282 | 23 | 14 | 11 | **3,9 %** |
+| Makeup for Dry Skin | 158 | 9 | 5 | 4 | 2,5 % |
+
+### Top pins (par impressions)
+
+| Impr. | Page de destination |
+|---|---|
+| 771 | `/guides/dry-body-oil-vs-body-lotion/` |
+| 477 | `/comparisons/body-oil-vs-body-lotion/` |
+| 372 | `/comparisons/best-hot-air-brush-2026/` |
+| 117 | `/comparisons/shea-butter-vs-body-oil/` |
+| 97 | `/guides/body-oil-before-or-after-lotion/` |
+
+### Lecture
+
+1. **Le pic du 09/11 vient d'un seul pin body** (771 impressions), pas d'une croissance du
+   compte. Ne pas en tirer de conclusion : un pin qui décolle une fois n'est pas une tendance.
+2. **Les cheveux convertissent 65 fois mieux** que le body care (3,9 % contre 0,06 %), avec
+   6 fois moins d'impressions. Décision : passer à **2 pins cheveux / 1 pin corps**.
+3. **Le body care est un piège à impressions** : 70 % du volume, 1 clic sortant sur 22. Ce
+   n'est pas un problème d'image mais de promesse.
+4. **1 seul enregistrement sur le mois.** C'est le point faible le plus coûteux : sans
+   enregistrement, un pin ne circule pas. Piste : formats « liste / erreurs à éviter ».
+5. **Recoupement** : 22 clics sortants ≈ les 20–40 visites humaines vues dans Cloudflare au
+   relevé n°1. Les deux sources concordent — le trafic Pinterest est réel mais ~0,7 visiteur/jour.
+
+### Objectif chiffré qui suit
+
+Pour atteindre 100 clics Amazon/mois, il faut multiplier les clics sortants par ~4,5.
+Le levier n'est pas le site (vitesse 100 % verte) mais le **nombre de pins cheveux** et leur
+capacité à être enregistrés.
+
+---
+
 ## Ce qu'on attend au relevé n°2 (prévu le 10/12/2026)
 
 | À vérifier | Seuil de lecture |
