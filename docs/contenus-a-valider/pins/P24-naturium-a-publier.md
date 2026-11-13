@@ -39,7 +39,7 @@
 
 Photo Pexels **3865608** (licence Pexels, attribution non obligatoire), recadrée 2:3. Une
 femme verse une huile dorée d'un flacon ambré dans sa paume ouverte. Mains naturelles,
-anatomie correcte, aucun logo lisible. Composition par `scripts/make_pin_p24_variants.py`.
+anatomie correcte, aucun logo lisible. Composition par `scripts/make_pins_editorial.py`.
 
 **Point d'honnêteté :** le flacon de la photo n'est pas le Naturium. Le pin illustre le geste
 (oil-to-lather) et le texte parle de la formule, pas du packaging. La page précise déjà

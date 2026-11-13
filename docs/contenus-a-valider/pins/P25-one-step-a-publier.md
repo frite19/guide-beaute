@@ -40,7 +40,16 @@
 
 Photo Pexels 10028673 (licence Pexels), recadrée 2:3. Une brosse ronde en bois et un
 sèche-cheveux noir dans des cheveux bruns : les **deux outils** que le one-step remplace sont
-visibles, les mains sont réelles, aucune marque lisible.
+visibles, les mains sont réelles, aucune marque lisible. Composition par
+`scripts/make_pins_editorial.py`.
+
+Le recadrage est calé pour **sortir le visage de la coiffeuse** du cadre (il apparaissait au
+ras du menton sur la première version, ce qui donnait une image maladroite).
+
+**Charte : thème crème à texte géant.** Titre composé à **104 px** (contre 25–70 px sur
+l'ancienne charte), chip à 34 px, kicker à 36 px. C'est la variante claire de la charte
+appliquée à P24 en version verte : deux pins consécutifs, deux couleurs, même lisibilité.
+Cela permet de comparer crème et vert sur deux pins publiés à un jour d'intervalle.
 
 **Point d'honnêteté :** la photo ne montre **pas** un one-step (il n'en existe pas en photo
 libre). Elle montre les deux outils, et le texte dit ce que fait l'appareil. Le chip
