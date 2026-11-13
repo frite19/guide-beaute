@@ -16,7 +16,7 @@
 | **Lien** | `https://guide-beaute.pages.dev/product/naturium-glow-getter-multi-oil-body-wash/?utm_source=Pinterest&utm_medium=organic&utm_campaign=P24` |
 | **Tableau** | `Body Care & Dry Skin` |
 | **Tagged topics** | Body Care · Dry Skin · Bath and Body |
-| **Alt** | `A hand dispenses oil from a black pump bottle into the palm of another hand.` |
+| **Alt** | `A woman pours golden body oil from an amber bottle into the open palm of her other hand.` |
 | **Product tag** | `https://www.amazon.com/dp/B0B1PDDLGZ?tag=eclatia20-20` — Naturium The Glow Getter Multi-Oil Body Wash, 16.9 fl oz |
 
 ---
@@ -37,12 +37,38 @@
 
 ### Le visuel
 
-Photo Pexels 5888066 (licence Pexels), recadrée 2:3. Huile versée d'une pompe dans une paume,
-fond blanc, mains naturelles, aucun logo lisible. Composition par `scripts/make_pins_series.py`.
+Photo Pexels **3865608** (licence Pexels, attribution non obligatoire), recadrée 2:3. Une
+femme verse une huile dorée d'un flacon ambré dans sa paume ouverte. Mains naturelles,
+anatomie correcte, aucun logo lisible. Composition par `scripts/make_pin_p24_variants.py`.
 
 **Point d'honnêteté :** le flacon de la photo n'est pas le Naturium. Le pin illustre le geste
 (oil-to-lather) et le texte parle de la formule, pas du packaging. La page précise déjà
 « Illustrative photo ».
+
+**Photo rejetée :** Pexels 5888066 (première version). Elle montrait un **homme** — avant-bras
+poilus, torse large — et deux mains mal emboîtées. Pour un pin qui s'adresse à des femmes de
+30-45 ans et vend une huile de douche, c'était un contresens. Remplacée le 13/11.
+
+### La charte du visuel (décision du 13/11)
+
+L'ancien visuel de P24 composait son titre entre 25 et 70 px sur un canvas de 1000 px. À la
+taille d'affichage du fil Pinterest (~236 px), cela donne **6 à 16 px** : illisible. Le chip
+« OIL BODY WASH » tombait à 4,5 px, c'est-à-dire à rien.
+
+Nouvelle règle appliquée à partir de P24 :
+
+| Élément | Avant | Maintenant |
+|---|---|---|
+| Titre | 25–70 px | **110–130 px** |
+| Chip | 19 px | **34 px** |
+| Kicker | 25 px | **36 px** |
+| Bandeau | crème | **vert profond + texte crème** |
+
+Le bandeau sombre sert à deux choses : le texte se lit, et la limite photo ↔ bandeau devient
+franche (la photo étant très claire, un bandeau crème s'y fondait).
+
+Une variante crème à texte géant est conservée dans `visuels/hair/pin-P24-creme.jpg` pour un
+test ultérieur (1 pin sur 4), sans changer la charte principale.
 
 ---
 
