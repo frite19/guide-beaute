@@ -1,8 +1,17 @@
-# P23 — Revlon Compact 1875 W — À PUBLIER (13/11)
+# P23 — Revlon Compact 1875 W — ✅ PUBLIÉ (13/11)
 
-**Statut :** prêt · **à publier le 13/11/2026** (1 pin ce jour-là)
+**Statut :** ✅ **publié le 13/11/2026 à 16:16 GMT** (08:16 heure du Pacifique) — 1 pin ce jour-là
+**Pin :** https://www.pinterest.com/pin/e1_AfqPShwczbVMgAcS8HVmx5vFbS6PoiW_P3B5gwiZUtj1_DaRLHHTag/
+**Tableau :** `Hot Air Brush and Hair Styling Ideas`
 **Page de destination :** https://guide-beaute.pages.dev/product/revlon-compact-hair-dryer-1875w/ (HTTP 200, index/follow, aucun prix)
 **Dernier pin vers cette page :** 24/10 → hors de la semaine 09-15/11, règle respectée
+
+> 🎨 **Visuel final : version de l'auteur, pas celle du script.** Le pin publié utilise une
+> composition plus « bold » (script jaune, bandeau au pinceau, pictos) retravaillée par Farid
+> à partir de `visuels/hair/pin-P23.jpg`. Deux corrections demandées avant publication :
+> suppression de la mention « Heat Control » (la page refuse de confirmer les réglages de
+> chaleur) et du faux bouton lecture dans le CTA. Le fichier du visuel publié n'est pas
+> versionné dans le dépôt : le conserver hors ligne si besoin.
 
 ---
 
