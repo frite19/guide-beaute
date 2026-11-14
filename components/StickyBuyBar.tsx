@@ -48,7 +48,7 @@ export function StickyBuyBar({
           productSlug={productSlug}
           category={category}
           merchant={merchant}
-          label="Check price"
+          label="See Price on Amazon"
           small
         />
       </div>

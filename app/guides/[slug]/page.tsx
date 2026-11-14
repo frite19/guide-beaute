@@ -760,7 +760,7 @@ export default function GuideDetail({ params }: { params: { slug: string } }) {
                   productSlug={encart.slug}
                   category={encart.categorie}
                   merchant={encart.marchand}
-                  label="Check price"
+                  label="See Price on Amazon"
                 />
               </div>
             )}

@@ -7,7 +7,7 @@ import { SITE } from "@/data/catalog";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://guide-beaute.pages.dev"),
-  title: { default: "Éclatia — Beauty Guide: Honest Comparisons & Reviews", template: "%s — Éclatia" },
+  title: { default: "Éclatia — Beauty Guide: Honest Comparisons & Buying Guides", template: "%s — Éclatia" },
   description: SITE.description,
   openGraph: {
     type: "website",

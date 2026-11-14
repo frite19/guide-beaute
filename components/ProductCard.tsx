@@ -19,8 +19,8 @@ export function ProductCard({ p }: { p: Product }) {
         </div>
         <p className="muted">Best for: {p.publicIdeal}</p>
         <div style={{ display: "flex", gap: 8, marginTop: "auto", flexWrap: "wrap" }}>
-          <AffiliateButton url={p.urlAffiliation} productSlug={p.slug} category={p.categorie} merchant={p.marchand} label="Check price" small />
-          <Link className="btn btn-ghost btn-small" href={`/product/${p.slug}`}>Full review</Link>
+          <AffiliateButton url={p.urlAffiliation} productSlug={p.slug} category={p.categorie} merchant={p.marchand} label="See Price on Amazon" small />
+          <Link className="btn btn-ghost btn-small" href={`/product/${p.slug}`}>Read the full breakdown →</Link>
         </div>
         <p className="price-note">Price and stock checked at {p.marchand} when you click — at no extra cost to you.</p>
       </div>

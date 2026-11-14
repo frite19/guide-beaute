@@ -10,7 +10,7 @@ export default function Page() {
       <ul>
         <li>Technical <code>rel=&quot;sponsored nofollow&quot;</code> attributes on every affiliate outbound link.</li>
         <li>A note under every button: “Price and stock checked at [Retailer] when you click.”</li>
-        <li>A transparency banner at the top of the site and a disclosure box on every review.</li>
+        <li>A transparency banner at the top of the site and a disclosure box on every product page.</li>
       </ul>
       <h2>What we never do</h2>
       <ul>

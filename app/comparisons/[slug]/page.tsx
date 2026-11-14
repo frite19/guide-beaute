@@ -404,7 +404,7 @@ const CONTENUS: Record<string, Contenu> = {
 export default function ComparisonDetail({ params }: { params: { slug: string } }) {
   const g = COMPARATIFS.find((x) => x.slug === params.slug);
   if (!g) notFound();
-  const c = CONTENUS[g.slug] ?? { intro: [g.description], verdict: "Compare the detailed reviews below, then check price and stock at the retailer.", tableau: [] };
+  const c = CONTENUS[g.slug] ?? { intro: [g.description], verdict: "Compare the full breakdowns below, then check price and stock at the retailer.", tableau: [] };
   const produits = g.produitsLies.map(getProduct).filter(Boolean);
   const faqLd = c.faq?.length
     ? {
@@ -449,7 +449,7 @@ export default function ComparisonDetail({ params }: { params: { slug: string } 
                     productSlug={p.slug}
                     category={p.categorie}
                     merchant={p.marchand}
-                    label="Check price"
+                    label="See Price on Amazon"
                     small
                   />
                 </div>
@@ -492,7 +492,7 @@ export default function ComparisonDetail({ params }: { params: { slug: string } 
             </ul>
           </>
         )}
-        <h2>Detailed reviews</h2>
+        <h2>The full breakdown</h2>
       </div>
       <div className="grid-3">
         {produits.map((p) => p && <ProductCard key={p.slug} p={p} />)}

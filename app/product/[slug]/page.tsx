@@ -14,8 +14,8 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   const p = getProduct(params.slug);
   if (!p) return {};
   return {
-    title: `${p.nom}: Honest Review, Pros & Cons`,
-    description: `${p.nom} (${p.marque}) — ${p.description.slice(0, 150)}. Detailed review, alternatives and transparent retailer link.`,
+    title: `${p.nom}: What the Specs Say, Pros & Cons`,
+    description: `${p.nom} (${p.marque}) — ${p.description.slice(0, 150)}. Specifications, pros and cons, alternatives and a transparent retailer link.`,
     alternates: { canonical: `/product/${p.slug}/` },
   };
 }
@@ -57,7 +57,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
           </p>
         </div>
         <div>
-          <span className="badge">{p.marque} Â· {cat?.nom}</span>
+          <span className="badge">{p.marque} · {cat?.nom}</span>
           <h1 style={{ fontFamily: "var(--font-display)", margin: "8px 0" }}>{p.nom}</h1>
           <p style={{ color: "var(--muted)" }}>{p.description}</p>
           <p><strong>Best for:</strong> {p.publicIdeal}</p>
@@ -67,15 +67,15 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
               : `No price shown on purpose: prices change fast. Click to see the current verified price at ${p.marchand}.`}
           </p>
           <div style={{ display: "flex", gap: 10, flexWrap: "wrap", margin: "12px 0" }}>
-            <AffiliateButton url={p.urlAffiliation} productSlug={p.slug} category={p.categorie} merchant={p.marchand} label="Check price" />
-            <AffiliateButton url={p.urlAffiliation} productSlug={p.slug} category={p.categorie} merchant={p.marchand} label="Discover the product" variant="ghost" />
+            <AffiliateButton url={p.urlAffiliation} productSlug={p.slug} category={p.categorie} merchant={p.marchand} label="See Price on Amazon" />
+            <Link className="btn btn-ghost" href="#specifications">See the specifications →</Link>
           </div>
-          <p className="price-note">Review last updated: {p.majLe} Â· Retailer: {p.marchand}</p>
+          <p className="price-note">Page last updated: {p.majLe} · Retailer: {p.marchand}</p>
         </div>
       </div>
 
       <section className="prose">
-        <h2>Verified specifications</h2>
+        <h2 id="specifications">Verified specifications</h2>
         <table className="spec-table">
           <tbody>
             {p.caracteristiques.map((c) => {
@@ -87,8 +87,8 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
 
         <h2>Pros and cons</h2>
         <div className="pros-cons" style={{ fontSize: "0.95rem" }}>
-          <div className="panel"><strong>âœ… Strengths</strong><ul>{p.avantages.map((a) => <li key={a}>{a}</li>)}</ul></div>
-          <div className="panel"><strong>âš ï¸ Honest limits</strong><ul>{p.inconvenients.map((a) => <li key={a}>{a}</li>)}</ul></div>
+          <div className="panel"><strong>Strengths</strong><ul>{p.avantages.map((a) => <li key={a}>{a}</li>)}</ul></div>
+          <div className="panel"><strong>Honest limits</strong><ul>{p.inconvenients.map((a) => <li key={a}>{a}</li>)}</ul></div>
         </div>
 
         <h2>Recommended use cases</h2>
@@ -96,7 +96,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
 
         <div className="affiliate-box" style={{ marginTop: 18 }}>
           <div><strong>Ready to see the current deal?</strong><br /><span style={{ color: "#d9c4b4", fontSize: "0.9rem" }}>Stock, shade and price verified at {p.marchand}.</span></div>
-          <AffiliateButton url={p.urlAffiliation} productSlug={p.slug} category={p.categorie} merchant={p.marchand} label="View deal" />
+          <AffiliateButton url={p.urlAffiliation} productSlug={p.slug} category={p.categorie} merchant={p.marchand} label="See Price on Amazon" />
         </div>
 
         {alternatives.length > 0 && (
@@ -105,9 +105,9 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
             <table className="compare-table">
               <thead><tr><th>Product</th><th>Best for</th><th>Highlight</th><th>Link</th></tr></thead>
               <tbody>
-                <tr><td><strong>{p.nom}</strong></td><td>{p.publicIdeal}</td><td>{p.avantages[0]}</td><td><Link href={`/product/${p.slug}`}>Review</Link></td></tr>
+                <tr><td><strong>{p.nom}</strong></td><td>{p.publicIdeal}</td><td>{p.avantages[0]}</td><td><Link href={`/product/${p.slug}`}>Details</Link></td></tr>
                 {alternatives.map((a) => (
-                  <tr key={a.slug}><td>{a.nom}</td><td>{a.publicIdeal}</td><td>{a.avantages[0]}</td><td><Link href={`/product/${a.slug}`}>Review</Link></td></tr>
+                  <tr key={a.slug}><td>{a.nom}</td><td>{a.publicIdeal}</td><td>{a.avantages[0]}</td><td><Link href={`/product/${a.slug}`}>Details</Link></td></tr>
                 ))}
               </tbody>
             </table>

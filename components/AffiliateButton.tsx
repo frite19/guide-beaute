@@ -9,6 +9,7 @@ export function AffiliateButton({
   label = "View deal",
   variant = "affiliate",
   small = false,
+  external = true,
 }: {
   url: string;
   productSlug: string;
@@ -17,6 +18,8 @@ export function AffiliateButton({
   label?: string;
   variant?: "affiliate" | "primary" | "ghost";
   small?: boolean;
+  /** true = le lien quitte le site (Amazon) : on affiche une fleche sortante. */
+  external?: boolean;
 }) {
   const cls = `btn btn-${variant}${small ? " btn-small" : ""}`;
   const link = affiliateLinkProps(url);
@@ -33,7 +36,7 @@ export function AffiliateButton({
         })
       }
     >
-      {label} <span aria-hidden>→</span>
+      {label} <span aria-hidden>{external ? "↗" : "→"}</span>
     </a>
   );
 }
