@@ -4,7 +4,7 @@ export default function Page() {
   return (
     <div className="prose" style={{ padding: "26px 0" }}>
       <h1>Affiliate disclosure</h1>
-      <p><strong>In short:</strong> some links on Éclatia (buttons like “View deal”, “Check price”, “Discover the product”) are affiliate links. If you click and buy from the retailer, we may earn a commission <strong>at no extra cost to you</strong>.</p>
+      <p><strong>In short:</strong> some links on Éclatia (buttons like “See Price on Amazon”, “View deal”, “Discover the top pick”) are affiliate links. If you click and buy from the retailer, we may earn a commission <strong>at no extra cost to you</strong>.</p>
       <p><strong>As an Amazon Associate we earn from qualifying purchases.</strong></p>
       <h2>How to spot them</h2>
       <ul>

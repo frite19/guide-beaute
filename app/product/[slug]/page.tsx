@@ -121,7 +121,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
           ))}
         </div>
         <div style={{ display: "flex", gap: 10, flexWrap: "wrap", margin: "16px 0 30px" }}>
-          <AffiliateButton url={p.urlAffiliation} productSlug={p.slug} category={p.categorie} merchant={p.marchand} label="Check final price" />
+          <AffiliateButton url={p.urlAffiliation} productSlug={p.slug} category={p.categorie} merchant={p.marchand} label="See Price on Amazon" />
           <Link className="btn btn-ghost" href={`/category/${p.categorie}`}>Back to category</Link>
         </div>
         {alternatives.length > 0 && (
