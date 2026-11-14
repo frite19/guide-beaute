@@ -1,8 +1,9 @@
-# P24 — Naturium Glow Getter — À PUBLIER (14/11)
+# P24 — Naturium Glow Getter — ✅ PUBLIÉ (14/11)
 
-**Statut :** prêt · **à publier le 14/11/2026** (1 pin ce jour-là)
+**Statut :** ✅ **publié le 14/11/2026 à 11:11 GMT** (03:11 heure du Pacifique) — 1 pin ce jour-là
+**Pin :** https://www.pinterest.com/pin/e1_AfqPShzHa_w5RKteNuSb8XzoeikSxFIq1oyO1P65c9ObjKEvpwL0SA/
+**Tableau publié :** `Hot Air Brush and Hair Styling Ideas` ⚠️ **à corriger** (voir plus bas)
 **Page de destination :** https://guide-beaute.pages.dev/product/naturium-glow-getter-multi-oil-body-wash/ (HTTP 200, index/follow, aucun prix)
-**Premier pin vers cette page** → aucune règle de doublon de semaine à vérifier
 
 ---
 
@@ -78,6 +79,47 @@ Le tableau body care totalise 1 722 impressions pour **1 clic sortant** sur le m
 (relevé du 12/11). L'angle « c'est de l'huile mais ça nettoie quand même » est un fait de
 fiche, vérifiable, et il crée une surprise — contrairement aux pins « quelle huile choisir ».
 Il faudra comparer son taux de clic avec celui des anciens pins body.
+
+---
+
+## ⚠️ Deux corrections, à faire en UNE seule modification
+
+Le pin est publié, mais deux choses ne vont pas.
+
+### 1. Mauvais tableau
+
+Il est parti dans **`Hot Air Brush and Hair Styling Ideas`** (le tableau cheveux) au lieu de
+**`Body Care & Dry Skin`**. Un gel douche dans un tableau de brosses chauffantes, c'est un
+signal de pertinence contradictoire : Pinterest rapproche les pins des tableaux qui les
+contiennent, et là le signal dit « cheveux » alors que le pin parle de peau.
+
+Correctif : **Modifier le pin → changer le tableau**. Cela ne touche pas à l'URL.
+
+### 2. Description quasi identique à un pin du 27/10
+
+Le pin du 27/10 vers la même page portait déjà :
+
+> `A body wash that turns from oil into a light lather, with glycerin listed first and sea
+> buckthorn, rose hip, jojoba and squalane.`
+
+La description de P24 reprend les mêmes éléments (huile → mousse, glycérine en premier, la
+liste d'huiles). Dix-huit jours d'écart, donc aucune règle de doublon de semaine n'est
+enfreinte — mais deux pins au texte quasi identique vers la même page se font concurrence sur
+Pinterest, qui déduplique.
+
+Nouvelle description, angle réellement différent (le mythe « sans sulfate = doux ») :
+
+> `No SLS or SLES in the ingredient list does not mean no surfactants: this is still a wash,
+> not an oil. Glycerin leads the formula, the scent comes from botanical extracts rather than
+> added fragrance, and one pump is enough for the body. Where it helps dry skin, and where it
+> does not. Some links on this page are affiliate links. #bodywash #dryskin #bodycare`
+
+Chaque affirmation est vérifiable sur la page : « No SLS or SLES in the ingredient list »,
+« Still contains surfactants: it is a wash, not pure oil », « Glycerin listed first, before
+water », « scent comes from botanical extracts », « One pump is enough for the body ».
+
+**Faire les deux dans la même édition** : le tableau et la description. Une modification sur
+les deux autorisées par 24 h — ensuite, on n'y touche plus.
 
 ---
 
