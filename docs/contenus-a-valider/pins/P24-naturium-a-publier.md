@@ -2,7 +2,7 @@
 
 **Statut :** ✅ **publié le 14/11/2026 à 11:11 GMT** (03:11 heure du Pacifique) — 1 pin ce jour-là
 **Pin :** https://www.pinterest.com/pin/e1_AfqPShzHa_w5RKteNuSb8XzoeikSxFIq1oyO1P65c9ObjKEvpwL0SA/
-**Tableau publié :** `Hot Air Brush and Hair Styling Ideas` ⚠️ **à corriger** (voir plus bas)
+**Tableau :** `Body Care & Dry Skin` ✅ *(placé par erreur dans le tableau cheveux à la publication, corrigé le 14/11)*
 **Page de destination :** https://guide-beaute.pages.dev/product/naturium-glow-getter-multi-oil-body-wash/ (HTTP 200, index/follow, aucun prix)
 
 ---
@@ -82,18 +82,19 @@ Il faudra comparer son taux de clic avec celui des anciens pins body.
 
 ---
 
-## ⚠️ Deux corrections, à faire en UNE seule modification
+## ⚠️ Deux corrections, faites le 14/11 en UNE seule modification
 
-Le pin est publié, mais deux choses ne vont pas.
+Le pin est publié, mais deux choses ne vont pas. **Corrigées le 14/11, vérifiées par le flux RSS
+des tableaux : le pin a quitté le tableau cheveux et porte la nouvelle description.**
 
 ### 1. Mauvais tableau
 
-Il est parti dans **`Hot Air Brush and Hair Styling Ideas`** (le tableau cheveux) au lieu de
+Il était parti dans **`Hot Air Brush and Hair Styling Ideas`** (le tableau cheveux) au lieu de
 **`Body Care & Dry Skin`**. Un gel douche dans un tableau de brosses chauffantes, c'est un
 signal de pertinence contradictoire : Pinterest rapproche les pins des tableaux qui les
-contiennent, et là le signal dit « cheveux » alors que le pin parle de peau.
+contiennent, et là le signal disait « cheveux » alors que le pin parle de peau.
 
-Correctif : **Modifier le pin → changer le tableau**. Cela ne touche pas à l'URL.
+Correctif appliqué : **Modifier le pin → changer le tableau.** L'URL n'a pas bougé.
 
 ### 2. Description quasi identique à un pin du 27/10
 
@@ -119,7 +120,8 @@ Chaque affirmation est vérifiable sur la page : « No SLS or SLES in the ingred
 water », « scent comes from botanical extracts », « One pump is enough for the body ».
 
 **Faire les deux dans la même édition** : le tableau et la description. Une modification sur
-les deux autorisées par 24 h — ensuite, on n'y touche plus.
+les deux autorisées par 24 h — ensuite, on n'y touche plus. ✅ **Fait : aucune autre
+modification ne doit être apportée à ce pin.**
 
 ---
 
