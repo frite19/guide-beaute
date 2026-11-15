@@ -268,8 +268,9 @@ la description dit déjà tout, il n'y a plus de raison de cliquer.
 2. **La contrepartie chiffrée :** si les 2 186 impressions body avaient converti au taux médian
    des trois autres tableaux (2,34 %), elles auraient produit **51 clics sortants** au lieu de 1.
    C'est la mesure exacte de ce que coûte le mauvais ciblage, et non un ressenti.
-3. **Le plafond n'est pas le site.** 0,74 % de clic sortant sur impressions est dans la norme
-   Pinterest (0,5 – 1 %). Le problème est le **volume** et la **répartition**, pas la qualité du site.
+3. **Le plafond n'est pas le site.** 42 % des gens qui ouvrent un pin vont jusqu'à la page
+   (22 clics sortants pour 52 ouvertures de pin) : la chaîne pin → page → site fonctionne.
+   Le problème est le **volume** et la **répartition**, pas la qualité des pages.
 4. **Presque aucun enregistrement : 1 sur 2 983.** L'objectif fixé le 26/10 (« 3 à 5 saves pour
    100 impressions ») est manqué d'un facteur 100. Sans save, un pin ne circule pas : c'est la
    raison mécanique pour laquelle les impressions par pin restent basses (~34/pin sur les cheveux).
