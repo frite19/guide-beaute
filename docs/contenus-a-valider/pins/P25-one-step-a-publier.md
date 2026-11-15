@@ -1,8 +1,14 @@
-# P25 — Revlon One-Step (1100 W) — À PUBLIER (15/11)
+# P25 — Revlon One-Step (1100 W) — PUBLIÉ (15/11)
 
-**Statut :** prêt · **à publier le 15/11/2026** (1 pin ce jour-là)
+**Statut :** ✅ **publié le 15/11/2026 à 17:17:34 GMT** — 1 pin ce jour-là
+**URL du pin :** https://www.pinterest.com/pin/e1_AfqPShzZWX6oM-U6bOL0_Zeo2kZnqGeQSq5_lIJbSxLX_qrjV7YjTA/
+**Tableau vérifié :** `Hot Air Brush and Hair Styling Ideas` ✅ (bon tableau du premier coup, contrairement à P24)
 **Page de destination :** https://guide-beaute.pages.dev/product/revlon-one-step-dryer-volumizer/ (HTTP 200, index/follow, aucun prix)
 **Premier pin vers cette page** — les pins du 08/11, 11/11 et 12/11 visaient les comparaisons, pas la fiche produit
+
+> ✅ **Contrôle par flux RSS du 15/11** : le pin apparaît en tête du tableau cheveux avec la
+> description prévue (« A dryer and an oval brush head in one pass… »). Aucune autre entrée à la
+> date du 15/11. Bon tableau, bon texte, un seul pin publié.
 
 ---
 
