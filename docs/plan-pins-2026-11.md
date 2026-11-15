@@ -3,6 +3,80 @@
 **Décidé le 15/11/2026 après le relevé n°3** (`docs/suivi-trafic-mensuel.md`).
 Ce plan remplace la règle « 2 cheveux / 1 corps » du 13/11.
 
+> ## ⚠️ RÉVISION DU 15/11 (soir) — passage à 3 pins/jour
+>
+> Décision de Farid. Les sections 2 et 3 ci-dessous (1 pin/jour) sont **remplacées** par ce
+> qui suit. Le reste du document reste valable.
+>
+> ### Répartition forcée par le nombre de pages, pas par choix
+>
+> 3/jour = **21 pins/semaine**. Avec la règle « une URL une seule fois par semaine », il faut
+> 21 destinations distinctes. Le site n'en compte que **29** (hors pages d'index) :
+>
+> | Tableau | Pages disponibles | Pins/semaine |
+> |---|---|---|
+> | Cheveux | 6 | **6** (toutes, chaque semaine) |
+> | Makeup | 6 | **6** (toutes, chaque semaine) |
+> | Skincare | 6 | **6** (toutes, chaque semaine) |
+> | Corps | 10 | **3** (rotation) |
+>
+> Conséquence heureuse : le body care tombe à 3 pins/semaine sur 21, soit **14 %** au lieu de
+> 73 % des impressions actuelles. Le passage à 3/jour corrige de lui-même le biais body.
+>
+> ### Grille hebdomadaire type
+>
+> Trois créneaux espacés : **9 h · 13 h · 19 h**. Jamais trois pins d'affilée.
+>
+> | Jour | 9 h | 13 h | 19 h |
+> |---|---|---|---|
+> | Lundi | cheveux 1 | makeup 1 | skincare 1 |
+> | Mardi | cheveux 2 | skincare 2 | makeup 2 |
+> | Mercredi | cheveux 3 | makeup 3 | skincare 3 |
+> | Jeudi | cheveux 4 | skincare 4 | makeup 4 |
+> | Vendredi | cheveux 5 | makeup 5 | skincare 5 |
+> | Samedi | cheveux 6 | skincare 6 | makeup 6 |
+> | Dimanche | corps 1 | corps 2 | corps 3 |
+>
+> Chaque page reçoit **un pin par semaine**, soit 3 à 4 angles par mois.
+>
+> ### La réserve d'angles : 6 à 8 semaines
+>
+> Une fiche produit tient 4 à 6 promesses honnêtes distinctes. 29 pages × 5 angles ≈ **145 pins
+> possibles avant de répéter**. À 90 pins/mois, la réserve est épuisée vers **fin décembre /
+> début janvier**. Au-delà, il faudra **de nouvelles pages** : environ 18 par mois pour tenir le
+> rythme indéfiniment — ce qui n'est pas réaliste.
+>
+> **3/jour est donc un sprint de 6 à 8 semaines, pas une vitesse de croisière.** Il doit être
+> accompagné d'un plan de pages neuves (1 à 2 par semaine), sinon il se transforme en répétition
+> et les pins se cannibalisent.
+>
+> ### Ce que ça devrait rapporter
+>
+> | Hypothèse | Pins/mois | Clics sortants | Par pin | Clics Amazon/mois | Qualification 3 ventes |
+> |---|---|---|---|---|---|
+> | Aujourd'hui (1/jour) | 30 | 22 | **0,73** | ~39 | vers avril |
+> | 3/jour, +50 % d'impressions | 90 | 33 | 0,37 | ~59 | vers janvier |
+> | 3/jour, +70 % d'impressions | 90 | 37 | 0,42 | ~66 | vers janvier |
+>
+> Les +50 / +70 % sont une **hypothèse, pas une mesure** : Pinterest ne donne pas trois fois plus
+> de portée parce qu'on publie trois fois plus. La portée par pin baisse mécaniquement.
+>
+> ### Règle d'arrêt (test de 14 jours, du 18/11 au 01/12)
+>
+> Métrique de décision : **clics sortants par pin publié**.
+>
+> | Valeur observée | Lecture |
+> |---|---|
+> | ≥ 0,55 | 3/jour fonctionne, on continue |
+> | 0,40 – 0,55 | neutre : plus de travail pour le même résultat, on garde si le rythme tient |
+> | **< 0,40** | les pins supplémentaires sont du bruit, on revient à 2/jour |
+>
+> ### Production à tenir
+>
+> 90 visuels par mois, aucun réemploi. Photos Pexels + `scripts/make_pins_editorial.py`.
+> Si la cadence des visuels décroche, c'est la publication qui décroche : mieux vaut 2/jour
+> tenus que 3/jour abandonnés au bout de dix jours.
+
 ---
 
 ## 1. Pourquoi la répartition change
