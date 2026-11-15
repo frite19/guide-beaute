@@ -28,7 +28,7 @@ from make_pins_hair import crop_fill
 from make_pins_body_oil import ACCENT, CREAM, INK, LINE, SEGOE_B, spaced
 
 BASE = os.path.join("docs", "contenus-a-valider", "visuels", "hair")
-TMP = os.path.join(os.environ["LOCALAPPDATA"], "Temp", "opencode")
+TMP = os.path.join("docs", "contenus-a-valider", "sources")
 GEORGIA_B = r"C:\Windows\Fonts\georgiab.ttf"
 
 W, H = 1000, 1500
@@ -119,10 +119,19 @@ REVLON_ONE_STEP = dict(src="pex-10028673.jpg", chip="DRYER + BRUSH", kicker="ONE
                        # du cadre et garde le sechoir, la brosse et la main.
                        box=(112, 127, 1180, 1067))
 
+# 17/11 — « Thick hair? Skip the one-step. » : segmentation opposée à P18
+# (qui visait les cheveux fins). Fait de fiche : « 1100 W is not enough for very
+# thick or soaking-wet hair ». Photo : femme rousse, seche-cheveux blanc, fond
+# sauge — aucune marque lisible, mains reelles.
+THICK_HAIR = dict(src="pex-28994643.jpg", chip="1875 W DRYER", kicker="THICK HAIR",
+                  lines=["Thick hair?", "Skip the one-step."],
+                  sub="1100 W is the limit.", cx=0.5, cy=0.5)
+
 PINS = [
     dict(NATURIUM, code="P24", theme="dark"),
     dict(NATURIUM, code="P24-creme", theme="creme", png=False),
     dict(REVLON_ONE_STEP, code="P25", theme="creme"),
+    dict(THICK_HAIR, code="P26", theme="creme"),
 ]
 
 
