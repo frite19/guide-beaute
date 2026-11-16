@@ -27,7 +27,7 @@ from PIL import Image, ImageDraw, ImageFont
 from make_pins_hair import crop_fill
 from make_pins_body_oil import ACCENT, CREAM, INK, LINE, SEGOE_B, spaced
 
-BASE = os.path.join("docs", "contenus-a-valider", "visuels", "hair")
+BASE = os.path.join("docs", "contenus-a-valider", "visuels")
 TMP = os.path.join("docs", "contenus-a-valider", "sources")
 GEORGIA_B = r"C:\Windows\Fonts\georgiab.ttf"
 
@@ -101,10 +101,12 @@ def compose(pin):
            font=ImageFont.truetype(SEGOE_B, 42), fill=t["accent"])
     signature(d, t["accent"])
 
-    jpg = os.path.join(BASE, f"pin-{pin['code']}.jpg")
+    out_dir = os.path.join(BASE, pin.get("dir", "hair"))
+    os.makedirs(out_dir, exist_ok=True)
+    jpg = os.path.join(out_dir, f"pin-{pin['code']}.jpg")
     canvas.save(jpg, quality=92, optimize=True)
     if pin.get("png", True):
-        canvas.save(os.path.join(BASE, f"pin-{pin['code']}.png"), optimize=True)
+        canvas.save(os.path.join(out_dir, f"pin-{pin['code']}.png"), optimize=True)
     print(f"{pin['code']:>3} {pin['theme']:<5} titre {size} px  {os.path.getsize(jpg) // 1024} Ko")
 
 
@@ -132,6 +134,39 @@ PINS = [
     dict(NATURIUM, code="P24-creme", theme="creme", png=False),
     dict(REVLON_ONE_STEP, code="P25", theme="creme"),
     dict(THICK_HAIR, code="P26", theme="creme"),
+]
+
+# --- 18/11 : premier jour a 3 pins (cheveux / makeup / skincare) ---
+
+# /guides/hair-oil-vs-body-oil/ — « On the scalp, a body oil is the wrong
+# product whatever the label promises », « Not recommended: too occlusive ».
+# Photo : cheveux crepus, main qui tient un compte-gouttes au-dessus des
+# cheveux, fond jaune. Aucune marque lisible, main reelle.
+HAIR_BODY_OIL = dict(src="pex-6706840.jpg", chip="ONE BOTTLE",
+                     kicker="HAIR OIL / BODY OIL",
+                     lines=["Ends: yes.", "Scalp: no."],
+                     sub="Too occlusive for the scalp.", cx=0.45)
+
+# /comparisons/best-foundation-for-dry-skin/ — « the cream base has to go on
+# first », « a matte stick will never give you a dewy finish ».
+# Photo : creme blanche posee sur la joue, main derriere l'oreille.
+FOUNDATION = dict(src="pex-6925480.jpg", chip="DRY SKIN BASE",
+                  kicker="FOUNDATION",
+                  lines=["Cream first.", "Stick second."],
+                  sub="It evens the tone, not the hydration.", cy=0.02)
+
+# /guides/how-to-choose-vitamin-c-serum/ — « Read the bottle before you buy:
+# these are criteria, not promises », « Opaque airtight bottle ».
+# Photo : flacon ambre a etiquette vierge tenu au-dessus d'une paume.
+VITAMIN_C = dict(src="pex-6168343.jpg", chip="5 CRITERIA",
+                 kicker="VITAMIN C SERUM",
+                 lines=["Check the bottle.", "Not the promises."],
+                 sub="Concentration printed. Opaque bottle.", cy=0.04)
+
+PINS += [
+    dict(HAIR_BODY_OIL, code="P27", theme="dark", dir="hair"),
+    dict(FOUNDATION, code="P28", theme="creme", dir="makeup"),
+    dict(VITAMIN_C, code="P29", theme="dark", dir="skincare"),
 ]
 
 
