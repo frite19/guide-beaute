@@ -76,6 +76,14 @@ Ce plan remplace la règle « 2 cheveux / 1 corps » du 13/11.
 > 90 visuels par mois, aucun réemploi. Photos Pexels + `scripts/make_pins_editorial.py`.
 > Si la cadence des visuels décroche, c'est la publication qui décroche : mieux vaut 2/jour
 > tenus que 3/jour abandonnés au bout de dix jours.
+>
+> ### Journal des écarts
+>
+> | Date | Écart | Conséquence |
+> |---|---|---|
+> | 16/11 | P21 publié le 16/11 à 16:46 GMT au lieu du 17/11, soit 4 h 46 après P26 (même duel d'appareils) | le **17/11 est vide** : un pin de remplacement est nécessaire, sur une page non pinnée cette semaine |
+> | 16/11 | 2 pins le même jour (P26 + P21) | autorisé (2/jour maximum avant le 18/11), mais à ne pas reproduire deux jours de suite |
+> | 16/11 | 17/11 vide → **P30** créé (fiche produit Age Rewind, 8 $, tableau makeup) | 17/11 couvert par un pin neuf, jamais pinné cette semaine |
 
 ---
 

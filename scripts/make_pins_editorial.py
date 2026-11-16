@@ -169,6 +169,16 @@ PINS += [
     dict(VITAMIN_C, code="P29", theme="dark", dir="skincare"),
 ]
 
+# /product/age-rewind-eraser-concealer/ — « Multi-use: conceal, contour and
+# correct (claim on listing) », « Shade sold here: 110 », « Sponge-tip
+# applicator ». Photo : applicateur mousse sous l'oeil, aucun logo.
+CONCEALER = dict(src="pex-6954211.jpg", chip="UNDER EYE",
+                 kicker="CONCEALER",
+                 lines=["One shade.", "Three jobs."],
+                 sub="Conceal, contour, correct.", cy=0.02)
+
+PINS.append(dict(CONCEALER, code="P30", theme="creme", dir="makeup"))
+
 
 if __name__ == "__main__":
     for p in PINS:

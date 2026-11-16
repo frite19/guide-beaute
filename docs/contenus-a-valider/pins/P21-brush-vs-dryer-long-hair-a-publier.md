@@ -1,12 +1,22 @@
-# P21 — Brush ou sèche-cheveux (cheveux longs) — À PUBLIER (17/11)
+# P21 — Brush ou sèche-cheveux (cheveux longs) — PUBLIÉ (16/11)
 
-**Statut :** prêt · **à publier le 17/11/2026** (1 pin ce jour-là)
-**Décalé du 16/11 au 17/11** : P26 occupe le créneau du 16/11 à 12 h (programmé le 15/11).
+**Statut :** ✅ **publié le 16/11/2026 à 16:46:53 GMT** (17 h 46 heure locale)
+**URL du pin :** https://www.pinterest.com/pin/e1_AfqPShxmvKQv6Px8LJ1wlLuzqP4_Vj-J8jcVjiWAsnAaKsK4Gm1xeQ/
+**Tableau vérifié :** `Hot Air Brush and Hair Styling Ideas` ✅
+**Contrôle RSS du 16/11 :** description publiée identique à celle prévue (« Long hair is not what decides it… »),
+hashtags #hairdryer #hotairbrush #haircare. Aucune altération.
 **Page de destination :** https://guide-beaute.pages.dev/comparisons/one-step-brush-vs-powerful-dryer/ (HTTP 200, index/follow, aucun prix)
+**Dernier pin vers cette page :** 11/11 (P19) — semaine calendaire différente, la règle « une seule fois par semaine et par URL » est respectée
 
-> ⚠️ Cette page reçoit déjà P19 le **11/11**. Semaine calendaire différente (11/11 = semaine 09–15/11, P21 = semaine 16–22/11) : la règle « jamais 2 pins vers la même URL dans la même semaine » est respectée. P21 est le **2ᵉ** pin de la page, à 6 jours d'intervalle.
+> ⚠️ **Conséquence : le 17/11 est désormais vide.** P21 était le seul pin prêt pour cette date.
+> Deux pins sont sortis le 16/11 (P26 à 12:00 GMT, P21 à 16:46 GMT) — c'est le maximum autorisé
+> avant le passage à 3/jour. Il faut donc un pin neuf pour le 17/11, sur une page **jamais pinnée
+> cette semaine**.
 >
-> ⚠️ **P26 (16/11) envoie vers `best-hot-air-brush-2026`, qui oppose les deux mêmes appareils.** Deux pages différentes, deux angles (cheveux épais vs cheveux longs), mais 24 h d'écart. Si tu veux desserrer, publie P21 le **18/11** à la place — dans ce cas, il faudra un autre pin le 17/11 pour ne pas laisser un jour vide.
+> ⚠️ **Écart avec ce qui était prévu :** P26 et P21 opposent les deux mêmes appareils et sont
+> sortis à **4 h 46 d'intervalle**, pas 24 h. C'est fait, ce n'est pas modifiable (on ne change
+> jamais l'URL d'un pin publié), mais c'est à ne pas reproduire : la prochaine fois, un seul des
+> deux deux jours de suite.
 
 ---
 
