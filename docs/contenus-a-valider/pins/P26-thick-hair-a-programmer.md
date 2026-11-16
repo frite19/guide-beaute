@@ -1,6 +1,10 @@
-# P26 — « Thick Hair? Skip the One-Step » — PROGRAMMÉ (16/11)
+# P26 — « Thick Hair? Skip the One-Step » — PUBLIÉ (16/11)
 
-**Statut :** ✅ **programmé par Farid le 15/11 pour le 16/11/2026 à 12 h**
+**Statut :** ✅ **publié le 16/11/2026 à 12:00:42 GMT** (programmé le 15/11)
+**URL du pin :** https://www.pinterest.com/pin/e1_AfqPShwZoYJPOZSeUdFIvKuir0QWzdhmFfq2BPME15C6acJRtIwPoA/
+**Tableau vérifié :** `Hot Air Brush and Hair Styling Ideas` ✅
+**Contrôle RSS du 16/11 :** le pin est en tête du tableau cheveux avec la description prévue
+(« Thick hair and an 1100 W one-step brush are a bad match… »). Aucun autre pin à cette date.
 **Page de destination :** https://guide-beaute.pages.dev/comparisons/best-hot-air-brush-2026/ (HTTP 200, index/follow, aucun prix)
 **Dernier pin vers cette page :** 08/11 (P18) — semaine calendaire différente, la règle « une seule fois par semaine et par URL » est respectée
 
