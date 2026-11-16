@@ -2,9 +2,10 @@
 
 **Statut :** ⏳ prêt, à publier le **17/11/2026 à 9 h**
 **Pourquoi ce pin existe :** P21 est sorti le 16/11 au lieu du 17/11 (voir sa fiche). Le 17/11 était
-donc vide ; ce pin comble le trou sur une page **jamais pinnée cette semaine**.
+donc vide ; ce pin comble le trou.
 **Page de destination :** https://guide-beaute.pages.dev/product/age-rewind-eraser-concealer/ (HTTP 200, aucun prix affiché)
-**Dernier pin vers cette page :** **aucun** — première utilisation
+**Dernier pin vers cette page :** **01/11/2026** (semaine différente → la règle « jamais 2 pins vers
+la même URL dans la même semaine » est respectée). C'est donc un **2ᵉ pin**, pas une première.
 **Tableau :** `Makeup for Dry Skin Natural Base`
 
 ---
@@ -42,7 +43,7 @@ donc vide ; ce pin comble le trou sur une page **jamais pinnée cette semaine**.
 | Prix affiché | ❌ aucun (le « $ » détecté dans le HTML est le payload interne de Next.js, pas un montant) |
 | Test / avis inventé | ❌ aucun — toutes les promesses sont attribuées à la fiche |
 | Marque lisible sur le visuel | ❌ aucune |
-| Même URL dans la même semaine | ❌ non (première fois) |
+| Même URL dans la même semaine | ❌ non — mais **2ᵉ pin vers cette page** (1ᵉʳ le 01/11) |
 
 ### Le visuel
 
@@ -63,8 +64,12 @@ Trois raisons, dans l'ordre d'importance :
    séchoirs à 40 $. C'est exactement la cible définie dans `docs/objectif-amazon-3-ventes.md`.
 2. **Le tableau.** Makeup affiche **80 % de clic pin → sortant**, le meilleur taux du compte, pour
    seulement 4 pins publiés.
-3. **La page.** Elle n'avait jamais reçu de pin, donc aucun risque de cannibalisation — et elle a
-   déjà ses FAQ, ses limites et sa note de rédaction.
+3. **La page.** Elle n'avait **pas** été pinnée cette semaine : le seul pin existant date du 01/11,
+   soit 15 jours avant. Un rafraîchissement à deux semaines d'intervalle est admis par la règle du
+   projet, mais c'est un **second pin, pas un angle neuf** : la description du 01/11 couvrait déjà
+   « conceal, contour and correct », le sponge tip et la teinte 110. La différence tient au titre et
+   au visuel, pas au fond. Si tu veux un angle réellement inédit le 17/11, il faut changer de page
+   (ILIA cheek + lip, mascara, lingettes démaquillantes) et produire un autre visuel.
 
 Les pages cheveux libres cette semaine étaient `alternatives-to-viral-heated-brush` (pinnée le
 12/11, 4 jours avant) et les deux fiches Revlon (13 et 15/11). Les réutiliser aurait reproduit le
