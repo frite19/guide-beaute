@@ -83,7 +83,7 @@ Ce plan remplace la règle « 2 cheveux / 1 corps » du 13/11.
 > |---|---|---|
 > | 16/11 | P21 publié le 16/11 à 16:46 GMT au lieu du 17/11, soit 4 h 46 après P26 (même duel d'appareils) | le **17/11 est vide** : un pin de remplacement est nécessaire, sur une page non pinnée cette semaine |
 > | 16/11 | 2 pins le même jour (P26 + P21) | autorisé (2/jour maximum avant le 18/11), mais à ne pas reproduire deux jours de suite |
-> | 16/11 | 17/11 vide → **P30** créé (fiche produit Age Rewind, 8 $, tableau makeup) | 17/11 couvert, mais **2ᵉ pin** vers une page déjà pinnée le 01/11 (angle quasi identique) |
+> | 16/11 | 17/11 vide → **P30** créé, puis **changé de page** : le concealer Age Rewind avait déjà un pin le 01/11 (doublon) → lingettes Neutrogena, angle « wipe first, cleanse second » | 17/11 couvert par un angle réellement neuf ; page pinnée pour la dernière fois le 17/10 |
 
 ---
 

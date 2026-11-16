@@ -169,15 +169,15 @@ PINS += [
     dict(VITAMIN_C, code="P29", theme="dark", dir="skincare"),
 ]
 
-# /product/age-rewind-eraser-concealer/ — « Multi-use: conceal, contour and
-# correct (claim on listing) », « Shade sold here: 110 », « Sponge-tip
-# applicator ». Photo : applicateur mousse sous l'oeil, aucun logo.
-CONCEALER = dict(src="pex-6954211.jpg", chip="UNDER EYE",
-                 kicker="CONCEALER",
-                 lines=["One shade.", "Three jobs."],
-                 sub="Conceal, contour, correct.", cy=0.02)
+# /product/micellar-makeup-remover-wipes/ — « the wipe lifts the bulk, the
+# cleanser cleans the residue », « For foundation plus SPF, follow with a
+# gentle cleanser ». Photo : coton sur la joue, main reelle, aucun logo.
+WIPES = dict(src="pex-6476078.jpg", chip="ORDER MATTERS",
+             kicker="MAKEUP REMOVER",
+             lines=["Wipe first.", "Cleanse second."],
+             sub="Once you wear foundation and SPF.", cy=0.02)
 
-PINS.append(dict(CONCEALER, code="P30", theme="creme", dir="makeup"))
+PINS.append(dict(WIPES, code="P30", theme="creme", dir="skincare"))
 
 
 if __name__ == "__main__":
