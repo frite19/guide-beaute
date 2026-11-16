@@ -54,6 +54,11 @@ Photo Pexels **6476078** (licence Pexels, source versionnée : `docs/contenus-a-
 Femme au coton démaquillant sur la joue, main réelle, anatomie correcte, aucun logo. Thème **crème**
 (Georgia Bold). Titre composé à **106 px**, chip `ORDER MATTERS`, kicker `MAKEUP REMOVER`.
 
+**Cadrage (corrigé le 16/11) :** la version initiale utilisait la hauteur photo standard (880 px) et
+ne gardait que le front et les yeux — le bas du visage passait sous le panneau texte. La hauteur photo
+est désormais réglable par pin (`photo_h`) ; ici **960 px**, centrée à 42 % de la source : le visage
+est visible du front au menton, avec la main et le coton.
+
 **Point d'honnêteté :** la photo montre un **coton**, pas une lingette. Le pin parle du **geste**
 (l'ordre des deux étapes), pas du format du produit ; aucun packaging n'est suggéré. L'alt le dit
 explicitement (« a cotton pad ») pour ne pas induire en erreur. C'est la raison pour laquelle le chip

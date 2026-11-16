@@ -68,13 +68,14 @@ def signature(d, fill):
 
 def compose(pin):
     t = THEMES[pin["theme"]]
+    ph = pin.get("photo_h", PHOTO_H)
     im = Image.open(os.path.join(TMP, pin["src"])).convert("RGB")
 
     if "box" in pin:
         # recadrage explicite en pixels de la photo source, puis remise a l'echelle
-        photo = im.crop(pin["box"]).resize((W, PHOTO_H), Image.LANCZOS)
+        photo = im.crop(pin["box"]).resize((W, ph), Image.LANCZOS)
     else:
-        photo = crop_fill(im, W, PHOTO_H, pin.get("cx", 0.5), pin.get("cy", 0.5))
+        photo = crop_fill(im, W, ph, pin.get("cx", 0.5), pin.get("cy", 0.5))
 
     canvas = Image.new("RGB", (W, H), t["bg"])
     canvas.paste(photo, (0, 0))
@@ -82,17 +83,17 @@ def compose(pin):
 
     chip(d, (34, 34), pin["chip"], ImageFont.truetype(SEGOE_B, 34))
 
-    d.rectangle([0, PHOTO_H, W, H], fill=t["bg"])
-    d.rectangle([0, PHOTO_H, W, PHOTO_H + 3],
+    d.rectangle([0, ph, W, H], fill=t["bg"])
+    d.rectangle([0, ph, W, ph + 3],
                 fill=GOLD if pin["theme"] == "dark" else LINE)
 
     x = 64
-    spaced(d, (x, PHOTO_H + 58), pin["kicker"], ImageFont.truetype(SEGOE_B, 36), t["kicker"], 6)
+    spaced(d, (x, ph + 58), pin["kicker"], ImageFont.truetype(SEGOE_B, 36), t["kicker"], 6)
     if pin["theme"] == "creme":
-        d.rectangle([x, PHOTO_H + 116, x + 78, PHOTO_H + 120], fill=ACCENT)
+        d.rectangle([x, ph + 116, x + 78, ph + 120], fill=ACCENT)
 
     f, size = fit(t["font"], d, pin["lines"], W - 2 * x, start=140, minimum=86)
-    y = PHOTO_H + (152 if pin["theme"] == "creme" else 118)
+    y = ph + (152 if pin["theme"] == "creme" else 118)
     for line in pin["lines"]:
         d.text((x - 3, y), line, font=f, fill=t["title"])
         y += round(size * 1.12)
@@ -175,7 +176,7 @@ PINS += [
 WIPES = dict(src="pex-6476078.jpg", chip="ORDER MATTERS",
              kicker="MAKEUP REMOVER",
              lines=["Wipe first.", "Cleanse second."],
-             sub="Once you wear foundation and SPF.", cy=0.02)
+             sub="Once you wear foundation and SPF.", cy=0.42, photo_h=960)
 
 PINS.append(dict(WIPES, code="P30", theme="creme", dir="skincare"))
 
