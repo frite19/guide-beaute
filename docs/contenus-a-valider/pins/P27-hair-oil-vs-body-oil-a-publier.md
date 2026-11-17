@@ -25,8 +25,31 @@
 | **Tableau** | `Hot Air Brush and Hair Styling Ideas` |
 | **Tagged topics** | Hair Care · Hair Oil · Hair Tips |
 | **Alt** | `A smiling woman with curly hair holds a glass dropper of oil above her head, a small bottle in her other hand, against a plain yellow background.` |
-| **Product tag** | `https://www.amazon.com/dp/B07RRDMMZM?tag=eclatia20-20` — Raw African Shea Butter, 16 oz |
+| **Product tag** | ❌ **aucun** — voir ci-dessous : le catalogue ne contient aucune huile capillaire |
 | **Programmation** | immédiate |
+
+---
+
+## Pourquoi il n'y a pas de tag produit (corrigé le 17/11)
+
+Tu as vérifié le lien `B07RRDMMZM` : il pointe vers **It's Pure Natural African Shea Butter Raw
+Unrefined 16 oz** — un **beurre solide**, pas une huile. Confirmé sur la fiche Amazon elle-même :
+« Shea Butter for Skin, Hair & Face », un beurre, 16 oz.
+
+Un pin intitulé « Hair Oil » qui affiche un beurre de karité dans son tag produit crée exactement ce
+qu'on s'interdit : le titre promet une huile, le tag montre autre chose. La lectrice clique sur un
+produit qui n'est pas celui du titre.
+
+**Et le catalogue n'a aucune huile capillaire.** Les 14 produits sont : deux Revlon, TruSkin, CeraVe,
+Cetaphil, le karité, deux Maybelline maquillage, les lingettes, l'Age Rewind, le Naturium (gel douche
+multi-huiles, pour le corps), ILIA, medicube, eos. Aucun flacon d'huile pour cheveux.
+
+Conséquence : **on laisse « Tag products » vide.** Le pin envoie vers la page, la page fait le travail
+d'achat. Ce n'est pas une perte : un tag incohérent coûte plus cher qu'un tag absent, parce qu'il
+détruit la confiance au moment précis du clic.
+
+> Si tu veux un jour taguer une vraie huile capillaire, il faut d'abord l'ajouter au catalogue
+> (`data/catalog.ts`) avec son ASIN et une fiche produit. C'est une décision, pas une correction.
 
 ---
 
@@ -45,6 +68,7 @@
 | Prix affiché | ❌ aucun montant |
 | Test / avis inventé | ❌ aucun — aucune promesse de pousse, justement |
 | Marque lisible sur le visuel | ❌ aucune (flacon et compte-gouttes sans étiquette) |
+| Tag produit cohérent avec le titre | ✅ **aucun tag** — le seul produit multi-usage du catalogue est un beurre solide |
 | Même URL dans la même semaine | ❌ non (dernier pin le 07/11) |
 
 ### Le visuel
