@@ -588,7 +588,7 @@ slug: "revlon-compact-hair-dryer-1875w",
     marque: "e.l.f.",
     categorie: "makeup",
     description:
-      "Twelve full-size brushes in a clear zip pouch, at roughly a dollar a brush. The set covers the face and the eyes: foundation, bronzer, total face, concealer, eyeliner, eyeshadow, blending eye, defining eye, lip, plus a lash and brow wand and a brow comb. The listing states synthetic bristles, use with powder, cream and liquid, and 100% vegan, double-certified cruelty-free.",
+      "Twelve full-size brushes in a clear zip pouch. The set covers the face and the eyes: foundation, bronzer, total face, concealer, eyeliner, eyeshadow, blending eye, defining eye, lip, plus a smudge eye sponge, a lash and brow wand and a brow comb. The listing states synthetic bristles, use with powder, cream and liquid, and 100% vegan, double-certified cruelty-free.",
     image: "https://m.media-amazon.com/images/I/71A++EBmBmL._SL1500_.jpg",
     imageAlt: "e.l.f. Professional Brush Kit, set of 12 brushes with white handles in a clear zip pouch",
     imageNote: "Product photo from the Amazon listing — the exact label and packaging may vary.",
