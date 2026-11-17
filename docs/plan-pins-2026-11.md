@@ -88,6 +88,7 @@ Ce plan remplace la règle « 2 cheveux / 1 corps » du 13/11.
 > | 17/11 | option **A** retenue : P28 avancé à 9 h, P29 à 13 h | 18/11 = **2 pins**, pas 3. Le sprint à 3/jour démarre donc à 2 : il faudra 3 pins le 19/11 pour compenser |
 > | 17/11 | **Nouvelle fiche produit** : `cliganic-jojoba-oil-4oz` (B01A74442I, 9,98 $, jamais affiché). Rend cohérent le tag de P27, déjà en ligne | nouvelle destination jamais pinnée, disponible pour le sprint |
 > | 17/11 | **Deux fiches huile corps** : `neutrogena-body-oil-light-sesame` (B000052YOR, 13,99 $) et `bio-oil-skincare-oil-4-2oz` (B004AI97MA, 21,49 $). Comblent un trou : six guides parlaient d'huile corps sans proposer d'huile corps | 2 destinations neuves ; la fiche Neutrogena est exclue du guide « fragrance-free » (contient du parfum) |
+> | 17/11 | **Section make-up « outils »** : 3 fiches (`real-techniques-miracle-complexion-sponge`, `elf-professional-12-brush-set`, `real-techniques-everyday-essentials`) + guide `makeup-brush-set-how-many-brushes` | 4 destinations neuves, jamais pinnées. Couvre les mots-clés Pinterest « makeup brushes / brush set / blending brush / concealer brush / makeup kit ». Reste le gisement « cils » (6 mots-clés) et « beginner makeup / makeup routine » |
 
 ---
 
