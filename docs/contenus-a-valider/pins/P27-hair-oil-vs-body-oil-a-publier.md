@@ -25,31 +25,34 @@
 | **Tableau** | `Hot Air Brush and Hair Styling Ideas` |
 | **Tagged topics** | Hair Care · Hair Oil · Hair Tips |
 | **Alt** | `A smiling woman with curly hair holds a glass dropper of oil above her head, a small bottle in her other hand, against a plain yellow background.` |
-| **Product tag** | ❌ **aucun** — voir ci-dessous : le catalogue ne contient aucune huile capillaire |
+| **Product tag** | `https://www.amazon.com/dp/B01A74442I?tag=eclatia20-20` — Cliganic Organic Jojoba Oil, 100 % pure, 4 oz, **marketed for face & hair** |
 | **Programmation** | immédiate |
 
 ---
 
-## Pourquoi il n'y a pas de tag produit (corrigé le 17/11)
+## Le tag produit, vérifié sur Amazon (17/11)
 
-Tu as vérifié le lien `B07RRDMMZM` : il pointe vers **It's Pure Natural African Shea Butter Raw
-Unrefined 16 oz** — un **beurre solide**, pas une huile. Confirmé sur la fiche Amazon elle-même :
-« Shea Butter for Skin, Hair & Face », un beurre, 16 oz.
+Tu avais raison : `B07RRDMMZM` ne correspondait pas. J'ai chargé la fiche Amazon — c'est
+**It's Pure Natural African Shea Butter Raw Unrefined 16 oz**, un **beurre solide**. Un pin intitulé
+« Hair Oil » ne peut pas taguer un beurre.
 
-Un pin intitulé « Hair Oil » qui affiche un beurre de karité dans son tag produit crée exactement ce
-qu'on s'interdit : le titre promet une huile, le tag montre autre chose. La lectrice clique sur un
-produit qui n'est pas celui du titre.
+Le tag retenu est une **vraie huile**, et sa fiche Amazon dit exactement ce qu'il faut :
 
-**Et le catalogue n'a aucune huile capillaire.** Les 14 produits sont : deux Revlon, TruSkin, CeraVe,
-Cetaphil, le karité, deux Maybelline maquillage, les lingettes, l'Age Rewind, le Naturium (gel douche
-multi-huiles, pour le corps), ILIA, medicube, eos. Aucun flacon d'huile pour cheveux.
+| Contrôle sur `B01A74442I` | Résultat |
+|---|---|
+| Titre Amazon | « Cliganic Organic Jojoba Oil, 100% Pure Cold Pressed **for Face & Hair**, 4oz » |
+| Type de produit | huile, **pas un beurre** → cohérent avec le titre du pin |
+| Promesse de pousse | ❌ **aucune** — la fiche parle de « Softening », « Fast Absorbing », « Carrier for Skin & Nails ». Aucun mot sur la pousse |
+| Prix constaté | 9,98 $ (jamais affiché nulle part) |
+| Présente sur notre page ? | ✅ « Jojoba: close to the skin's own sebum, light, tolerated by many skins and hair types » |
 
-Conséquence : **on laisse « Tag products » vide.** Le pin envoie vers la page, la page fait le travail
-d'achat. Ce n'est pas une perte : un tag incohérent coûte plus cher qu'un tag absent, parce qu'il
-détruit la confiance au moment précis du clic.
+C'est le point décisif : **la fiche Amazon ne promet pas de pousse**. Le pin dit « Growth, no », le
+produit tagué ne dit pas le contraire. Si le listing avait promis une repousse, le tag aurait contredit
+le titre — et c'est exactement ce qu'on veut éviter.
 
-> Si tu veux un jour taguer une vraie huile capillaire, il faut d'abord l'ajouter au catalogue
-> (`data/catalog.ts`) avec son ASIN et une fiche produit. C'est une décision, pas une correction.
+> Pourquoi pas le karité, alors ? Parce qu'il est solide. Il est bien mentionné sur la page (« the one
+> product marketed for skin, hair and face »), mais il ne peut pas illustrer un titre qui parle
+> d'huile. Chaque produit a son angle : le karité aura le sien, sur une autre page.
 
 ---
 
@@ -68,7 +71,7 @@ détruit la confiance au moment précis du clic.
 | Prix affiché | ❌ aucun montant |
 | Test / avis inventé | ❌ aucun — aucune promesse de pousse, justement |
 | Marque lisible sur le visuel | ❌ aucune (flacon et compte-gouttes sans étiquette) |
-| Tag produit cohérent avec le titre | ✅ **aucun tag** — le seul produit multi-usage du catalogue est un beurre solide |
+| Tag produit cohérent avec le titre | ✅ Cliganic jojoba, huile pour cheveux et visage, sans promesse de pousse |
 | Même URL dans la même semaine | ❌ non (dernier pin le 07/11) |
 
 ### Le visuel
