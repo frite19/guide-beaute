@@ -1,6 +1,12 @@
-# P27 — « Shine, yes. Growth, no. » — À PUBLIER MAINTENANT (17/11)
+# P27 — « Shine, yes. Growth, no. » — PUBLIÉ (17/11)
 
-**Statut :** ⏳ prêt, à publier le **17/11/2026** (tu as demandé de le sortir aujourd'hui)
+**Statut :** ✅ **publié le 17/11/2026 à 16:09:12 GMT** (17 h 09 heure locale, 11 h 09 à New York)
+**URL du pin :** https://www.pinterest.com/pin/e1_AfqPShwGZI8267nYeLlwZ-KGI2OEb1sILBFufW8v5lNyme4Fo-al8A/
+**Tableau vérifié :** `Hot Air Brush and Hair Styling Ideas` ✅
+**Contrôle RSS du 17/11 :** description publiée identique à celle prévue (« An oil can change how hair
+looks and feels… »), hashtags #haircare #hairoil #hairtips. Aucune altération.
+**Tag produit :** Cliganic jojoba `B01A74442I` (vérifié sur Amazon le 17/11, aucune promesse de pousse)
+
 **Page de destination :** https://guide-beaute.pages.dev/guides/hair-oil-vs-body-oil/ (HTTP 200, aucun prix, tag Amazon présent)
 **Dernier pin vers cette page :** **07/11 (P08)** — même URL, semaine différente, donc la règle « jamais
 2 pins vers la même URL dans la même semaine » est respectée. C'est un **2ᵉ pin**.
@@ -86,7 +92,7 @@ montré, donc aucune promesse de produit n'est suggérée par l'image.
 
 ### Place dans la journée
 
-P30 (lingettes) est sorti ce matin à **00 h 32**. P27 serait donc le **2ᵉ pin du 17/11** — autorisé
+P30 (lingettes) est sorti ce matin à **00 h 32**. P27 est donc le **2ᵉ pin du 17/11** — autorisé
 (2/jour maximum avant le 18/11). En revanche, **le créneau de 9 h du 18/11 se retrouve vide** : il
 faudra le combler par un pin neuf, ou décaler P28 et P29.
 
