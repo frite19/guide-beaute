@@ -40,6 +40,162 @@ type Contenu = {
 };
 
 const CONTENUS: Record<string, Contenu> = {
+  "makeup-brush-set-how-many-brushes": {
+    intro: [
+      "A brush set is sold as a number, and the number is the least useful information on the box. Twelve brushes do not make a better face than four; they make a cheaper way to buy the four, with eight extras that cover looks most people never do.",
+      "Below: the four brushes that do almost all the work, what each extra brush in a big set is actually for, when a set is a better buy than one brush at a time, synthetic versus natural bristles, and the washing routine that decides whether a cheap brush lasts two months or two years.",
+    ],
+    reponse:
+      "Four brushes cover a full face: a foundation brush, a powder brush, a blush brush and an eye blending brush. Add a damp sponge if you want a softer, more blended base. A 12-piece set is not twelve times better — it is a cheap way to get the four you need, plus eight brushes for specific looks. If you already own a sponge, a five-piece set is usually enough.",
+    blocs: [
+      {
+        h2: "The four brushes that do most of the work",
+        tableau: {
+          entetes: ["Brush", "Its job", "Without it"],
+          lignes: [
+            ["Foundation brush", "Press and buff liquid or cream into the skin", "Fingers work, but coverage is less even and slower to build"],
+            ["Powder brush", "Set the base and take down shine over a wide area", "The base slides and shines by mid-day"],
+            ["Blush brush", "Diffuse colour on the cheek with a soft, tapered head", "A hard edge, with the colour concentrated in one spot"],
+            ["Eye blending brush", "Blur the edges of eyeshadow", "Visible lines between two shades"],
+          ],
+        },
+        p: [
+          "Everything else is a refinement. A concealer brush makes a difference under the eye, an eyeliner brush makes a difference on the lash line, and a lip brush matters if you wear dark colours. None of them is needed to look finished.",
+        ],
+      },
+      {
+        h2: "What the extra brushes in a big set are for",
+        ul: [
+          "Concealer brush: a small, flat or rounded head to place product under the eye and around the nose.",
+          "Eyeliner brush: an angled or fine tip to press colour close to the lashes.",
+          "Lip brush: for dark or matte colours, where a precise edge is visible.",
+          "Brow comb and lash wand: plastic combs, not brushes. They separate, they do not apply.",
+          "Smudge sponge: a foam tip for a soft line along the lash line. Useful once a month, at most.",
+          "Bronzer brush: a large, fluffy head. A powder brush usually does the same job.",
+          "Fan brush: for a light sweep of highlighter. The most optional brush in any set.",
+          "Setting brush: a small powder brush for the under-eye and the sides of the nose.",
+        ],
+        p: [
+          "None of these is a scam. They are simply tools for specific looks, sold together because a set is cheaper to manufacture and easier to market than eight separate decisions.",
+        ],
+      },
+      {
+        h2: "A set, or one brush at a time?",
+        p: [
+          "The arithmetic is blunt. At the prices checked on Amazon in November 2026, a 12-brush e.l.f. set sells for around 10 $ — under a dollar a brush — and a five-tool Real Techniques set for around 17 $, about 3.50 $ per tool. A single mid-range brush, bought on its own, often costs more than either set.",
+          "Prices move, and they differ by size and by seller. Compare price per brush before comparing sets: that is the only number that stays meaningful.",
+        ],
+        tableau: {
+          entetes: ["Approach", "Cost per tool", "Who it suits"],
+          lignes: [
+            ["12-piece set", "Under 1 $", "A first kit, a gift, a travel kit you can lose"],
+            ["5-piece set", "About 3.50 $", "Someone who already owns a sponge or a concealer brush"],
+            ["One good brush at a time", "15 $ and up", "A replacement, or one brush you use every day"],
+          ],
+        },
+      },
+      {
+        h2: "Synthetic or natural bristles",
+        p: [
+          "Almost every inexpensive set is synthetic, and that is not a downgrade for a beginner.",
+          "If you use a liquid foundation and a cream blush, synthetic is the better tool, whatever the price. If you mostly wear powder, natural hair holds pigment differently — it is a texture choice, not a quality ranking.",
+        ],
+        tableau: {
+          entetes: ["", "Synthetic", "Natural hair"],
+          lignes: [
+            ["Works best with", "Liquid and cream", "Powder"],
+            ["Absorbs product", "Little", "More"],
+            ["Washing", "Easier, dries faster", "Needs more care, can dry out"],
+            ["Animal origin", "None", "Yes"],
+            ["Price", "Low", "High"],
+          ],
+        },
+      },
+      {
+        h2: "Brush, sponge or fingers for foundation",
+        tableau: {
+          entetes: ["", "Brush", "Damp sponge", "Fingers"],
+          lignes: [
+            ["Finish", "Even, slightly more coverage", "Softest, most skin-like", "Variable, depends on the hand"],
+            ["Speed", "Fast", "Slower", "Fast"],
+            ["Product used", "Little", "More: the sponge absorbs some", "Little"],
+            ["Streaks", "Possible if the brush is stiff", "Rare", "Possible"],
+            ["Lifespan", "Years, with washing", "A few months", "Indefinite"],
+          ],
+        },
+        p: [
+          "The common routine is both: a brush to lay the product down, a damp sponge to soften the edges. One does not replace the other, and neither fixes a foundation that is the wrong formula for the skin.",
+        ],
+      },
+      {
+        h2: "How to wash a brush without ruining it",
+        ol: [
+          "Lukewarm water, never hot: heat softens the glue that holds the bristles in the ferrule.",
+          "A drop of mild soap or shampoo in the palm, then work the bristles in circles. No soaking.",
+          "Rinse with the brush pointing down, so water never runs towards the handle.",
+          "Squeeze gently in a towel, reshape the head with the fingers, and lay it flat to dry with the bristles over the edge of a surface.",
+          "Never stand a wet brush upright in a cup: water runs into the ferrule and the bristles start to shed.",
+        ],
+        p: [
+          "A foundation brush and a sponge, which touch liquid product, need washing after a few uses. A powder brush can go a few weeks. No product on this page changes that.",
+        ],
+      },
+      {
+        h2: "The 3 mistakes that make a good brush useless",
+        tableau: {
+          entetes: ["Mistake", "What happens"],
+          lignes: [
+            ["Never washing it", "Product builds up, application turns uneven, and the brush stops picking up colour properly"],
+            ["Drying it upright", "Water sits in the ferrule, the glue loosens, bristles fall out"],
+            ["Pressing hard on the skin", "Streaks with a brush, and a splayed head within weeks"],
+          ],
+        },
+        p: [
+          "A cheap brush that is washed properly outperforms an expensive one that never is. That is the whole point of this page.",
+        ],
+      },
+      {
+        h2: "How this page was built",
+        p: [
+          "No test, no lab result, no invented trial. The product details quoted here come from Amazon listings checked on 17 November 2026: a two-sponge pack of latex-free polyurethane foam, dermatologist tested, vegan and cruelty-free; a 12-brush set with synthetic bristles in a zip pouch, vegan, Leaping Bunny and PETA certified; a five-tool set of four synthetic brushes and one sponge. Prices are the ones seen that day and change often. The washing routine and the brush roles are standard makeup practice, not a claim about any specific product.",
+        ],
+      },
+    ],
+    ctaApresBloc: 2,
+    faq: [
+      {
+        q: "How many makeup brushes do I actually need?",
+        a: "Four: foundation, powder, blush and an eye blending brush. A fifth, a damp sponge, softens the base. Everything beyond that is for a specific look, not for a finished face.",
+      },
+      {
+        q: "Is a 12-piece brush set worth it?",
+        a: "As a first kit, yes: you get the four useful brushes plus extras for about the price of one mid-range brush. If you already own a sponge and a concealer brush, a smaller set is the better buy.",
+      },
+      {
+        q: "Are cheap brushes bad for the skin?",
+        a: "The brush itself is rarely the problem; a dirty brush is. Wash it after every few uses, dry it flat, and replace the sponge when the foam starts to tear.",
+      },
+      {
+        q: "Synthetic or natural bristles for a beginner?",
+        a: "Synthetic. They suit liquid and cream, wash easily, dry faster, and no animal is involved. Natural hair is a powder tool, and it costs more.",
+      },
+      {
+        q: "How often should I replace my brushes?",
+        a: "A well-washed brush lasts years. Replace it when the bristles splay and will not reshape, when they shed every time you use it, or when the ferrule comes loose.",
+      },
+      {
+        q: "Do I need a brush for concealer?",
+        a: "No. The tip of a damp sponge does the job, and fingers work too. A small concealer brush is a comfort, not a requirement.",
+      },
+    ],
+    liens: [
+      { href: "/product/real-techniques-miracle-complexion-sponge", label: "Real Techniques Miracle Complexion Sponge, 2 sponges" },
+      { href: "/product/elf-professional-12-brush-set", label: "e.l.f. Professional Set of 12 brushes" },
+      { href: "/product/real-techniques-everyday-essentials", label: "Real Techniques Everyday Essentials, 5 tools" },
+      { href: "/comparisons/best-foundation-for-dry-skin", label: "Foundation stick vs cream base: what dry skin needs" },
+      { href: "/category/makeup", label: "All makeup products" },
+    ],
+  },
   "body-oil-before-or-after-lotion": {
     intro: [
       "There are two ways to put on a body oil, and only one of them works. If the oil goes on first and the lotion on top, the lotion ends up sitting on the film of oil: it cannot sink in. The skin feels greasy on the surface and still tight underneath.",

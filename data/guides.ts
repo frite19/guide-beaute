@@ -42,7 +42,7 @@ export const COMPARATIFS: Guide[] = [
     imageAlt: "Woman applying foundation close-up",
     majLe: "2026-10-18",
     lectureMin: 5,
-    produitsLies: ["age-rewind-eraser-concealer", "fit-me-shine-free-balance-stick", "ceramide-moisturizing-cream"],
+    produitsLies: ["age-rewind-eraser-concealer", "fit-me-shine-free-balance-stick", "ceramide-moisturizing-cream", "real-techniques-miracle-complexion-sponge"],
   },
   {
     slug: "shea-butter-vs-body-oil",
@@ -85,6 +85,17 @@ export const COMPARATIFS: Guide[] = [
 ];
 
 export const GUIDES: Guide[] = [
+  {
+    slug: "makeup-brush-set-how-many-brushes",
+    type: "guide",
+    titre: "Makeup Brush Set: How Many Brushes Do You Actually Need?",
+    description: "Four brushes cover a full face; the other eight are for looks you may never do. Which brushes do the real work, when a set is worth buying, and how to wash them so they last.",
+    image: "https://images.pexels.com/photos/7446417/pexels-photo-7446417.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    imageAlt: "A row of makeup brushes with soft bristles lying on a beige surface",
+    majLe: "2026-11-17",
+    lectureMin: 8,
+    produitsLies: ["real-techniques-miracle-complexion-sponge", "elf-professional-12-brush-set", "real-techniques-everyday-essentials"],
+  },
   {
     slug: "dry-body-oil-vs-body-lotion",
     type: "guide",
