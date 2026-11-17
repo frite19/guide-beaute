@@ -40,6 +40,284 @@ type Contenu = {
 };
 
 const CONTENUS: Record<string, Contenu> = {
+  "beginner-makeup-routine-5-steps": {
+    intro: [
+      "A beginner routine fails for a boring reason: too many steps in the wrong order, with too much product. Five steps, in a fixed sequence, cover a finished face — and two of those five are skin care, not makeup.",
+      "Below: the five steps and why each one sits where it does, what to buy first if you are starting from nothing, the four steps you can skip without looking unfinished, the exact quantities, and how to take it off without undoing the work.",
+    ],
+    reponse:
+      "Five steps: moisturizer on damp skin, a thin layer of base where you need it, concealer only on spots and under the eye, cream blush on the cheeks (and the same stick on the lips), then curled lashes and mascara. Ten minutes, four products, one brush and one sponge. Primer, setting powder, bronzer and contour are not part of a beginner routine.",
+    blocs: [
+      {
+        h2: "The 5 steps, in order",
+        ol: [
+          "Moisturizer, on skin that is still slightly damp. This is the step that decides whether the base sits smoothly or catches on dry patches.",
+          "Base: a thin layer of foundation or a tinted stick, only where you want it — usually the centre of the face, not the jaw and the hairline.",
+          "Concealer: one dot under each eye, one on a spot. After the base, never before, so you use less of it.",
+          "Cheeks and lips: a cream blush or a multi-stick, tapped on with the fingers, then the same product on the lips.",
+          "Lashes: curl them, then mascara. Last, because it is the step that smudges everything else if you do it first.",
+        ],
+        p: [
+          "That is the whole routine. It takes about ten minutes the first week and five once the order is automatic.",
+        ],
+      },
+      {
+        h2: "Why this order and not another",
+        tableau: {
+          entetes: ["Step", "Why it comes here", "If you skip it"],
+          lignes: [
+            ["Moisturizer", "It brings water to the skin before anything sits on top", "The base catches on dry patches and looks patchy by mid-day"],
+            ["Base", "It evens the skin tone, thinly", "The concealer has to cover too much, and it shows"],
+            ["Concealer", "Applied over the base, it only has to cover what is left", "A thick layer under the eye, which creases"],
+            ["Blush", "Cream goes on top of the base, before any powder", "A flat, single-tone face"],
+            ["Lashes", "Mascara is the last thing that touches the eye area", "Smudges on the eyelid, and the base has to be redone"],
+          ],
+        },
+      },
+      {
+        h2: "What to buy first, if you own nothing",
+        p: [
+          "Buy in this order. Each line adds more to the face than the next one, for roughly the same money.",
+          "Everything else - eyeliner, eyeshadow, bronzer, highlighter, lip liner - is a style choice, not a step. Buy it when you want a specific look, not to complete a routine.",
+        ],
+        tableau: {
+          entetes: ["Priority", "Product", "Why it comes first"],
+          lignes: [
+            ["1", "Moisturizer", "Without it, no base sits well, whatever the price"],
+            ["2", "Mascara", "The single product that changes a face the most"],
+            ["3", "Base (foundation or a stick)", "Evens the tone, hides the least interesting part of the skin"],
+            ["4", "Cream blush or a multi-stick", "Adds life back into a face that foundation has flattened"],
+            ["5", "Tools: one brush, one sponge", "They decide the finish more than the formula does"],
+          ],
+        },
+      },
+      {
+        h2: "The 4 steps you can skip",
+        ul: [
+          "Primer: a moisturizer does the same job for most skins. A primer is for a specific problem — visible pores, or a base that slides.",
+          "Setting powder: it mattifies. On dry skin it emphasizes flakes; keep it for the T-zone, or skip it.",
+          "Bronzer and contour: they draw shadows. Without practice they read as stripes, not as bone structure.",
+          "Colour corrector: it fixes a specific discolouration. A concealer covers ordinary shadows well enough.",
+        ],
+        p: [
+          "Skipping a step is not laziness. It is the difference between a face that looks made up and a face that looks painted.",
+        ],
+      },
+      {
+        h2: "How much product, concretely",
+        tableau: {
+          entetes: ["Product", "Quantity for the whole face"],
+          lignes: [
+            ["Foundation", "One pump, or a pea-sized amount of stick"],
+            ["Concealer", "One dot under each eye, plus one on a spot"],
+            ["Cream blush", "Two taps on the back of the hand, then transferred to the cheek"],
+            ["Mascara", "Two thin coats, not three thick ones"],
+            ["Moisturizer", "Enough to cover the face without a greasy film"],
+          ],
+        },
+        p: [
+          "If a product disappears into the skin and you see nothing, the amount was right. If you can see where it starts and stops, it was too much.",
+        ],
+      },
+      {
+        h2: "The 5 mistakes that make it look heavy",
+        tableau: {
+          entetes: ["Mistake", "What happens"],
+          lignes: [
+            ["Foundation on the whole face, including the neck line", "A visible edge at the jaw, and a flatter face"],
+            ["Concealer before foundation", "Double coverage in one area, and creasing"],
+            ["Powder on dry patches", "Flakes and texture that were not visible before"],
+            ["Mascara first, then the rest", "Smudges on the eyelid, and a base that has to be redone"],
+            ["Buying five products at once", "Nothing gets learned, and most of it goes unused"],
+          ],
+        },
+      },
+      {
+        h2: "Dry skin, specifically",
+        p: [
+          "Cream and stick formulas sit better on dry skin than powder or matte liquids. Apply them on top of a moisturizer that has had a minute to sink in, and keep powder for the T-zone only.",
+          "If the base turns patchy by mid-afternoon, the problem is almost never the foundation: it is the moisturizer underneath, or the way it was applied. A damp sponge presses a base into the skin; a brush lays it on top.",
+        ],
+      },
+      {
+        h2: "Taking it off",
+        p: [
+          "A micellar wipe removes the base and the blush. Mascara, especially a waterproof one, needs an oil-based cleanser or a biphase remover: rubbing a wipe on the lashes pulls them out.",
+          "Sleeping in make-up is the one habit worth breaking immediately. It is the only step on this page that has no cheaper alternative.",
+        ],
+      },
+      {
+        h2: "How this page was built",
+        p: [
+          "No test, no lab result, no invented trial. The products linked on this page are described from their Amazon listings, checked in November 2026: a fragrance-free ceramide cream in a 19 oz tub, a shine-free foundation stick, a concealer with a built-in sponge applicator, a multi-stick for cheeks and lips, a volumizing mascara, a metal lash curler and micellar wipes. Nothing here is a claim about results, and no product on this page treats a skin condition. Patch-test anything new on a small area first.",
+        ],
+      },
+    ],
+    ctaApresBloc: 2,
+    faq: [
+      {
+        q: "How long should a beginner routine take?",
+        a: "About ten minutes at first, five once the order is automatic. If it takes longer, the number of steps is usually the problem, not the speed.",
+      },
+      {
+        q: "What should I buy first with a small budget?",
+        a: "A moisturizer, then a mascara, then a base. Tools come after that: one brush and one sponge change the finish more than a more expensive formula.",
+      },
+      {
+        q: "Do I need a primer?",
+        a: "Usually not. A moisturizer does the same job for most skins. A primer is for a specific problem, such as visible pores or a base that slides by mid-day.",
+      },
+      {
+        q: "Why does my foundation look cakey?",
+        a: "Three usual causes: too much product, a dry skin underneath, or powder applied over a liquid base on dry areas. Start with less product and a moisturizer on damp skin.",
+      },
+      {
+        q: "Can I use one product for cheeks and lips?",
+        a: "Yes, a cream multi-stick is made for that. It is also the cheapest way to add colour to a beginner routine, and it blends with the fingers.",
+      },
+      {
+        q: "Do I need brushes, or can I use my fingers?",
+        a: "Fingers work for cream products, and they warm the formula. A damp sponge gives the most even base, and one brush is enough for powder. Start with the sponge.",
+      },
+    ],
+    liens: [
+      { href: "/guides/makeup-brush-set-how-many-brushes", label: "Makeup brush set: how many brushes you actually need" },
+      { href: "/guides/lashes-fall-flat-by-noon", label: "Why your lashes fall flat by noon" },
+      { href: "/comparisons/best-foundation-for-dry-skin", label: "Foundation stick vs cream base: what dry skin needs" },
+      { href: "/product/tweezerman-classic-lash-curler", label: "Tweezerman Classic Lash Curler" },
+      { href: "/category/makeup", label: "All makeup products" },
+    ],
+  },
+  "lashes-fall-flat-by-noon": {
+    intro: [
+      "Straight lashes do not stay curled because nothing holds them there. A curler bends the fibre; mascara then either locks that bend in place or pulls it back down, depending on the formula and on the order you apply it.",
+      "Below: the order that works, the three-press method, why the curl collapses by lunchtime, manual versus heated, and the one thing no product on this page will do.",
+    ],
+    reponse:
+      "Curl first, mascara second, always. Press at the base of the lash line for a few seconds, then once at mid-length and once at the tip, so the bend is a curve rather than a fold. A light, slightly dry mascara holds the curl; a wet, heavy one weighs it down. A waterproof formula holds best, and needs an oil-based remover at night.",
+    blocs: [
+      {
+        h2: "The order, and why it is not negotiable",
+        p: [
+          "Mascara sets the lash in the shape it had when it dried. Curl after mascara and you are bending a stiffened fibre: it pulls at the root, it cracks the coating, and the lash rarely returns to a clean curve.",
+          "The listing of the curler linked on this page says the same thing in one line: always curl lashes before applying mascara. It is the only instruction that matters on the first day.",
+        ],
+      },
+      {
+        h2: "The three-press method",
+        ol: [
+          "Start on lashes that are dry and free of mascara. A wet lash bends badly and can pull.",
+          "Place the pad at the base of the lash line, as close to the lid as is comfortable, with the lashes centred between the pad and the frame.",
+          "Squeeze gently and hold for about five seconds. Gentle is the point: pressure does not add curl, it only adds risk.",
+          "Move the curler up a third of the lash length and press again, then once more near the tip. Three presses give a curve; one hard press gives a fold.",
+          "Finish on the outer lashes if you want the eye to look wider, then apply mascara from the root, wiggling slightly.",
+        ],
+      },
+      {
+        h2: "Why the curl collapses by noon",
+        tableau: {
+          entetes: ["Cause", "What is happening", "Fix"],
+          lignes: [
+            ["A wet, heavy mascara", "The weight of the formula straightens the lash as it dries", "Wipe the wand, use thinner coats, or a drier formula"],
+            ["Curling after mascara", "The lash is bent while stiff, and it springs back", "Curl first, every time"],
+            ["One hard press at the base", "A sharp fold that unfolds during the day", "Three presses, base to tip"],
+            ["Humidity and heat", "The fibre takes on moisture and relaxes", "A waterproof formula holds longer"],
+            ["Touching the lashes", "Fingers and eyelids push the curve out", "Leave them alone once the mascara is dry"],
+          ],
+        },
+      },
+      {
+        h2: "Manual or heated",
+        tableau: {
+          entetes: ["", "Manual", "Heated"],
+          lignes: [
+            ["What it does", "Bends the lash mechanically", "Bends it with a warm pad"],
+            ["Curl", "Good, temporary", "Slightly stronger, also temporary"],
+            ["Charging", "None", "Battery or USB"],
+            ["Risk", "Pinching the lid if rushed", "A heat source next to the eye"],
+            ["Cost", "Lower", "Higher, plus charging"],
+            ["For a beginner", "The default choice", "Only with a temperature setting and a cool-down"],
+          ],
+        },
+        p: [
+          "Neither makes lashes longer, and neither changes how fast they grow. The difference is the amount of heat involved, nothing else.",
+        ],
+      },
+      {
+        h2: "The mascara that holds a curl",
+        ul: [
+          "Waterproof and smudge-proof formulas hold a curve better, because they set harder.",
+          "They also need an oil-based cleanser or a biphase remover. Pulling at a waterproof mascara with a dry wipe takes lashes with it.",
+          "Very wet formulas give volume and weight at the same time: the lash goes down as the formula dries.",
+          "Wiping the wand on the tube before the first coat removes the excess that causes clumps.",
+        ],
+        p: [
+          "Two thin coats hold better than three thick ones. That is a rule about weight, not about brands.",
+        ],
+      },
+      {
+        h2: "What actually damages lashes",
+        ul: [
+          "Pulling the curler away while it is still clamped.",
+          "Curling lashes that are still coated in mascara.",
+          "Sharing a curler: the pad sits against the lash line, and it is not a shared tool.",
+          "Using a pad that has hardened or split, which crimps instead of curving.",
+          "Sleeping in mascara, night after night.",
+        ],
+        p: [
+          "The brand of the curler linked here states a new pad every three months and a new curler after a year. Whatever the tool, a clean pad is the part that touches the eye.",
+        ],
+      },
+      {
+        h2: "What no product on this page does",
+        p: [
+          "No curler and no mascara makes lashes grow, thicken or lengthen. A mechanical curl is a shape; it is not a treatment.",
+          "Lash serums, extensions and salon lifts are different categories, with their own claims and their own risks. This page does not sell any of them, and does not recommend one.",
+          "If lashes fall out in patches, itch, or the lid becomes red and swollen, that is not a make-up problem: stop the products and see a healthcare professional.",
+        ],
+      },
+      {
+        h2: "How this page was built",
+        p: [
+          "No test, no lab result, no invented trial. The curler details come from its Amazon listing, checked in November 2026: a manual metal curler with rounded silicone pads, three replacement pads included, a stated replacement of the pad every three months and the curler after one year, and instructions that say to curl before mascara. The rest is standard make-up practice about order, pressure and formula weight, not a claim about any specific product.",
+        ],
+      },
+    ],
+    ctaApresBloc: 1,
+    faq: [
+      {
+        q: "Should I curl my lashes before or after mascara?",
+        a: "Before. Mascara stiffens the lash; curling after pulls on it, cracks the coating and rarely gives a clean curve. The curler's own instructions say the same thing.",
+      },
+      {
+        q: "How long should I hold the curler?",
+        a: "About five seconds per press, three presses: base, middle and tip. Holding longer does not add curl, and pressing harder only adds risk.",
+      },
+      {
+        q: "Why does my curl disappear after an hour?",
+        a: "Usually the mascara: a wet, heavy formula straightens the lash as it dries. Wipe the wand, use thinner coats, and try a waterproof formula if you need it to last.",
+      },
+      {
+        q: "Do heated curlers work better?",
+        a: "Slightly, on some lashes. They also put a heat source next to the eye and need charging. For a beginner, a manual curler is the safer default.",
+      },
+      {
+        q: "Can curling damage my lashes over time?",
+        a: "A gentle, clean technique does not break the fibre. Damage comes from pulling, from curling over mascara, and from a hard or split pad that crimps instead of curving.",
+      },
+      {
+        q: "Will a curler make my lashes grow?",
+        a: "No. It changes the shape for a few hours. Growth is not affected by any tool or mascara on this page.",
+      },
+    ],
+    liens: [
+      { href: "/product/tweezerman-classic-lash-curler", label: "Tweezerman Classic Lash Curler" },
+      { href: "/product/volume-length-mascara", label: "Volume and length mascara" },
+      { href: "/guides/beginner-makeup-routine-5-steps", label: "Beginner makeup routine: 5 steps, 10 minutes" },
+      { href: "/guides/makeup-brush-set-how-many-brushes", label: "Makeup brush set: how many brushes you actually need" },
+      { href: "/category/makeup", label: "All makeup products" },
+    ],
+  },
   "makeup-brush-set-how-many-brushes": {
     intro: [
       "A brush set is sold as a number, and the number is the least useful information on the box. Twelve brushes do not make a better face than four; they make a cheaper way to buy the four, with eight extras that cover looks most people never do.",
@@ -82,15 +360,15 @@ const CONTENUS: Record<string, Contenu> = {
       {
         h2: "A set, or one brush at a time?",
         p: [
-          "The arithmetic is blunt. At the prices checked on Amazon in November 2026, a 12-brush e.l.f. set sells for around 10 $ — under a dollar a brush — and a five-tool Real Techniques set for around 17 $, about 3.50 $ per tool. A single mid-range brush, bought on its own, often costs more than either set.",
+          "The arithmetic is blunt. In this catalogue, the 12-brush set works out cheapest per brush, the five-tool set sits in the middle, and a single mid-range brush costs more per tool than either set. That is arithmetic, not a recommendation.",
           "Prices move, and they differ by size and by seller. Compare price per brush before comparing sets: that is the only number that stays meaningful.",
         ],
         tableau: {
-          entetes: ["Approach", "Cost per tool", "Who it suits"],
+          entetes: ["Approach", "Price per brush", "Who it suits"],
           lignes: [
-            ["12-piece set", "Under 1 $", "A first kit, a gift, a travel kit you can lose"],
-            ["5-piece set", "About 3.50 $", "Someone who already owns a sponge or a concealer brush"],
-            ["One good brush at a time", "15 $ and up", "A replacement, or one brush you use every day"],
+            ["12-piece set", "The lowest of the three", "A first kit, a gift, a travel kit you can lose"],
+            ["5-piece set", "In the middle", "Someone who already owns a sponge or a concealer brush"],
+            ["One good brush at a time", "The highest, per tool", "A replacement, or one brush you use every day"],
           ],
         },
       },
@@ -157,7 +435,7 @@ const CONTENUS: Record<string, Contenu> = {
       {
         h2: "How this page was built",
         p: [
-          "No test, no lab result, no invented trial. The product details quoted here come from Amazon listings checked on 17 November 2026: a two-sponge pack of latex-free polyurethane foam, dermatologist tested, vegan and cruelty-free; a 12-brush set with synthetic bristles in a zip pouch, vegan, Leaping Bunny and PETA certified; a five-tool set of four synthetic brushes and one sponge. Prices are the ones seen that day and change often. The washing routine and the brush roles are standard makeup practice, not a claim about any specific product.",
+          "No test, no lab result, no invented trial. The product details quoted here come from Amazon listings checked on 17 November 2026: a two-sponge pack of latex-free polyurethane foam, dermatologist tested, vegan and cruelty-free; a 12-brush set with synthetic bristles in a zip pouch, vegan, Leaping Bunny and PETA certified; a five-tool set of four synthetic brushes and one sponge. Prices change often, which is why no price is displayed on this site: check the listing before buying. The washing routine and the brush roles are standard makeup practice, not a claim about any specific product.",
         ],
       },
     ],
@@ -193,6 +471,8 @@ const CONTENUS: Record<string, Contenu> = {
       { href: "/product/elf-professional-12-brush-set", label: "e.l.f. Professional Set of 12 brushes" },
       { href: "/product/real-techniques-everyday-essentials", label: "Real Techniques Everyday Essentials, 5 tools" },
       { href: "/comparisons/best-foundation-for-dry-skin", label: "Foundation stick vs cream base: what dry skin needs" },
+      { href: "/guides/beginner-makeup-routine-5-steps", label: "Beginner makeup routine: 5 steps, 10 minutes" },
+      { href: "/guides/lashes-fall-flat-by-noon", label: "Why your lashes fall flat by noon" },
       { href: "/category/makeup", label: "All makeup products" },
     ],
   },

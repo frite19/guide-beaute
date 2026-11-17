@@ -86,6 +86,36 @@ export const COMPARATIFS: Guide[] = [
 
 export const GUIDES: Guide[] = [
   {
+    slug: "beginner-makeup-routine-5-steps",
+    type: "guide",
+    titre: "Beginner Makeup Routine: 5 Steps, 10 Minutes, No Guessing",
+    description: "The order that actually matters, the products worth buying first, and the four steps you can skip. A starter routine built around what you already own.",
+    image: "https://images.pexels.com/photos/8433509/pexels-photo-8433509.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    imageAlt: "A woman applies powder with a brush in front of a lit vanity mirror",
+    majLe: "2026-11-17",
+    lectureMin: 9,
+    produitsLies: [
+      "ceramide-moisturizing-cream",
+      "fit-me-shine-free-balance-stick",
+      "age-rewind-eraser-concealer",
+      "ilia-multi-stick-cheek-lip",
+      "volume-length-mascara",
+      "tweezerman-classic-lash-curler",
+      "micellar-makeup-remover-wipes",
+    ],
+  },
+  {
+    slug: "lashes-fall-flat-by-noon",
+    type: "guide",
+    titre: "Why Your Lashes Fall Flat by Noon (and the Order That Fixes It)",
+    description: "Curl before mascara, press at the base, and choose the formula that holds. The mechanical fix, the mistakes that undo it, and what no product can do.",
+    image: "https://images.pexels.com/photos/37478228/pexels-photo-37478228.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    imageAlt: "Macro photo of an eye with curled lashes, mascara and a fine liner",
+    majLe: "2026-11-17",
+    lectureMin: 7,
+    produitsLies: ["tweezerman-classic-lash-curler", "volume-length-mascara"],
+  },
+  {
     slug: "makeup-brush-set-how-many-brushes",
     type: "guide",
     titre: "Makeup Brush Set: How Many Brushes Do You Actually Need?",
