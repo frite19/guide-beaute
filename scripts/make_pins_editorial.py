@@ -180,6 +180,40 @@ WIPES = dict(src="pex-6476078.jpg", chip="ORDER MATTERS",
 
 PINS.append(dict(WIPES, code="P30", theme="creme", dir="skincare"))
 
+# --- 19/11 : trois pins "outils make-up", trois pages jamais pinnees ---
+# Le site compte 9 fiches outils + 3 guides neufs. Une page sans pin = zero
+# impression : ce jour-la, on amorce trois destinations plutot que d'ouvrir un
+# quatrieme tableau. Les trois angles sont des regles d'usage, pas des promesses.
+
+# /guides/makeup-brush-set-how-many-brushes/ -- " Four brushes cover a full
+# face " ; le reste est un raffinement. Photo : rangee de brosses sur fond
+# clair, aucun logo lisible.
+BRUSH_FOUR = dict(src="pex-1830447.jpg", chip="4 OF 12", kicker="BRUSH SET",
+                  lines=["Four brushes.", "Not twelve."],
+                  sub="Foundation, powder, blush, eye.", cx=0.5, cy=0.5)
+
+# /product/elf-professional-12-brush-set/ -- " None of these is a scam. They
+# are simply tools for specific looks " : les 12 brosses du set ont chacune un
+# role nomme. Photo : main reelle qui saisit une brosse dans un rouleau ;
+# recadrage qui sort le magazine et la rangee de tubes du cadre.
+BRUSH_TWELVE = dict(src="pex-4620872.jpg", chip="STARTER KIT", kicker="12-PIECE SET",
+                    lines=["Every brush", "has a job."],
+                    sub="Eight are for looks.",
+                    box=(480, 20, 1380, 812))
+
+# /product/real-techniques-miracle-complexion-sponge/ -- " damp for a skin-like
+# finish, dry for fuller coverage ". Photo : une brosse et une eponge sur fond
+# blanc, lumiere douce, aucun logo.
+SPONGE_WET_DRY = dict(src="pex-7256097.jpg", chip="WET OR DRY", kicker="BLENDING SPONGE",
+                      lines=["Damp or dry:", "two bases."],
+                      sub="The sponge sets the finish.", cx=0.5, cy=0.8)
+
+PINS += [
+    dict(BRUSH_FOUR, code="P31", theme="dark", dir="makeup"),
+    dict(BRUSH_TWELVE, code="P32", theme="creme", dir="makeup"),
+    dict(SPONGE_WET_DRY, code="P33", theme="dark", dir="makeup"),
+]
+
 
 if __name__ == "__main__":
     for p in PINS:
