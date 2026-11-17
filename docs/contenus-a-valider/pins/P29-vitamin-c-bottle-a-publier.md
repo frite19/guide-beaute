@@ -1,6 +1,7 @@
-# P29 — « Check the bottle. Not the promises. » — À PUBLIER (18/11, 19 h)
+# P29 — « Check the bottle. Not the promises. » — À PUBLIER (18/11, 13 h)
 
-**Statut :** ⏳ prêt, à publier le **18/11/2026 à 19 h**
+**Statut :** ⏳ prêt, à publier le **18/11/2026 à 13 h** (avancé de 19 h à 13 h le 17/11 : P27 est parti
+le 17/11, la journée du 18/11 ne compte plus que deux pins)
 **Page de destination :** https://guide-beaute.pages.dev/guides/how-to-choose-vitamin-c-serum/ (HTTP 200, aucun prix, tag Amazon présent)
 **Dernier pin vers cette page :** **aucun** — première utilisation de cette URL
 **Tableau :** `Skincare Routine for Beginners`
@@ -19,7 +20,7 @@
 | **Tagged topics** | Skincare · Vitamin C · Beauty Tips |
 | **Alt** | `Two hands hold an amber glass bottle with a blank white label above an open palm, blurred marble background.` |
 | **Product tag** | `https://www.amazon.com/dp/B08QSLJ8CC?tag=eclatia20-20` — TruSkin Vitamin C Serum & Moisturizer Duo |
-| **Programmation** | 18/11/2026 à **19 h** |
+| **Programmation** | 18/11/2026 à **13 h** |
 
 ---
 

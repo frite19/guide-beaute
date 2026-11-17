@@ -1,9 +1,10 @@
-# P28 — « Cream first. Stick second. » — À PUBLIER (18/11, 13 h)
+# P28 — « Cream first. Stick second. » — À PUBLIER (18/11, 9 h)
 
-**Statut :** ⏳ prêt, à publier le **18/11/2026 à 13 h**
+**Statut :** ⏳ prêt, à publier le **18/11/2026 à 9 h** (avancé de 13 h à 9 h le 17/11 : P27 est parti
+le 17/11, donc le créneau du matin du 18/11 était libre)
 **Page de destination :** https://guide-beaute.pages.dev/comparisons/best-foundation-for-dry-skin/ (HTTP 200, aucun prix, tag Amazon présent)
 **Dernier pin vers cette page :** **aucun** — première utilisation de cette URL
-**Tableau :** `Makeup for Dry Skin & Natural Base`
+**Tableau :** `Makeup for Dry Skin Natural Base` (nom exact, sans « & »)
 
 ---
 
@@ -19,7 +20,7 @@
 | **Tagged topics** | Foundation · Dry Skin · Makeup Tips |
 | **Alt** | `Close-up of a woman with a white cream swatch on her cheek, one hand behind her ear, dark blue background.` |
 | **Product tag** | `https://www.amazon.com/dp/B00TTD9BRC?tag=eclatia20-20` — CeraVe Moisturizing Cream, 19 oz |
-| **Programmation** | 18/11/2026 à **13 h** |
+| **Programmation** | 18/11/2026 à **9 h** |
 
 ---
 
