@@ -111,7 +111,7 @@ export const GUIDES: Guide[] = [
     imageAlt: "A leg with a satin sheen next to an amber bottle of body oil in warm daylight",
     majLe: "2026-11-01",
     lectureMin: 6,
-    produitsLies: ["raw-shea-butter-16oz"],
+    produitsLies: ["raw-shea-butter-16oz", "fractionated-coconut-oil-16oz"],
   },
   {
     slug: "fragrance-free-body-oil-sensitive-skin",
@@ -133,7 +133,7 @@ export const GUIDES: Guide[] = [
     imageAlt: "A drop of golden oil held between two fingertips, backlit",
     majLe: "2026-11-01",
     lectureMin: 7,
-    produitsLies: ["raw-shea-butter-16oz", "cliganic-jojoba-oil-4oz"],
+    produitsLies: ["raw-shea-butter-16oz", "cliganic-jojoba-oil-4oz", "ogx-argan-oil-morocco"],
   },
   {
     slug: "beginner-glow-routine",
