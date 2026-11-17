@@ -1,9 +1,16 @@
-# P27 — « Ends: yes. Scalp: no. » — À PUBLIER (18/11, 9 h)
+# P27 — « Shine, yes. Growth, no. » — À PUBLIER MAINTENANT (17/11)
 
-**Statut :** ⏳ prêt, à publier le **18/11/2026 à 9 h** (premier jour à 3 pins)
+**Statut :** ⏳ prêt, à publier le **17/11/2026** (tu as demandé de le sortir aujourd'hui)
 **Page de destination :** https://guide-beaute.pages.dev/guides/hair-oil-vs-body-oil/ (HTTP 200, aucun prix, tag Amazon présent)
-**Dernier pin vers cette page :** **aucun** — première utilisation de cette URL
-**Tableau :** `Hot Air Brush and Hair Styling Ideas` (seul tableau cheveux du compte)
+**Dernier pin vers cette page :** **07/11 (P08)** — même URL, semaine différente, donc la règle « jamais
+2 pins vers la même URL dans la même semaine » est respectée. C'est un **2ᵉ pin**.
+**Tableau :** `Hot Air Brush and Hair Styling Ideas`
+
+> ⚠️ **Angle changé le 17/11.** La version initiale (« Ends: yes. / Scalp: no. ») rejouait P08 mot pour
+> mot : « what works on hair ends but not on the scalp, and the 3 cases where sharing one product goes
+> wrong ». Même page, même argument, 10 jours d'écart. Le pin est donc réécrit sur un angle que
+> **aucun pin n'a utilisé** : l'huile change l'aspect, pas la pousse. C'est la FAQ de la page, et ça
+> n'apparaît nulle part dans les 26 pins publiés.
 
 ---
 
@@ -12,14 +19,14 @@
 | Champ | Valeur |
 |---|---|
 | **Image** | `docs/contenus-a-valider/visuels/hair/pin-P27.jpg` — 1000 × 1500 (2:3) · copie PNG : `pin-P27.png` |
-| **Titre** | `Body Oil on Your Hair: Ends Yes, Scalp No` |
-| **Description** | `One bottle, two uses — but only when the listing says both. A body oil is built to leave a film on the skin; a hair oil is built to glide through the fibre. On the ends, a small amount is fine. On the scalp, a body oil is too occlusive and leaves a residue, and on fine hair it goes flat. The one product in this catalogue marketed for skin, hair and face is a solid shea butter, not an oil. What actually differs, and the 3 cases where sharing goes wrong. Some links on this page are affiliate links. #haircare #hairoil #bodyoil` |
+| **Titre** | `Hair Oil: Shine, Yes, Growth, No` |
+| **Description** | `An oil can change how hair looks and feels. It cannot change how fast it grows: nothing in this guide makes that claim. What a hair oil actually does is detangle, tame frizz, add shine and protect the ends. Where a body oil fails on hair: the scalp, too occlusive, and fine hair, which it flattens. The one product here marketed for skin, hair and face is a solid shea butter, not an oil. Some links on this page are affiliate links. #haircare #hairoil #hairtips` |
 | **Lien** | `https://guide-beaute.pages.dev/guides/hair-oil-vs-body-oil/?utm_source=Pinterest&utm_medium=organic&utm_campaign=P27` |
 | **Tableau** | `Hot Air Brush and Hair Styling Ideas` |
-| **Tagged topics** | Hair Care · Hair Oil · Beauty Tips |
-| **Alt** | `A woman with curly hair holds a glass dropper above her head, against a plain yellow background.` |
+| **Tagged topics** | Hair Care · Hair Oil · Hair Tips |
+| **Alt** | `A smiling woman with curly hair holds a glass dropper of oil above her head, a small bottle in her other hand, against a plain yellow background.` |
 | **Product tag** | `https://www.amazon.com/dp/B07RRDMMZM?tag=eclatia20-20` — Raw African Shea Butter, 16 oz |
-| **Programmation** | 18/11/2026 à **9 h** |
+| **Programmation** | immédiate |
 
 ---
 
@@ -27,37 +34,34 @@
 
 | Affirmation du pin | Présente sur la page ? |
 |---|---|
-| « One bottle, two uses » | ✅ intro : « One bottle on the shelf, two possible uses. » |
-| « only when the listing says both » | ✅ réponse : « The only reliable case for sharing is when the listing says both uses explicitly. » |
-| « a body oil leaves a film on the skin » | ✅ intro : « A body oil is built to leave a film on skin. » |
-| « a hair oil glides through the fibre » | ✅ intro : « A hair oil is built to glide through the fibre without weighing it down. » |
-| « Ends: yes » | ✅ FAQ : « On the ends, usually yes, in a small amount. » |
-| « Scalp: no » | ✅ « On the scalp, a body oil is the wrong product whatever the label promises. » |
-| « too occlusive for the scalp » | ✅ tableau, ligne *On the scalp* : « Not recommended: too occlusive » |
-| « on fine hair it goes flat » | ✅ « Fine hair plus a rich body oil. The result is flat, greasy hair… » |
-| « solid shea butter, not an oil » | ✅ « It is a solid butter, not an oil: raw, unrefined, degummed, ivory, in a 16 oz (473 ml) tub. » |
+| « an oil can change how hair looks and feels » | ✅ FAQ : « An oil can change how the hair feels and looks » |
+| « it cannot change how fast it grows » | ✅ « not how fast it grows » |
+| « nothing in this guide makes that claim » | ✅ « Nothing on this page makes that claim » |
+| « detangle, tame frizz, add shine, protect the ends » | ✅ tableau *Purpose* : « Detangle, tame frizz, shine, protect ends » |
+| « the scalp, too occlusive » | ✅ tableau : « Not recommended: too occlusive » |
+| « fine hair, which it flattens » | ✅ « fine hair, which it flattens » |
+| « solid shea butter, not an oil » | ✅ « It is a solid butter, not an oil » |
+| « marketed for skin, hair and face » | ✅ « marketed on its listing for skin, hair and face » |
 | Prix affiché | ❌ aucun montant |
-| Test / avis inventé | ❌ aucun |
-| Marque lisible sur le visuel | ❌ aucune |
-| Même URL dans la même semaine | ❌ non (première fois) |
+| Test / avis inventé | ❌ aucun — aucune promesse de pousse, justement |
+| Marque lisible sur le visuel | ❌ aucune (flacon et compte-gouttes sans étiquette) |
+| Même URL dans la même semaine | ❌ non (dernier pin le 07/11) |
 
 ### Le visuel
 
-Photo Pexels **6706840** (licence Pexels, source dans `docs/contenus-a-valider/sources/pex-6706840.jpg`).
-Cheveux crépus, main qui tient un compte-gouttes au-dessus de la tête, fond jaune uni. Mains réelles,
-anatomie correcte, aucun logo lisible. Thème **dark** (vert forêt + or).
+Photo Pexels **6706840** (source versionnée : `docs/contenus-a-valider/sources/pex-6706840.jpg`).
+Femme aux cheveux crépus, compte-gouttes au-dessus de la tête, visage entier, main réelle, aucun logo.
+Thème **dark** (vert forêt + or). Titre composé à **140 px**, chip `NOT A TREATMENT`.
 
-Titre composé à **140 px**, chip 34 px, kicker 36 px — la taille maximale de la charte.
+**Pourquoi ce visuel fonctionne avec cet angle :** le geste (une huile qu'on dépose) est exactement ce
+que le pin démonte — une huile qui soigne l'aspect, pas la pousse. Aucun packaging de marque n'est
+montré, donc aucune promesse de produit n'est suggérée par l'image.
 
-### Pourquoi cet angle
+### Place dans la journée
 
-C'est la question que les gens tapent vraiment (« can I use body oil on my hair »), et la page y
-répond par une règle nette : **extrémités oui, cuir chevelu non**. L'angle est binaire, donc lisible
-en une seconde dans le fil, et il ne répète aucun pin existant. Le pin du 09/11 (P06) portait sur
-l'huile corporelle ; celui-ci porte sur la **frontière** entre les deux produits.
-
-**Point d'honnêteté :** le flacon de la photo est anonyme (étiquette vierge). Il illustre le geste,
-pas un produit précis ; aucun flacon du catalogue n'est montré.
+P30 (lingettes) est sorti ce matin à **00 h 32**. P27 serait donc le **2ᵉ pin du 17/11** — autorisé
+(2/jour maximum avant le 18/11). En revanche, **le créneau de 9 h du 18/11 se retrouve vide** : il
+faudra le combler par un pin neuf, ou décaler P28 et P29.
 
 ---
 
@@ -65,5 +69,4 @@ pas un produit précis ; aucun flacon du catalogue n'est montré.
 
 - Ne jamais modifier le lien après publication.
 - Ne pas cliquer sur son propre pin.
-- Vérifier le tableau **avant** de cliquer : P24 était sorti dans le mauvais tableau.
-- 3 pins ce jour-là : 9 h (celui-ci), 13 h (P28), 19 h (P29). Jamais trois d'affilée.
+- Vérifier le tableau **avant** de cliquer sur Publier.

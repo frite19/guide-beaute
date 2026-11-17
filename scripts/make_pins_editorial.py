@@ -143,10 +143,10 @@ PINS = [
 # product whatever the label promises », « Not recommended: too occlusive ».
 # Photo : cheveux crepus, main qui tient un compte-gouttes au-dessus des
 # cheveux, fond jaune. Aucune marque lisible, main reelle.
-HAIR_BODY_OIL = dict(src="pex-6706840.jpg", chip="ONE BOTTLE",
-                     kicker="HAIR OIL / BODY OIL",
-                     lines=["Ends: yes.", "Scalp: no."],
-                     sub="Too occlusive for the scalp.", cx=0.45)
+HAIR_BODY_OIL = dict(src="pex-6706840.jpg", chip="NOT A TREATMENT",
+                     kicker="HAIR OIL",
+                     lines=["Shine, yes.", "Growth, no."],
+                     sub="An oil changes how it feels.", cx=0.45)
 
 # /comparisons/best-foundation-for-dry-skin/ — « the cream base has to go on
 # first », « a matte stick will never give you a dewy finish ».
