@@ -53,7 +53,7 @@ export const COMPARATIFS: Guide[] = [
     imageAlt: "A jar of raw shea butter next to a bottle of body oil on a linen surface",
     majLe: "2026-10-28",
     lectureMin: 7,
-    produitsLies: ["raw-shea-butter-16oz"],
+    produitsLies: ["raw-shea-butter-16oz", "neutrogena-body-oil-light-sesame"],
   },
   {
     slug: "body-oil-vs-body-lotion",
@@ -64,7 +64,12 @@ export const COMPARATIFS: Guide[] = [
     imageAlt: "A swirl of white body lotion next to a puddle of golden body oil on a beige surface",
     majLe: "2026-10-29",
     lectureMin: 7,
-    produitsLies: ["ceramide-moisturizing-cream", "raw-shea-butter-16oz"],
+    produitsLies: [
+      "ceramide-moisturizing-cream",
+      "raw-shea-butter-16oz",
+      "neutrogena-body-oil-light-sesame",
+      "bio-oil-skincare-oil-4-2oz",
+    ],
   },
   {
     slug: "oil-body-wash-vs-body-wash",
@@ -99,7 +104,12 @@ export const GUIDES: Guide[] = [
     image: "/images/guides/body-oil-before-or-after-lotion.jpg",
     imageAlt: "A hand and body wash bottle next to a hand and body lotion bottle on a bathroom tray (illustrative photo)",
     lectureMin: 6,
-    produitsLies: ["ceramide-moisturizing-cream", "raw-shea-butter-16oz", "eos-shea-better-caramel-cashmere-travel-lotion"],
+    produitsLies: [
+      "ceramide-moisturizing-cream",
+      "raw-shea-butter-16oz",
+      "eos-shea-better-caramel-cashmere-travel-lotion",
+      "neutrogena-body-oil-light-sesame",
+    ],
     majLe: "2026-11-02",
   },
   {
