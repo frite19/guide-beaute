@@ -184,7 +184,7 @@ export const GUIDES: Guide[] = [
     imageAlt: "A drop of golden oil held between two fingertips, backlit",
     majLe: "2026-11-01",
     lectureMin: 7,
-    produitsLies: ["raw-shea-butter-16oz", "cliganic-jojoba-oil-4oz", "ogx-argan-oil-morocco"],
+    produitsLies: ["cliganic-jojoba-oil-4oz", "raw-shea-butter-16oz", "ogx-argan-oil-morocco"],
   },
   {
     slug: "beginner-glow-routine",

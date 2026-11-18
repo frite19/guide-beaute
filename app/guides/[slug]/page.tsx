@@ -6,6 +6,7 @@ import { GUIDES } from "@/data/guides";
 import { getProduct } from "@/data/catalog";
 import { AffiliateButton } from "@/components/AffiliateButton";
 import { ProductCard } from "@/components/ProductCard";
+import { StickyBuyBar } from "@/components/StickyBuyBar";
 
 export function generateStaticParams() {
   return GUIDES.map((g) => ({ slug: g.slug }));
@@ -439,7 +440,7 @@ const CONTENUS: Record<string, Contenu> = {
         ],
       },
     ],
-    ctaApresBloc: 2,
+    ctaApresBloc: 1,
     faq: [
       {
         q: "How many makeup brushes do I actually need?",
@@ -1091,7 +1092,7 @@ const CONTENUS: Record<string, Contenu> = {
         ],
       },
     ],
-    ctaApresBloc: 3,
+    ctaApresBloc: 1,
     faq: [
       {
         q: "Can I use body oil on my hair?",
@@ -1186,7 +1187,7 @@ export default function GuideDetail({ params }: { params: { slug: string } }) {
             {c.ctaApresBloc === i && encart && (
               <div className="affiliate-box" style={{ marginTop: 18 }}>
                 <div>
-                  <strong>Want to see the current offer?</strong><br />
+                  <strong>{encart.nom}</strong><br />
                   <span style={{ color: "#d9c4b4", fontSize: "0.9rem" }}>
                     Stock, size and price are confirmed at {encart.marchand} when you click.
                   </span>
@@ -1232,6 +1233,15 @@ export default function GuideDetail({ params }: { params: { slug: string } }) {
       <div className="grid-3">
         {produits.map((p) => p && <ProductCard key={p.slug} p={p} />)}
       </div>
+      {encart && (
+        <StickyBuyBar
+          url={encart.urlAffiliation}
+          productSlug={encart.slug}
+          category={encart.categorie}
+          merchant={encart.marchand}
+          productName={encart.nom}
+        />
+      )}
     </>
   );
 }

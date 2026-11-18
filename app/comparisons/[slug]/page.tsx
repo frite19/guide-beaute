@@ -5,6 +5,7 @@ import { COMPARATIFS } from "@/data/guides";
 import { getProduct } from "@/data/catalog";
 import { AffiliateButton } from "@/components/AffiliateButton";
 import { ProductCard } from "@/components/ProductCard";
+import { StickyBuyBar } from "@/components/StickyBuyBar";
 
 export function generateStaticParams() {
   return COMPARATIFS.map((g) => ({ slug: g.slug }));
@@ -497,6 +498,15 @@ export default function ComparisonDetail({ params }: { params: { slug: string } 
       <div className="grid-3">
         {produits.map((p) => p && <ProductCard key={p.slug} p={p} />)}
       </div>
+      {produits[0] && (
+        <StickyBuyBar
+          url={produits[0].urlAffiliation}
+          productSlug={produits[0].slug}
+          category={produits[0].categorie}
+          merchant={produits[0].marchand}
+          productName={produits[0].nom}
+        />
+      )}
     </>
   );
 }
