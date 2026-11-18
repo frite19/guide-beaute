@@ -1,7 +1,6 @@
 # P29 — « Check the bottle. Not the promises. » — À PUBLIER (18/11, 13 h)
 
-**Statut :** ⏳ prêt, à publier le **18/11/2026 à 13 h** (avancé de 19 h à 13 h le 17/11 : P27 est parti
-le 17/11, la journée du 18/11 ne compte plus que deux pins)
+**Statut :** ⏳ **programmé sur Pinterest pour le 18/11/2026 à 22 h 30** (Pinterest raisonne en GMT)
 **Page de destination :** https://guide-beaute.pages.dev/guides/how-to-choose-vitamin-c-serum/ (HTTP 200, aucun prix, tag Amazon présent)
 **Dernier pin vers cette page :** **aucun** — première utilisation de cette URL
 **Tableau :** `Skincare Routine for Beginners`
@@ -20,7 +19,7 @@ le 17/11, la journée du 18/11 ne compte plus que deux pins)
 | **Tagged topics** | Skincare · Vitamin C · Beauty Tips |
 | **Alt** | `Two hands hold an amber glass bottle with a blank white label above an open palm, blurred marble background.` |
 | **Product tag** | `https://www.amazon.com/dp/B08QSLJ8CC?tag=eclatia20-20` — TruSkin Vitamin C Serum & Moisturizer Duo |
-| **Programmation** | 18/11/2026 à **13 h** |
+| **Programmation** | 18/11/2026 à **22 h 30** (GMT) |
 
 ---
 
@@ -75,6 +74,5 @@ dérivés, erreurs courantes, FAQ, liens internes. C'est la page à retravailler
 - Ne jamais modifier le lien après publication.
 - Ne pas cliquer sur son propre pin.
 - Vérifier le tableau **avant** de cliquer.
-- 2 pins ce jour-là : 9 h (P28), 13 h (celui-ci). Le créneau de 19 h reste vide — voir
-  `docs/plan-pins-2026-11.md`, « Journal des écarts ».
+- 2 pins ce jour-là : P28 à **16:04**, celui-ci à **22:30** (GMT).
 - Étoffer cette page avant la fin du sprint : c'est la plus courte du site (deux blocs, pas de FAQ).
