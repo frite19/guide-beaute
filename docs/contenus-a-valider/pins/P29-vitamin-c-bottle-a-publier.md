@@ -75,4 +75,6 @@ dérivés, erreurs courantes, FAQ, liens internes. C'est la page à retravailler
 - Ne jamais modifier le lien après publication.
 - Ne pas cliquer sur son propre pin.
 - Vérifier le tableau **avant** de cliquer.
-- 3 pins ce jour-là : 9 h (P27), 13 h (P28), 19 h (celui-ci).
+- 2 pins ce jour-là : 9 h (P28), 13 h (celui-ci). Le créneau de 19 h reste vide — voir
+  `docs/plan-pins-2026-11.md`, « Journal des écarts ».
+- Étoffer cette page avant la fin du sprint : c'est la plus courte du site (deux blocs, pas de FAQ).

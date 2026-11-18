@@ -1,7 +1,6 @@
 # P28 — « Cream first. Stick second. » — À PUBLIER (18/11, 9 h)
 
-**Statut :** ⏳ prêt, à publier le **18/11/2026 à 9 h** (avancé de 13 h à 9 h le 17/11 : P27 est parti
-le 17/11, donc le créneau du matin du 18/11 était libre)
+**Statut :** ✅ **publié le 18/11/2026 à 16:04 GMT** (créneau de 9 h manqué — voir le journal des écarts)
 **Page de destination :** https://guide-beaute.pages.dev/comparisons/best-foundation-for-dry-skin/ (HTTP 200, aucun prix, tag Amazon présent)
 **Dernier pin vers cette page :** **aucun** — première utilisation de cette URL
 **Tableau :** `Makeup for Dry Skin Natural Base` (nom exact, sans « & »)
@@ -76,4 +75,5 @@ met en avant l'étape qui résout le problème.
 - Ne jamais modifier le lien après publication.
 - Ne pas cliquer sur son propre pin.
 - Vérifier le tableau **avant** de cliquer.
-- 3 pins ce jour-là : 9 h (P27), 13 h (celui-ci), 19 h (P29).
+- 2 pins ce jour-là : 9 h (celui-ci), 13 h (P29). Le créneau de 19 h reste vide — voir
+  `docs/plan-pins-2026-11.md`, « Journal des écarts ».
