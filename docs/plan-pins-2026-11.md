@@ -83,6 +83,26 @@ Ce plan remplace la règle « 2 cheveux / 1 corps » du 13/11.
 > Si la cadence des visuels décroche, c'est la publication qui décroche : mieux vaut 2/jour
 > tenus que 3/jour abandonnés au bout de dix jours.
 >
+> ### Test visuel du 20/11 — pins sans texte
+>
+> Constat du 19/11 : les deux pins les plus vus du compte (1 171 et 639 impressions) sont des
+> **photos nues**, publiées avant la charte éditoriale. Trois des quatre meilleurs pins n'ont
+> aucun texte sur l'image. Mais ils ont trois semaines d'avance et vivent sur le tableau body,
+> qui porte 72 % de la portée : cela ne prouve pas la causalité.
+>
+> Test : trois pins **strictement sans texte** (P34, P35, P36), même tableau que le trio du
+> 19/11, mêmes créneaux (14 h · 20 h · 2 h), donc même âge au moment de la mesure. Le titre
+> porte seul l'angle.
+>
+> Lecture le **26/11** (J+7) : impressions par pin, comparées à P31/P32/P33.
+>
+> Décision : si les pins sans texte font au moins **1,5 fois** les impressions des pins à
+> bandeau, la charte passe en photo seule. Sinon, retour au bandeau. Coût du test : 3 pins.
+>
+> À noter pour l'avenir : `make_pins_editorial.py` régénère **tous** les visuels à chaque
+> exécution. Les fichiers de `docs/contenus-a-valider/visuels/` ne sont donc plus la preuve de
+> ce qui est en ligne — seul Pinterest l'est.
+>
 > ### Journal des écarts
 >
 > | Date | Écart | Conséquence |
@@ -101,6 +121,7 @@ Ce plan remplace la règle « 2 cheveux / 1 corps » du 13/11.
 > | 19/11 | **3 pins « outils make-up »** : guide brosses (P31), set 12 brosses (P32), éponge (P33) — trois destinations jamais pinnées, toutes sur le même tableau | la grille 1 cheveux / 1 make-up / 1 skincare est suspendue un jour : les 9 fiches outils n'ont aucun pin, et une page sans pin ne produit rien. Les cheveux et le skincare gardent leurs pins déjà en ligne. Conséquence assumée : 3 pins le même jour sur le tableau make-up |
 > | 19/11 | **P31 publié à 16:35:45 GMT** (= 17 h 35 en Algérie), puis **P32 programmé à 22 h 00** et **P33 à 01 h 00 le 20/11** (heure algérienne) | créneaux réels : 17 h 35 → 22 h → 1 h, soit 4 h 24 puis 3 h d'écart ; en heure de New York 11 h 35 → 16 h → 19 h. La grille corrigée est tenue pour la première fois |
 > | 19/11 | **Fuseau horaire élucidé** : Pinterest programme à l'heure locale du compte (UTC+1), pas en GMT. P29 saisi à 22 h 30 → publié 21:33 GMT = 22 h 33 locale | la grille « 9 h · 13 h · 19 h » tombait à 4 h, 8 h et 14 h à New York. Remplacée par **14 h · 20 h · 2 h** locales (= 8 h · 14 h · 20 h à New York) |
+> | 19/11 | **P34, P35, P36 produits** : trois pins sans texte (photo nue), destinations jamais pinnées — set 5 outils, recourbeur, guide routine débutante | applique le test visuel du 20/11. Le tableau make-up reçoit 6 pins en 3 jours : assumé pour que la comparaison 19/11 ↔ 20/11 se fasse à tableau et à âge égaux |
 
 ---
 
