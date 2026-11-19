@@ -25,9 +25,15 @@ Ce plan remplace la règle « 2 cheveux / 1 corps » du 13/11.
 >
 > ### Grille hebdomadaire type
 >
-> Trois créneaux espacés : **9 h · 13 h · 19 h**. Jamais trois pins d'affilée.
+> ⚠️ **Corrigé le 19/11 : les créneaux sont 14 h · 20 h · 2 h, heure algérienne.**
+> Pinterest programme à l'heure locale du compte, pas en GMT. Preuve : P29 saisi à 22 h 30
+> est sorti à 21:33 GMT, soit 22 h 33 en Algérie. Donc « 9 h » dans Pinterest = 8 h GMT
+> = **4 h du matin à New York** : le créneau ne touchait personne.
 >
-> | Jour | 9 h | 13 h | 19 h |
+> Trois créneaux espacés : **14 h · 20 h · 2 h** (= 13 h · 19 h · 1 h GMT = 8 h · 14 h · 20 h
+> à New York). Jamais trois pins d'affilée.
+>
+> | Jour | 14 h | 20 h | 2 h |
 > |---|---|---|---|
 > | Lundi | cheveux 1 | makeup 1 | skincare 1 |
 > | Mardi | cheveux 2 | skincare 2 | makeup 2 |
@@ -92,7 +98,9 @@ Ce plan remplace la règle « 2 cheveux / 1 corps » du 13/11.
 > | 17/11 | **Vague 2** : fiche `tweezerman-classic-lash-curler` + guides `beginner-makeup-routine-5-steps` et `lashes-fall-flat-by-noon` ; 3 guides maillés entre eux et vers le comparatif fondation | 3 destinations neuves de plus (12 pages jamais pinnées au total). Le gisement cils et « beginner makeup » est désormais couvert côté site. Sitemap : 54 URL, les 12 pages vérifiées en ligne |
 > | 18/11 | **P28 publié à 16:04 GMT**, pas à 9 h : le créneau du matin n'a pas été utilisé (deuxième jour de suite avec un pin d'après-midi) | le pin est en ligne et visible dans le flux du tableau, donc rien à rattraper. Mais si les créneaux 9 h et 13 h sautent tous les jours, la grille « 3 pins/jour » devient « 3 pins le soir » : l'espacement est ce qui protège le compte, pas le total |
 > | 18/11 | **P29 programmé pour 22:30 GMT** (et non 13 h comme prévu dans la fiche) | pas de conflit : P28 est parti à 16:04, soit 6 h 26 avant, et le pin du 19/11 à 9 h suivra 10 h 30 après. L'heure est en fin de journée GMT, donc en fin d'après-midi aux États-Unis — correct pour l'audience visée. Le test de 14 jours démarre donc à **2 pins le 18/11**, 3 le 19/11 |
-> | 19/11 | **3 pins « outils make-up »** : guide brosses (P31, 9 h), set 12 brosses (P32, 13 h), éponge (P33, 19 h) — trois destinations jamais pinnées | la grille 1 cheveux / 1 make-up / 1 skincare est suspendue un jour : les 9 fiches outils n'ont aucun pin, et une page sans pin ne produit rien. Les cheveux et le skincare gardent leurs pins déjà en ligne. Conséquence assumée : 3 pins le même jour sur le tableau make-up |
+> | 19/11 | **3 pins « outils make-up »** : guide brosses (P31), set 12 brosses (P32), éponge (P33) — trois destinations jamais pinnées, toutes sur le même tableau | la grille 1 cheveux / 1 make-up / 1 skincare est suspendue un jour : les 9 fiches outils n'ont aucun pin, et une page sans pin ne produit rien. Les cheveux et le skincare gardent leurs pins déjà en ligne. Conséquence assumée : 3 pins le même jour sur le tableau make-up |
+> | 19/11 | **P31 publié à 16:35:45 GMT** (= 17 h 35 en Algérie) au lieu de 14 h ; P32 et P33 programmés par Farid, heures à confirmer | troisième jour de suite sans pin en matinée. Vérifié par le flux du tableau : P31 est bien sur `Makeup for Dry Skin Natural Base` |
+> | 19/11 | **Fuseau horaire élucidé** : Pinterest programme à l'heure locale du compte (UTC+1), pas en GMT. P29 saisi à 22 h 30 → publié 21:33 GMT = 22 h 33 locale | la grille « 9 h · 13 h · 19 h » tombait à 4 h, 8 h et 14 h à New York. Remplacée par **14 h · 20 h · 2 h** locales (= 8 h · 14 h · 20 h à New York) |
 
 ---
 

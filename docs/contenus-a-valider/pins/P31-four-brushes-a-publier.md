@@ -1,6 +1,6 @@
 # P31 — « Four brushes. Not twelve. » — À PUBLIER (19/11, 9 h)
 
-**Statut :** ⏳ prêt, à publier le **19/11/2026 à 9 h**
+**Statut :** ✅ **publié le 19/11/2026 à 16:35:45 GMT** (= 17 h 35 heure algérienne), tableau make-up confirmé par le flux RSS
 **Page de destination :** https://guide-beaute.pages.dev/guides/makeup-brush-set-how-many-brushes/ (HTTP 200, aucun prix, tag Amazon présent)
 **Dernier pin vers cette page :** **aucun** — première utilisation de cette URL
 **Tableau :** `Makeup for Dry Skin Natural Base`
