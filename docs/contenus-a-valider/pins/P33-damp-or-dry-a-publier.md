@@ -1,6 +1,6 @@
 # P33 — « Damp or dry: two bases. » — À PUBLIER (19/11, 19 h)
 
-**Statut :** ⏳ **programmé sur Pinterest le 19/11/2026** — heure exacte à confirmer (l'heure saisie dans Pinterest est l'heure algérienne, pas GMT)
+**Statut :** ⏳ **programmé sur Pinterest le 20/11/2026 à 01 h 00 (heure algérienne)** = 00 h 00 GMT = 19 h 00 à New York le 19/11
 **Page de destination :** https://guide-beaute.pages.dev/product/real-techniques-miracle-complexion-sponge/ (HTTP 200, aucun prix, tag Amazon présent)
 **Dernier pin vers cette page :** **aucun** — première utilisation de cette URL
 **Tableau :** `Makeup for Dry Skin Natural Base`
@@ -19,7 +19,7 @@
 | **Tagged topics** | Makeup Sponge · Foundation · Beauty Tools |
 | **Alt** | `One pink-tipped makeup brush and one pink teardrop blending sponge standing on a white surface in soft light.` |
 | **Product tag** | `https://www.amazon.com/dp/B00QPNVC0I?tag=eclatia20-20` — Real Techniques Miracle Complexion Sponge, 2 pack |
-| **Programmation** | 19/11/2026 à **19 h** |
+| **Programmation** | 20/11/2026 à **01 h 00** (heure algérienne) = 00 h GMT |
 
 ---
 

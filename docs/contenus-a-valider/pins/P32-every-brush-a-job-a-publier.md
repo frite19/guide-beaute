@@ -1,6 +1,6 @@
 # P32 — « Every brush has a job. » — À PUBLIER (19/11, 13 h)
 
-**Statut :** ⏳ **programmé sur Pinterest le 19/11/2026** — heure exacte à confirmer (l'heure saisie dans Pinterest est l'heure algérienne, pas GMT)
+**Statut :** ⏳ **programmé sur Pinterest le 19/11/2026 à 22 h 00 (heure algérienne)** = 21 h 00 GMT = 16 h 00 à New York
 **Page de destination :** https://guide-beaute.pages.dev/product/elf-professional-12-brush-set/ (HTTP 200, aucun prix, tag Amazon présent)
 **Dernier pin vers cette page :** **aucun** — première utilisation de cette URL
 **Tableau :** `Makeup for Dry Skin Natural Base`
@@ -19,7 +19,7 @@
 | **Tagged topics** | Makeup Brushes · Makeup Kit · Beauty Essentials |
 | **Alt** | `A hand picking a brush from a fabric brush roll filled with several makeup brushes, on a wooden table.` |
 | **Product tag** | `https://www.amazon.com/dp/B001HKR6WM?tag=eclatia20-20` — e.l.f. Professional Set of 12 Brushes |
-| **Programmation** | 19/11/2026 à **13 h** |
+| **Programmation** | 19/11/2026 à **22 h 00** (heure algérienne) = 21 h GMT |
 
 ---
 
