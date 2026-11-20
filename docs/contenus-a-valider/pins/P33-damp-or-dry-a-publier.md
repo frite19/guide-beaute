@@ -1,6 +1,6 @@
 # P33 — « Damp or dry: two bases. » — À PUBLIER (19/11, 19 h)
 
-**Statut :** ⏳ **programmé sur Pinterest le 20/11/2026 à 01 h 00 (heure algérienne)** = 00 h 00 GMT = 19 h 00 à New York le 19/11
+**Statut :** ✅ **publié le 20/11/2026 à 00:07:01 GMT** — ⚠️ **mauvais tableau : `Skincare Routine for Beginners`**, à déplacer vers `Makeup for Dry Skin Natural Base`
 **Page de destination :** https://guide-beaute.pages.dev/product/real-techniques-miracle-complexion-sponge/ (HTTP 200, aucun prix, tag Amazon présent)
 **Dernier pin vers cette page :** **aucun** — première utilisation de cette URL
 **Tableau :** `Makeup for Dry Skin Natural Base`

@@ -1,6 +1,6 @@
 # P32 — « Every brush has a job. » — À PUBLIER (19/11, 13 h)
 
-**Statut :** ⏳ **programmé sur Pinterest le 19/11/2026 à 22 h 00 (heure algérienne)** = 21 h 00 GMT = 16 h 00 à New York
+**Statut :** ✅ **publié le 19/11/2026 à 21:06:09 GMT** — ⚠️ **mauvais tableau : `Skincare Routine for Beginners`**, à déplacer vers `Makeup for Dry Skin Natural Base`
 **Page de destination :** https://guide-beaute.pages.dev/product/elf-professional-12-brush-set/ (HTTP 200, aucun prix, tag Amazon présent)
 **Dernier pin vers cette page :** **aucun** — première utilisation de cette URL
 **Tableau :** `Makeup for Dry Skin Natural Base`
