@@ -1,6 +1,6 @@
-# P34 — « Five tools, four jobs » — À PUBLIER (20/11, 14 h)
+# P34 — « Five tools, four jobs » — PUBLIÉ (20/11, 16 h 15)
 
-**Statut :** ⏳ prêt, à publier le **20/11/2026 à 14 h** (heure algérienne) = 13 h GMT = 8 h à New York
+**Statut :** ✅ **publié le 20/11/2026 à 15:15:00 GMT** = 16 h 15 en Algérie = 10 h 15 à New York — tableau `Makeup for Dry Skin Natural Base`, confirmé dans le flux du tableau le 20/11 à 15:22 GMT
 **Page de destination :** https://guide-beaute.pages.dev/product/real-techniques-everyday-essentials/ (HTTP 200, aucun prix, tag Amazon présent, barre collante active)
 **Dernier pin vers cette page :** **aucun** — première utilisation de cette URL
 **Tableau :** `Makeup for Dry Skin Natural Base`
