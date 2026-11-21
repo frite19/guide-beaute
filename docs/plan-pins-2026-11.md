@@ -277,21 +277,22 @@ Une ligne = un pin. La fiche détaillée (image, titre, description, alt, tag pr
 
 ---
 
-## Règle du 21/11/2026 — zéro tag produit sur les pins
+## Règle du 21/11/2026 — tag produit : OUI, via le filtre Amazon
 
-Décision : **on ne tague plus aucun produit dans Pinterest.** Trois raisons, dans l'ordre
-d'importance :
+**Correction le même jour.** La première version de cette règle disait « zéro tag produit ». C'était
+faux : le tag produit est disponible sur ce compte, et depuis l'intégration Amazon Storefront,
+Pinterest **applique automatiquement le lien d'affiliation du créateur** aux produits taggés,
+avec sa propre mention d'affiliation. Un tag bien posé rapporte donc, en plus du lien vers le site.
 
-1. Un tag produit Pinterest crée **son propre** lien vers le produit : le paramètre
-   `?tag=eclatia20-20` disparaît, donc la commission aussi. Sur Amazon, le tag est
-   contre-productif même quand il fonctionne.
-2. Pinterest a besoin du prix et de la disponibilité sur la page pour créer un tag ;
-   Amazon bloque la lecture (validation « rich pins » impossible).
-3. Le tag produit n'est pas ouvert aux comptes Algérie.
+Règles définitives :
 
-Ce qui fait la vente, et qui reste le seul travail au moment de publier :
-destination = page du site, titre et description avec les mots-clés, bon tableau,
-visuel propre. Le tag `eclatia20-20` vit **dans la page**, pas dans le pin.
+1. Taguer **uniquement** par le filtre Amazon du créateur de pins, après avoir relié le compte
+   Amazon Associates / Storefront dans les réglages Pinterest.
+2. **Jamais** en collant une URL Amazon à la main dans le champ produit.
+3. Vérifier une fois pour toutes que le tag porte bien `eclatia20-20`. Si un autre identifiant
+   apparaît, on ne tague pas.
+4. Un seul tag par pin, et seulement un produit réellement montré ou explicitement recommandé.
+5. Le tag est un **chemin de vente en plus** du lien vers le site — il ne le remplace pas.
 
-Conséquence pratique : la ligne « Product tag » disparaît des fiches. Si Pinterest propose
-le champ, on laisse vide. Si un pin part directement vers Amazon, on retire le tag.
+Ce qui reste inutile et coûte du temps : coller un lien `amz.to` dans Pinterest, ou taguer un
+produit que le pin ne montre pas.

@@ -19,7 +19,7 @@
 | **Tableau** | `Makeup for Dry Skin Natural Base` |
 | **Tagged topics** | Makeup → Concealer → Under Eye |
 | **Alt** | `A woman applying makeup with a small brush near her cheek in soft daylight.` |
-| **Product tag** | aucun — on publie sans, le lien affilié est déjà sur la page |
+| **Product tag** | via le **filtre Amazon** du créateur de pins, si Age Rewind est proposé ; jamais d'URL collée à la main. Sinon, publier sans |
 | **Programmation** | 21/11/2026 à **20 h 00** (heure algérienne) = 19 h GMT |
 
 ---

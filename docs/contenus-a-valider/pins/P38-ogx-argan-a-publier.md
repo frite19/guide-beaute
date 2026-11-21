@@ -19,7 +19,7 @@
 | **Tableau** | `Hot Air Brush and Hair Styling Ideas` |
 | **Tagged topics** | Hair Care → Hair Oil → Argan Oil |
 | **Alt** | `A woman with long dark hair, one hand in her hair near the scalp, in soft daylight.` |
-| **Product tag** | aucun — le tag Pinterest risque de pointer vers une autre variante OGX, on publie sans |
+| **Product tag** | via le **filtre Amazon** du créateur de pins, si la variante OGX exacte est proposée ; jamais d'URL collée à la main. Sinon, publier sans |
 | **Programmation** | aucune, publication immédiate |
 
 ---
