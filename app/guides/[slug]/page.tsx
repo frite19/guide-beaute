@@ -7,6 +7,7 @@ import { getProduct } from "@/data/catalog";
 import { AffiliateButton } from "@/components/AffiliateButton";
 import { ProductCard } from "@/components/ProductCard";
 import { StickyBuyBar } from "@/components/StickyBuyBar";
+import { PrimeNote } from "@/components/PrimeNote";
 
 export function generateStaticParams() {
   return GUIDES.map((g) => ({ slug: g.slug }));
@@ -1242,6 +1243,7 @@ export default function GuideDetail({ params }: { params: { slug: string } }) {
           productName={encart.nom}
         />
       )}
+      <PrimeNote />
     </>
   );
 }

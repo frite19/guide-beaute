@@ -5,6 +5,7 @@ import { PRODUCTS, getCategory, getProduct, getProductsByCategory } from "@/data
 import { AffiliateButton } from "@/components/AffiliateButton";
 import { ProductCard } from "@/components/ProductCard";
 import { StickyBuyBar } from "@/components/StickyBuyBar";
+import { PrimeNote } from "@/components/PrimeNote";
 
 export function generateStaticParams() {
   return PRODUCTS.map((p) => ({ slug: p.slug }));
@@ -124,6 +125,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
           <AffiliateButton url={p.urlAffiliation} productSlug={p.slug} category={p.categorie} merchant={p.marchand} label="See Price on Amazon" />
           <Link className="btn btn-ghost" href={`/category/${p.categorie}`}>Back to category</Link>
         </div>
+        <PrimeNote />
         {alternatives.length > 0 && (
           <div className="grid-3">
             {alternatives.map((a) => <ProductCard key={a.slug} p={a} />)}

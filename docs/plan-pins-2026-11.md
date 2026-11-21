@@ -125,6 +125,13 @@ Ce plan remplace la règle « 2 cheveux / 1 corps » du 13/11.
 > | 20/11 | **P32 publié à 21:06:09 GMT** et **P33 à 00:07:01 GMT** : les deux sont en ligne aux heures prévues, mais sur le tableau **`Skincare Routine for Beginners`** au lieu de `Makeup for Dry Skin Natural Base` (vérifié par les flux : ils apparaissent dans le flux skincare, absents du flux make-up) | à corriger : déplacer les deux pins vers le tableau make-up (1 modification chacun, quota 2 par 24 h). Conséquence sur le test : tant que ce n'est pas corrigé, P31 et P32/P33 ne sont plus sur le même tableau, donc le témoin « même tableau » du test visuel est cassé |
 > | 20/11 | **P32 et P33 déplacés vers le tableau make-up** — vérifié à 15:22 GMT : les deux figurent dans le flux `makeup-for-dry-skin-natural-base` et ont disparu du flux skincare | écart réparé, aucun lien touché. Réserve à garder pour la lecture du 26/11 : P32 et P33 ont passé environ 15 h sur le mauvais tableau, donc leur distribution a démarré sur un thème skincare |
 > | 20/11 | **P34 publié à 15:15:00 GMT = 16 h 15 en Algérie** au lieu de 14 h (2 h 15 de retard), sur le bon tableau | pas de doublon d'URL, pas de collision : P35 prévu à 20 h passe 3 h 45 après. L'espacement du trio devient 3 h 45 puis 6 h au lieu de 6 h et 6 h. Acceptable une fois, à ne pas laisser dériver |
+>
+> **21/11 — incident clics de test.** Farid a confirmé avoir ouvert ses propres liens Amazon,
+> connecté à son compte, sans passer commande. Nombre exact inconnu ; l'écart 39/22 (17 clics)
+> sert de borne haute. Conséquence : le scénario prudent (0,71 clic/j) devient la référence, le
+> scénario optimiste est écarté. Règle rappelée : **plus jamais de clic sur ses propres liens**,
+> même pour « vérifier ». Aucune commande personnelle → pas d'infraction à la règle d'achat, pas
+> de message à envoyer à Amazon.
 
 ---
 
@@ -266,3 +273,25 @@ Une ligne = un pin. La fiche détaillée (image, titre, description, alt, tag pr
 - **Nouveau :** relever à la main les clics sortants des 10 premiers pins (Pinterest → vue par pin).
   L'export ne les donne pas, et sans ça on ne saura jamais si ce sont les guides ou les
   comparaisons qui convertissent.
+
+
+---
+
+## Règle du 21/11/2026 — zéro tag produit sur les pins
+
+Décision : **on ne tague plus aucun produit dans Pinterest.** Trois raisons, dans l'ordre
+d'importance :
+
+1. Un tag produit Pinterest crée **son propre** lien vers le produit : le paramètre
+   `?tag=eclatia20-20` disparaît, donc la commission aussi. Sur Amazon, le tag est
+   contre-productif même quand il fonctionne.
+2. Pinterest a besoin du prix et de la disponibilité sur la page pour créer un tag ;
+   Amazon bloque la lecture (validation « rich pins » impossible).
+3. Le tag produit n'est pas ouvert aux comptes Algérie.
+
+Ce qui fait la vente, et qui reste le seul travail au moment de publier :
+destination = page du site, titre et description avec les mots-clés, bon tableau,
+visuel propre. Le tag `eclatia20-20` vit **dans la page**, pas dans le pin.
+
+Conséquence pratique : la ligne « Product tag » disparaît des fiches. Si Pinterest propose
+le champ, on laisse vide. Si un pin part directement vers Amazon, on retire le tag.

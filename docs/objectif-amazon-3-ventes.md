@@ -13,7 +13,12 @@ le compte est fermé pour dormancy. Vérifié sur la page d'aide du programme.
 |---|---|
 | Compte rendu actif (tax W-8BEN validée) | **16/10/2026** |
 | Échéance des 180 jours | **14/04/2027** |
-| Jours restants au 15/11/2026 | **150** |
+| Jours restants au 21/11/2026 | **144** |
+
+> **Précision vérifiée le 21/11/2026** sur la page d'aide officielle « Account Dormancy » : le délai
+> est de **180 jours après la candidature**, pas 3 mois. Amazon évalue la candidature **1 à 2 jours
+> après la 3ᵉ vente qualifiante** : il n'y a pas d'attente supplémentaire une fois les 3 ventes
+> atteintes. Si un e-mail d'Amazon mentionne une autre date, c'est lui qui fait foi — le signaler.
 
 > Vente « qualifiante » = expédiée et payée. Il y a donc un décalage de quelques jours à quelques
 > semaines entre la commande et le comptage. Ne pas conclure sur un chiffre lu le jour même.
@@ -48,11 +53,17 @@ n'est pas expliqué. Trois explications possibles, à trancher :
 2. le même visiteur qui clique plusieurs fois (Amazon compte chaque clic) — plausible ;
 3. des clics de contrôle du site — **interdit par le programme**.
 
-> ⚠️ **À vérifier avant tout le reste.** Si une partie de ces 17 clics vient de visites de
-> contrôle, le compte est en risque indépendamment des ventes, et la projection ci-dessous est
-> trop optimiste.
+> ✅ **Éclairci le 21/11/2026 :** Farid a confirmé avoir cliqué sur ses propres liens Amazon,
+> connecté à son compte, **sans jamais passer commande**. Le nombre exact de clics de test est
+> inconnu ; l'écart de 17 clics sert donc de borne haute, pas de mesure. **Arrêt immédiat et
+> définitif des clics de test.** Aucune commande personnelle n'ayant été passée, la règle §6(u)
+> n'est pas enfreinte ; il n'y a pas lieu d'écrire à Amazon. Ces clics ne sont pas des ventes
+> qualifiantes et ne doivent plus jamais entrer dans le calcul de trafic.
 
 ### Projection au 14/04/2027
+
+> Depuis le 21/11/2026, c'est le scénario **prudent** (0,71 clic/j, Pinterest seul) qui sert de
+> référence de travail. Le scénario optimiste incluait les clics de test et n'est plus utilisé.
 
 | Hypothèse | Clics cumulés | P(3 ventes) si conversion 2 % | si 3 % |
 |---|---|---|---|

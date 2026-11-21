@@ -196,6 +196,17 @@ img { max-width: 100%; height: auto; }
   .sticky-buy .btn { flex: none; padding: 12px 18px; }
 }
 
+/* ---------- Ligne livraison / Prime ---------- */
+.prime-note {
+  margin: 18px 0 26px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: var(--muted);
+}
+.prime-note a { text-decoration: underline; font-weight: 600; }
+
 /* ---------- Footer ---------- */
 .site-footer { margin-top: 40px; border-top: 1px solid var(--line); background: #1e1713; color: #e9d9cc; }
 .footer-inner { max-width: 1160px; margin: 0 auto; padding: 36px 20px; display: grid; grid-template-columns: 1.2fr 1fr 1fr 1fr; gap: 22px; }
