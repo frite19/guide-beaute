@@ -1,6 +1,6 @@
 # P38 — « Argan oil is not the first ingredient » — À PUBLIER (21/11, 14 h)
 
-**Statut :** prêt, à publier le **21/11/2026 vers 14 h 15** (heure algérienne) = 13 h 15 GMT
+**Statut :** ✅ **publié le 21/11/2026 à 14:11:08 GMT** (15 h 11 en Algérie), sur le tableau prévu — vérifié par le flux RSS du tableau cheveux
 **Page de destination :** https://guide-beaute.pages.dev/product/ogx-argan-oil-morocco/ (HTTP 200, tag `eclatia20-20` présent, barre collante active, aucun prix)
 **Dernier pin vers cette page :** **aucun** — première utilisation de cette URL
 **Tableau :** `Hot Air Brush and Hair Styling Ideas`

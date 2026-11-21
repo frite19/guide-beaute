@@ -1,6 +1,6 @@
 # P37 — « One tube for dark circles, spots and a bit of contour » — À PUBLIER (21/11, 20 h)
 
-**Statut :** prêt, à publier le **21/11/2026 à 20 h** (heure algérienne) = 19 h GMT = 14 h à New York
+**Statut :** programmé — publication **21/11/2026 à 20 h** (heure algérienne) ; à vérifier par le flux du tableau make-up après 19 h GMT
 **Page de destination :** https://guide-beaute.pages.dev/product/age-rewind-eraser-concealer/ (HTTP 200, tag `eclatia20-20` présent, barre collante active, aucun prix)
 **Dernier pin vers cette page :** **aucun** — la fiche P14 n'a jamais été publiée
 **Tableau :** `Makeup for Dry Skin Natural Base`
